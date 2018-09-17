@@ -1,0 +1,15 @@
+{
+  "name": "florence",
+  "version": "0.1.0",
+  "description": "Florence",
+  "engines": {
+    "node": "8.10.1"
+  },
+  "scripts": {
+    "blendid": "blendid",
+    "start": "blendid"
+  },
+  "dependencies": {
+    "blendid": "4.4.3"
+  }
+}
