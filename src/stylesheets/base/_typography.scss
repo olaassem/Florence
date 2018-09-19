@@ -2,9 +2,15 @@ body {
   font-family: sans-serif;
 }
 
-img{
-  height: 200px;
+img,
+svg{
+  height: 100px;
 }
+
+.emoji{
+  width: 40px;
+}
+
 
 section{
   border: black solid 2px;

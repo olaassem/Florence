@@ -54,14 +54,12 @@
       </blockquote>
       <cite class="problem__author">World Health Organization, 2005
         <a href="http://www.who.int/"><sup class="problem__sup">3</sup></a></cite>
-
       <img class="problem__bottle1" src="assets/images/pill-bottle3.svg">
       <img class="problem__bottle2" src="assets/images/section2-illo.svg">
       <img class="problem__bottle3" src="assets/images/pill-bottle3.svg">
       <img class="problem__pills1" src="assets/images/purple-pills.svg">
     </div>
   </section>
-
 
   <section role="region" id="keyFactors-section" class="keyFactors">
     <div class="keyFactors__wrapper">
@@ -70,30 +68,28 @@
 
       <div class="keyFactors__list">
         <img class="keyFactors__list__bodyimg" src="assets/images/body.svg">
-
         <div class="keyFactors__list_item">
           <h3 class="keyFactors__list__hdr">Comprehension</h3>
           <p class="keyFactors__list__content">“All of that medical jargon doesn’t make much sense to me but I don’t want to bother the doctor with my silly questions.”</p>
-          <svg viewBox="0 0 1 1"><use xlink:href='assets/images/icons.svg#gears'></use></svg>
+          <svg class="icon" viewBox="0 0 50 50"><use xlink:href='assets/images/icons.svg#gears'></use></svg>
         </div>
         <div class="keyFactors__list_item">
           <h3 class="keyFactors__list__hdr">Denial</h3>
           <p class="keyFactors__list__content">“I feel just fine. I don’t know why that doctor thinks I’m sick. Why would I take medicine that I don’t need?”</p>
-          <svg viewBox="0 0 1 1"><use xlink:href="assets/images/icons.svg#heart"></use></svg>
+          <svg class="icon" viewBox="0 0 1 1"><use xlink:href="assets/images/icons.svg#heart"></use></svg>
         </div>
         <div class="keyFactors__list_item">
           <h3 class="keyFactors__list__hdr">Cost</h3>
           <p class="keyFactors__list__content">“I took my prescription to the pharmacy but they said it would cost several hundred dollars! I just couldn’t afford it.”</p>
-          <svg viewBox="0 0 1 1"><use xlink:href='assets/images/icons.svg#dollar'></use></svg>
+          <svg class="icon" viewBox="0 0 1 1"><use xlink:href='assets/images/icons.svg#dollar'></use></svg>
         </div>
         <div class="keyFactors__list_item">
           <h3 class="keyFactors__list__hdr">Complexity</h3>
           <p class="keyFactors__list__content">“Taking 15 medications every day is tough. Especially since they all have different instructions. How am I supposed to keep track of everything?”</p>
-          <!-- <svg viewBox="0 0 10 10"><use xlink:href='assets/images/icons.svg#tally'></use></svg> -->
+          <svg class="icon" viewBox="0 0 10 10"><use xlink:href='assets/images/icons.svg#tally'></use></svg>
         </div>
       </div>
   </section>
-
 
   <section role="region" id="question-section" class="question">
     <div class="question__wrapper">
@@ -112,7 +108,6 @@
     </div>
   </section>
 
-
   <section role="region" id="solution-section" class="solution">
     <div class="solution__wrapper">
       <img class="solution__florence" src="assets/images/florence.svg">
@@ -123,7 +118,6 @@
       <p class="solution__context context-text">Our explorations led to the concept of Florence — a personal companion that would help patients understand and manage their medication regimen. A chatbot at heart, patients would converse with her through text and picture messages.</p>
       <p class="solution__context context-text">If developed, a simple, familiar interface would hide her powerful intelligence. Behind the scenes, machine learning and behavioral modeling would enable her to offer a tailored, human experience based on each patient’s needs.</p>
     </div>
-
 
     <section role="region" class="solution__section">
       <div class="solution__section__left">
@@ -153,7 +147,6 @@
       </div>
     </section>
 
-
     <section role="region" class="solution__section">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She keeps track of your regimen.</h3>
@@ -167,8 +160,7 @@
         <div class="bubble__florence">
           <p>Message me a picture of the bottle label and I’ll add it. You can also type in the name if you want. </p>
         </div>
-        <!-- NEED TO GRAB IMAGE FROM PSD FILE -->
-        <div class="bubble__patient"><img src=""></div>
+        <div class="bubble__patient"><img src="assets/images/med-bottle.png"></div>
         <div class="bubble__florence">
           <p>Here's what I got:</p>
           <ul>
@@ -228,14 +220,14 @@
           <p>Here's what I have for you today:</p>
           <ul>
             <li>Morning:</li>
-            <li>Lisinopril</li>
-            <li>Coumadin</li>
-            <li>Zoloft</li>
+            <li><span><img class="emoji" src="assets/images/check.svg"></span>Lisinopril</li>
+            <li><span><img class="emoji" src="assets/images/check.svg"></span>Coumadin</li>
+            <li><span><img class="emoji" src="assets/images/check.svg"></span>Zoloft</li>
             <li>Evening:</li>
-            <li>Lipitor</li>
-          </ul>
+            <li><span><img class="emoji" src="assets/images/x-mark.svg"></span>Lipitor</li>
+            </ul>
         </div>
-        </div>
+      </div>
       </div>
     </section>
 
@@ -246,11 +238,15 @@
         <p class="solution__section__content">Because Florence knows your regimen, she can find you ways to reduce the cost of care.</p>
       </div>
       <div class="solution__section__right">
-        <div class="bubble__florence"><p>BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</p></div>
-        <div class="bubble__patient"><p>Thanks</p></div>
+        <div class="bubble__florence">
+          <p>BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</p>
+        </div>
+        <div class="bubble__patient">
+          <p>Thanks</p>
+        </div>
         <div class="bubble__florence--tail">
           <img class="bubble__avatar" src="assets/images/florence-avatar.svg">
-          <p>Certainly</p>
+          <p><span><img class="emoji" src="assets/images/happy.svg"></span>Certainly</p>
         </div>
       </div>
     </section>
@@ -263,15 +259,15 @@
         <img class="solution__section__img--florence-cheering" src="assets/images/section6-illo.svg">
       </div>
       <div class="solution__section__right">
-        <div class="bubble__florence"><p>Hey Mike! Nice job, your cholesterol is down 20%.</p></div>
+        <div class="bubble__florence">
+          <p>Hey Mike! Nice job, your cholesterol is down 20%.</p>
+        </div>
         <div class="bubble__florence--tail">
           <img class="bubble__avatar" src="assets/images/florence-avatar.svg">
           <p>Treat yourself to something nice! :)</p>
         </div>
       </div>
     </section>
-
-
 
     <section role="region" class="solution__section">
       <div class="solution__section__left">
@@ -295,11 +291,9 @@
           attack, not the only one.</p>
         <p class="closing__context context-text">If you’re interested in learning more about this problem, we encourage you to read the <a href="http://www.who.int/chp/knowledge/publications/adherence_full_report.pdf">World Health Organization’s report Evidence for Action</a>. It provides a
           digestible overview and deep analysis into the problem.</p>
-        <!-- GET IMG FROM PSD -->
-        <img src="" alt="Adherence to long-term therapies evidence for action book cover">
+        <img src="assets/images/book.jpg" alt="World Health Organization report cover">
       </div>
     </section>
-
   </section>
 
 
@@ -310,9 +304,6 @@
     <a href="https://www.viget.com/contact/">Contact Us</a>
     <img class="bubble__avatar" src="assets/images/florence.svg">
   </footer>
-
-
-
 
 </body>
 
