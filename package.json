@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Florence",
   "engines": {
-    "node": "8.10.1"
+    "node": "8.12.0"
   },
   "scripts": {
     "blendid": "blendid",
