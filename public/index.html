@@ -40,8 +40,9 @@
     </div>
   </nav>
 
-  <section role="region" id="problem-section" class="problem">
+  <section id="problem-section" class="problem">
     <div class="problem__wrapper">
+      <h2 class="screen-reader">The problem</h2>
       <p class="problem__intro intro-text">Patients who don’t take medication as prescribed are at risk of worsening health, increased hospitalization, and a greater chance of mortality.
       </p>
       <p class="problem__context context-text">Just in the U.S., non-adherence has been attributed to over $100 billion dollars in avoidable healthcare costs.
@@ -52,21 +53,22 @@
         <p>"Increasing the effectiveness of adherence interventions might have a greater impact on the health of the population than any improvement in specific medical treatment."</p>
       </blockquote>
       <cite class="problem__author">World Health Organization, 2005
-        <a href="http://www.who.int/"><sup class="problem__sup">3</sup></a></cite>
-      <img class="problem__bottle1" src="assets/images/pill-bottle3.svg">
-      <img class="problem__bottle2" src="assets/images/section2-illo.svg">
-      <img class="problem__bottle3" src="assets/images/pill-bottle3.svg">
-      <img class="problem__pills1" src="assets/images/purple-pills.svg">
+        <a href="http://www.who.int/"><sup class="problem__sup">3</sup></a>
+      </cite>
+      <img class="problem__bottle1" src="assets/images/pill-bottle3.svg" alt="medicine bottle">
+      <img class="problem__bottle2" src="assets/images/section2-illo.svg" alt="pills bottle">
+      <img class="problem__bottle3" src="assets/images/pill-bottle2.svg" alt="pills bottle">
+      <img class="problem__pills1" src="assets/images/purple-pills.svg" alt="pills">
     </div>
   </section>
 
-  <section role="region" id="keyFactors-section" class="keyFactors">
+  <section id="keyFactors-section" class="keyFactors">
     <div class="keyFactors__wrapper">
       <h2 class="keyFactors__hdr hdr-text">Why people don't adhere</h2>
       <p class="keyFactors__intro intro-text">A myriad of factors conspire to prevent people from sticking to their treatment programs. But a few are most telling.</p>
 
       <div class="keyFactors__list">
-        <img class="keyFactors__list__bodyimg" src="assets/images/body.svg">
+        <img class="keyFactors__list__bodyimg" src="assets/images/body.svg" alt="human body vector">
         <div class="keyFactors__list_item--1">
           <h3 class="keyFactors__list__hdr">Comprehension</h3>
           <p class="keyFactors__list__content">“All of that medical jargon doesn’t make much sense to me but I don’t want to bother the doctor with my silly questions.”</p>
@@ -90,7 +92,7 @@
       </div>
   </section>
 
-  <section role="region" id="question-section" class="question">
+  <section id="question-section" class="question">
     <div class="question__wrapper">
       <h2 class="question__hdr hdr-text">The Question</h2>
       <p class="question__intro intro-text">How can technology help patients deal with these factors, so they adhere more accurately and consistently?</p>
@@ -103,13 +105,13 @@
         <a href="http://www.who.int/"><sup class="question__sup">7</sup></a>
       </p>
       <p class="question__context context-text">Could texts be used not only to send reminders but also to build an ongoing two-way dialogue with a trusted health partner? Would this conversation help improve medication adherence?</p>
-      <img class="question__phone" src="assets/images/phone.svg">
+      <img class="question__phone" src="assets/images/phone.svg" alt="mobile phone">
     </div>
   </section>
 
-  <section role="region" id="solution-section" class="solution">
+  <section id="solution-section" class="solution">
     <div class="solution__wrapper">
-      <img class="solution__florence" src="assets/images/florence.svg">
+      <img class="solution__florence" src="assets/images/florence.svg" alt="Florence">
       <h2 class="solution__hdr">
         <span class="solution__hdr--top intro-text">The concept</span>
         <span class="solution__hdr--btm large-hdr">Meet Florence</span>
@@ -118,150 +120,164 @@
       <p class="solution__context context-text">If developed, a simple, familiar interface would hide her powerful intelligence. Behind the scenes, machine learning and behavioral modeling would enable her to offer a tailored, human experience based on each patient’s needs.</p>
     </div>
 
-    <section role="region" class="solution__section--1">
+    <section class="solution__section--1">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She gets to know you.</h3>
         <p class="solution__section__content">Florence strikes up a conversation, learning details about your life, health, goals, and preferences in an engaging, human way.</p>
         <p class="solution__section__content">This conversation unfolds over time, making this feel less like twenty questions and more like the start of a relationship.</p>
-        <img class="solution__section__img1-bg" src="assets/images/section1-illo-bg.png">
-        <img class="solution__section__img1" src="assets/images/section1-illo.svg">
+        <img class="solution__section__img1-bg" src="assets/images/section1-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img1" src="assets/images/section1-illo.svg" alt="mug with steam">
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence">Hi! I'm Florence. What's your name?</li>
-          <li class="bubble__patient">Mike</li>
-          <li class="bubble__florence">Nice to meet you, Mike. I can help you set up your account with a few simple questions.</li>
-          <li class="bubble__florence">You can answer these now or whenever you like. I'm always here!</li>
-          <li class="bubble__florence--tail">First question: how old are you?</li>
-          <li class="bubble__patient">65</li>
-        </ol>
-        <img class="solution__section__right__avatar--1" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence">Hi! I'm Florence. What's your name?</li>
+            <li class="bubble__patient">Mike</li>
+            <li class="bubble__florence">Nice to meet you, Mike. I can help you set up your account with a few simple questions.</li>
+            <li class="bubble__florence">You can answer these now or whenever you like. I'm always here!</li>
+            <li class="bubble__florence--tail">First question: how old are you?</li>
+            <li class="bubble__patient">65</li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--1" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--2">
+    <section class="solution__section--2">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She keeps track of your regimen.</h3>
         <p class="solution__section__content">Florence helps you remember what to take and when. Image recognition makes adding your medication as easy as taking a picture.</p>
-        <img class="solution__section__img2-bg" src="assets/images/section2-illo-bg.jpg">
-        <img class="solution__section__img2" src="assets/images/section2-illo.svg">
+        <img class="solution__section__img2-bg" src="assets/images/section2-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img2" src="assets/images/section2-illo.svg" alt="pill bottle">
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence">Let’s get started adding your medications.</li>
-          <li class="bubble__florence">Message me a picture of the bottle label and I’ll add it. You can also type in the name if you want.</il>
-            <li class="bubble__patient"><img src="assets/images/med-bottle.png" /></li>
-            <li class="bubble__florence">Here's what I got:
-              <ol>
-                <li>Coumadin 5mg</li>
-                <li>Take one tablet daily</li>
-                <li>Prescribed by Dr. Ruth Parker</li>
-                <li>Pharmacy: Rite Aid #25335</li>
-                </ul>
-              </ol>
-            </li>
-            <li class="bubble__florence">Is that right?</li>
-            <li class="bubble__patient">Yep</li>
-            <li class="bubble__florence-tail">Ok, added</li>
-        </ol>
-        <img class="solution__section__right__avatar--2" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence">Let’s get started adding your medications.</li>
+            <li class="bubble__florence">Message me a picture of the bottle label and I’ll add it. You can also type in the name if you want.</il>
+              <li class="bubble__patient"><img src="assets/images/med-bottle.png" alt="pill bottle" /></li>
+              <li class="bubble__florence">Here's what I got:
+                <ol>
+                  <li>Coumadin 5mg</li>
+                  <li>Take one tablet daily</li>
+                  <li>Prescribed by Dr. Ruth Parker</li>
+                  <li>Pharmacy: Rite Aid #25335</li>
+                  </ul>
+                </ol>
+              </li>
+              <li class="bubble__florence">Is that right?</li>
+              <li class="bubble__patient">Yep</li>
+              <li class="bubble__florence-tail">Ok, added</li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--2" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--3">
+    <section class="solution__section--3">
       <div class="solution__section__left">
-        <img class="solution__section__img3-bg" src="assets/images/section3-illo-bg.jpg">
-        <img class="solution__section__img3" src="assets/images/section3-illo.svg">
+        <img class="solution__section__img3-bg" src="assets/images/section3-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img3" src="assets/images/section3-illo.svg" alt="thermometer">
         <h3 class="solution__section__hdr">She checks up on you.</h3>
         <p class="solution__section__content">As you start taking new medications, Florence will follow up to see if you’re experiencing side effects.</p>
         <p class="solution__section__content">She can offer additional information to help you understand if your experience is typical—or if you should talk with your doctor..</p>
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence">It’s been three days since you started taking Lisinopril. How’re you feeling?</li>
-          <li class="bubble__patient">a little weak and lightheaded</li>
-          <li class="bubble__florence">Feeling lightheaded is a common side effect of Lisinopril. But you should let Dr. Ruth Parker know as soon as possible</li>
-          <li class="bubble__florence-tail">Here’s her number: <a class="bubble__number" href="">(919) 545-2020</a></li>
-        </ol>
-        <img class="solution__section__right__avatar--3" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence">It’s been three days since you started taking Lisinopril. How’re you feeling?</li>
+            <li class="bubble__patient">a little weak and lightheaded</li>
+            <li class="bubble__florence">Feeling lightheaded is a common side effect of Lisinopril. But you should let Dr. Ruth Parker know as soon as possible</li>
+            <li class="bubble__florence-tail">Here’s her number: <a class="bubble__number" href="">(919) 545-2020</a></li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--3" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--4">
+    <section class="solution__section--4">
       <div class="solution__section__left">
-        <img class="solution__section__img4-bg" src="assets/images/section4-illo-bg.jpg">
-        <img class="solution__section__img4" src="assets/images/section4-illo.svg">
+        <img class="solution__section__img4-bg" src="assets/images/section4-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img4" src="assets/images/section4-illo.svg" alt="weekly tablet organizer">
         <h3 class="solution__section__hdr">She helps you remember.</h3>
         <p class="solution__section__content">With complex regimens, days often blur together. Florence will show you what you’ve taken today — and what’s left to take. </p>
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__patient">did I take my meds today?</li>
-          <li class="bubble__florence--tail">
-            Here's what I have for you today:
-            <ol>
-              <li><img class="emoji" src="assets/images/check.svg">Lisinopril</li>
-              <li><img class="emoji" src="assets/images/check.svg">Coumadin</li>
-              <li><img class="emoji" src="assets/images/check.svg">Zoloft</li>
-              <li>Evening:</li>
-              <li><img class="emoji" src="assets/images/x-mark.svg">Lipitor</li>
-            </ol>
-          </li>
-        </ol>
-        <img class="solution__section__right__avatar--4" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__patient">did I take my meds today?</li>
+            <li class="bubble__florence--tail">
+              Here's what I have for you today:
+              <ol>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Lisinopril</li>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Coumadin</li>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Zoloft</li>
+                <li>Evening:</li>
+                <li><img class="emoji" src="assets/images/x-mark.svg" alt="red cross mark emoji">Lipitor</li>
+              </ol>
+            </li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--4" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--5">
+    <section class="solution__section--5">
       <div class="solution__section__left">
-        <img class="solution__section__img5-bg" src="assets/images/dollar-bills-bg.jpg">
-        <img class="solution__section__img5" src="assets/images/dollar-bills.png">
+        <img class="solution__section__img5-bg" src="assets/images/dollar-bills-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img5" src="assets/images/dollar-bills.png" alt="dollars">
         <h3 class="solution__section__hdr">She finds you deals.</h3>
         <p class="solution__section__content">Because Florence knows your regimen, she can find you ways to reduce the cost of care.</p>
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence">BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</li>
-          <li class="bubble__patient">Thanks</li>
-          <li class="bubble__florence--tail">Certainly</li>
-        </ol>
-        <img class="solution__section__right__avatar--5" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence">BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</li>
+            <li class="bubble__patient">Thanks</li>
+            <li class="bubble__florence--tail">Certainly</li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--5" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--6">
+    <section class="solution__section--6">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She cheers you on.</h3>
         <p class="solution__section__content">Florence can send you occasional notes of encouragement to keep you motivated.</p>
         <p class="solution__section__content">For patients with asymptomatic conditions, this offers a sense of progress.</p>
-        <img class="solution__section__img6-bg" src="assets/images/section6-illo-bg.jpg">
-        <img class="solution__section__img6" src="assets/images/section6-illo.svg">
+        <img class="solution__section__img6-bg" src="assets/images/section6-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img6" src="assets/images/section6-illo.svg" alt="Florence holding a GO sign">
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence">Hey Mike! Nice job, your cholesterol is down 20%.</li>
-          <li class="bubble__florence--tail">Treat yourself to something nice! <img class="emoji" src="assets/images/happy.svg"></li>
-        </ol>
-        <img class="solution__section__right__avatar--6" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence">Hey Mike! Nice job, your cholesterol is down 20%.</li>
+            <li class="bubble__florence--tail">Treat yourself to something nice! <img class="emoji" src="assets/images/happy.svg" alt="smile emoji"></li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--6" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="solution__section--7">
+    <section class="solution__section--7">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She keeps you honest.</h3>
         <p class="solution__section__content">If Florence notices you’re not staying on top of your plan, she can message family members or others in your support network.</p>
-        <img class="solution__section__img7-bg" src="assets/images/section7-illo-bg.jpg">
-        <img class="solution__section__img7" src="assets/images/section7-illo.svg">
+        <img class="solution__section__img7-bg" src="assets/images/section7-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img7" src="assets/images/section7-illo.svg" alt="telephone handset">
       </div>
       <div class="solution__section__right">
-        <ol class="bubble">
-          <li class="bubble__florence--tail">Hi Kim, this is an automated message from FlorenceApp.io Your brother Mike hasn't taken his meds in three days. You might want to give him a call. <a class="bubble__number" href="">(919) 232-0232</a></li>
-        </ol>
-        <img class="solution__section__right__avatar--7" src="assets/images/florence-avatar.svg">
+        <p class="screen-reader">
+          <ol class="bubble">
+            <li class="bubble__florence--tail">Hi Kim, this is an automated message from FlorenceApp.io Your brother Mike hasn't taken his meds in three days. You might want to give him a call. <a class="bubble__number" href="">(919) 232-0232</a></li>
+          </ol>
+        </p>
+        <img class="solution__section__right__avatar--7" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
-    <section role="region" class="closing">
+    <section class="closing">
       <div class="closing__wrapper">
         <h2 class="large-hdr">In Closing</h2>
         <p class="closing__context context-text">Our concept, Florence, attempts to address significant causes of non-adherence from a patient’s perspective, and through the use of technology.</p>
@@ -275,11 +291,15 @@
   </section>
 
   <footer role="contentinfo" class="footer">
-    <h2><span class="footer__hdr--1">An exploration by </span><img class="footer__hdr--2" src="assets/images/viget-logo.svg"><span class="footer__hdr--3">viget</span></h2>
+    <h2>
+      <span class="footer__hdr--1">An exploration by </span>
+        <img class="footer__hdr--2" src="assets/images/viget-logo.svg" alt="Florence wearing a cape">
+        <span class="footer__hdr--3">viget</span>
+    </h2>
     <p class="footer__context">At Viget, we’re continually thinking about how we can help shape and improve the experiences around us and make the world a better place — whether that’s through the technology solutions we deliver to our clients or through conceptual explorations
       like Florence.</p>
     <a class="footer__link" href="https://www.viget.com/contact/">Contact Us</a>
-    <img class="footer__avatar" src="assets/images/florence.svg">
+    <img class="footer__avatar" src="assets/images/florence.svg" alt="Florence wearing a cape">
   </footer>
 </body>
 
