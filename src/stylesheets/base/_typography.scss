@@ -1,8 +1,39 @@
-//temp styling
+// body {
+//   font-family: ;
+//   font-weight: ;
+//   line-height: ;
+//   color: $;
+//   padding: rem;
+// }
+//
+// .header__primary--top {
+//
+// }
 
-body {
-  font-family: sans-serif;
-}
+
+// .hdr-text{
+//
+// }
+
+
+// .intro-text{
+//
+// }
+
+
+// .context-text{
+//
+// }
+
+
+// .large-hdr{
+//
+// }
+
+
+
+
+//temp styling
 
 img,
 svg {
@@ -19,4 +50,15 @@ header,
 nav,
 footer {
   border: black solid 2px;
+}
+
+.screen-reader {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

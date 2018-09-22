@@ -1,0 +1,21 @@
+//Browser Reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// 1 rem is exactly the root font size
+// Root font size is always set in the html selector
+html {
+//font-size: 10px;
+//Change the root size from px to % so that the user can change font size in browser (increase/decrease) if they want to.
+//The absolute default font size in the browser is always 16px, so -->10/16 = 62.5
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
