@@ -1,0 +1,45 @@
+.header {
+  background-color: $color-mint;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    margin: 50px;
+    // position: relative;
+  }
+  // &__primary {
+  //   display: flex;
+  //   justify-content: center;
+  //
+  //   &--top {
+  //     display: block;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //     text-align: center;
+  //   }
+  //
+  //   &--btm {
+  //     display: block;
+  //     width: 500px;
+  //   }
+  // }
+  &__text-box {
+    &--pills1 {
+      position: absolute;
+      width: 200px;
+      left: -50px;
+    }
+
+    &--pills2 {
+      position: absolute;
+      width: 100px;
+      top: -80px;
+    }
+
+    &--pills3 {
+      position: absolute;
+      width: 200px;
+      right: -70px;
+    }
+  }
+}

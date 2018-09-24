@@ -7,8 +7,8 @@
   box-sizing: inherit;
 }
 
-// 1 rem is exactly the root font size
-// Root font size is always set in the html selector
+// a. 1 rem is exactly the root font size
+// b. Root font size is always set in the html selector
 html {
 //font-size: 10px;
 //Change the root size from px to % so that the user can change font size in browser (increase/decrease) if they want to.
@@ -18,4 +18,17 @@ html {
 
 body {
   box-sizing: border-box;
+}
+
+
+
+.screen-reader {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

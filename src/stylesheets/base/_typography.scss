@@ -1,64 +1,57 @@
-// body {
-//   font-family: ;
-//   font-weight: ;
-//   line-height: ;
-//   color: $;
-//   padding: rem;
-// }
-//
-// .header__primary--top {
-//
-// }
-
-
-// .hdr-text{
-//
-// }
-
-
-// .intro-text{
-//
-// }
-
-
-// .context-text{
-//
-// }
-
-
-// .large-hdr{
-//
-// }
-
-
-
-
-//temp styling
-
-img,
-svg {
-  height: 100px;
-}
-
-.emoji {
-  width: 40px;
+.hdr-text {
+  @include text( $primary-font, 400, 87.5%, $color-dark-green );
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 
-section,
-header,
-nav,
-footer {
-  border: black solid 2px;
-}
 
-.screen-reader {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+//
+// .nav__link {
+//   // font-family: Geomanist;
+//   font-weight: 400;
+//   font-size: 14px;
+//   color: $color-mint;
+// }
+//
+//
+// .intro-text {
+//   font-family: 'Merriweather', serif;
+//   font-weight: 400;
+//   font-size: 28px;
+// }
+//
+//
+// .context-text {
+//   //font-family: Geomanist;
+//   font-weight: 400;
+//   font-size: 18px;
+// }
+//
+//
+// // .large-hdr {
+// //
+// // }
+//
+// .solution__section {
+//
+//   &__content {
+//   font-family: 'Merriweather', serif;
+//   font-weight: 400;
+//   font-size: 18px;
+//   }
+//
+//   &__hdr {
+//     // font-family: Geomanist;
+//     font-weight: 400;
+//     font-size: 20px;
+//   }
+// }

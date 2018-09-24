@@ -1,1 +1,37 @@
-// Color Variables
+/*--------- Colors ---------*/
+
+$color-mint: #d2e7e2; //bg & text
+$color-dark-blue: #184d66; //bg & text
+$color-white: #ffffff; //bg & text
+$color-red: #e95e67; //bg
+$color-medium-blue: #194e67; //bg
+$color-yellow: #f2c84d; //bg & text
+$color-light-green: #e2ebe9; //bg
+$color-light-blue: #1793ad; //bg & text
+$color-dark-green: #0e5254; //text
+$color-grey: #504949; //text
+$color-orange: #c06d3a; //text
+$color-brown: #c36e37; //text
+$color-dark-mint: #c0d4cf; //text
+$color-dark-purple: #252224; //text
+
+
+/*--------- Fonts ---------*/
+
+@font-face {
+  font-family: 'Geomanist';
+  src: url(../src/fonts/geomanist/Geomanist-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Geomanist-Medium';
+  src: url(../src/fonts/geomanist/Geomanist-Medium.otf);
+}
+
+$primary-font: 'Geomanist', serif;
+$primary-font-medium: 'Geomanist-Medium', serif;
+$secondary-font: 'Merriweather', serif;
+// $tertiary-font: 'Myriad Pro', serif;
+
+
+/*--------- Dimensions ---------*/
