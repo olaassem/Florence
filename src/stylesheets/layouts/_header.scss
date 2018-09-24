@@ -2,44 +2,49 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
+  position: relative;
 
   &__wrapper {
-    margin: 50px;
-    // position: relative;
+    margin: 5rem 6rem;
   }
-  // &__primary {
-  //   display: flex;
-  //   justify-content: center;
-  //
-  //   &--top {
-  //     display: block;
-  //     margin-left: auto;
-  //     margin-right: auto;
-  //     text-align: center;
-  //   }
-  //
-  //   &--btm {
-  //     display: block;
-  //     width: 500px;
-  //   }
-  // }
-  &__text-box {
+
+  &__primary {
+    max-width: 50rem;
+    display: block;
+    position: relative;
+
+    &--top {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    &--btm {
+      display: block;
+      width: 500px;
+    }
+
     &--pills1 {
       position: absolute;
-      width: 200px;
-      left: -50px;
+      width: 95px;
+      left: -100px;
+      bottom: 20px;
     }
 
     &--pills2 {
       position: absolute;
-      width: 100px;
-      top: -80px;
+      height: 110px;
+      top: -115px;
+      transform: rotate(40deg);
     }
 
     &--pills3 {
       position: absolute;
       width: 200px;
-      right: -70px;
+      right: -100px;
+      top: -65px;
+      transform: rotate(8deg);
     }
   }
 }
