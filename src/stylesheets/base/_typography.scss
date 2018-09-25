@@ -1,7 +1,7 @@
 .hdr-text {
   @include text( $primary-font, normal, 1.2rem, $color-dark-green );
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: .2em;
 }
 
 
