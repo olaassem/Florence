@@ -8,28 +8,6 @@
     max-width: 50rem;
     margin: 5rem 6rem;
     position: relative;
-  }
-
-  &__primary {
-    display: block;
-
-    &--top {
-      display: block;
-      text-align: center;
-    }
-
-    &--btm {
-      display: block;
-      width: 50rem;
-
-      @media (max-width: 650px) {
-        width: 40rem;
-      }
-
-      @media (max-width: 500px) {
-        width: 35rem;
-      }
-    }
 
     &--pills1 {
       position: absolute;
@@ -51,6 +29,28 @@
       right: -100px;
       top: -65px;
       transform: rotate(8deg);
+    }
+  }
+
+  &__primary {
+    display: block;
+
+    &--top {
+      display: block;
+      text-align: center;
+    }
+
+    &--btm {
+      display: block;
+      width: 50rem;
+
+      @media (max-width: 650px) {
+        width: 40rem;
+      }
+
+      @media (max-width: 500px) {
+        width: 35rem;
+      }
     }
   }
 }
