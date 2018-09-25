@@ -21,6 +21,14 @@
     &--btm {
       display: block;
       width: 50rem;
+
+      @media (max-width: 650px) {
+        width: 40rem;
+      }
+
+      @media (max-width: 500px) {
+        width: 35rem;
+      }
     }
 
     &--pills1 {
