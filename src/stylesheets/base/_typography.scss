@@ -1,12 +1,12 @@
 .hdr-text {
-  @include text( $primary-font, 400, 1.2rem, $color-dark-green );
+  @include text( $primary-font, normal, 1.2rem, $color-dark-green );
   text-transform: uppercase;
   letter-spacing: .2rem;
 }
 
 
 .nav__wrapper a{
-  @include text( $primary-font, 400, 1.2rem, $color-mint );
+  @include text( $primary-font, normal, 1.2rem, $color-mint );
   text-transform: uppercase;
   text-decoration: none;
 }
