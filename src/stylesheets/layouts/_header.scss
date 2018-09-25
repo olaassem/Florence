@@ -7,12 +7,12 @@
   &__wrapper {
     max-width: 50rem;
     margin: 5rem 6rem;
+    position: relative;
   }
 
   &__primary {
     width: 100%;
     display: block;
-    position: relative;
 
     &--top {
       display: block;
@@ -23,7 +23,7 @@
 
     &--btm {
       display: block;
-      width: 500px;
+      width: 50rem;
     }
 
     &--pills1 {

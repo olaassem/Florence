@@ -1,0 +1,38 @@
+.nav {
+  background-color: $color-mint;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+    max-width: 60rem;
+    // border-radius: 
+
+
+    a { padding: 2rem;}
+
+  }
+
+  &__link {
+
+
+    &--problem {}
+
+    &--keyFactors {}
+
+    &--question {}
+
+    &--solution {}
+
+  }
+}
+
+
+.red-nav {
+  background-color: $color-red;
+}
+
+
+.blue-nav {
+  background-color: $color-medium-blue;
+}
