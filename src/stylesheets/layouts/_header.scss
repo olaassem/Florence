@@ -2,7 +2,6 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
-  position: relative;
 
   &__wrapper {
     max-width: 50rem;
@@ -21,6 +20,12 @@
       height: 110px;
       top: -105px;
       transform: rotate(40deg);
+
+      @media (max-width: 350px) {
+        height: 100px;
+        top: -95px;
+        right: 270px;
+      }
     }
 
     &--pills3 {
