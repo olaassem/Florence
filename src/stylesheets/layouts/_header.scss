@@ -5,11 +5,12 @@
   position: relative;
 
   &__wrapper {
+    max-width: 50rem;
     margin: 5rem 6rem;
   }
 
   &__primary {
-    max-width: 50rem;
+    width: 100%;
     display: block;
     position: relative;
 
@@ -35,7 +36,7 @@
     &--pills2 {
       position: absolute;
       height: 110px;
-      top: -115px;
+      top: -105px;
       transform: rotate(40deg);
     }
 
