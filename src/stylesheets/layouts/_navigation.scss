@@ -21,6 +21,7 @@
 
       a {
         padding: 1rem 2rem;
+        box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
       }
     }
   }
@@ -49,9 +50,17 @@
 .red-nav {
   background-color: $color-red;
   @include darken-on-hover($color-red, 10%);
+
+  // &::after {
+  //   background-color: black;
+  // }
 }
 
 .blue-nav {
   background-color: $color-medium-blue;
   @include darken-on-hover($color-medium-blue, 10%);
+
+  // &::after {
+  //   background-color: white;
+  // }
 }
