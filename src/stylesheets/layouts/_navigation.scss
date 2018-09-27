@@ -2,9 +2,9 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
-
-  margin: 0;
+  margin: auto 0;
   padding: 2px 0 0 12px;
+//sticky
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
@@ -12,19 +12,30 @@
 
   &__wrapper {
     display: flex;
-    padding: .5rem 0rem;
+    max-width: 25rem;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+
+    a {
+      padding: 1rem 1.5rem;
+      box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
+    }
 
     @media (min-width: 550px) {
       max-width: 50rem;
+      padding: .5rem 0rem;
 
       a {
         padding: 1rem 2rem;
-        box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
+
       }
     }
   }
 
   &__link {
+    justify-content: center;
+
     &--problem {
       @media (min-width: 550px) {
         border-top-left-radius: 50px;
