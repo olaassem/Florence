@@ -8,15 +8,11 @@
     max-width: 50rem;
     width: 100%;
     padding: 0px 20px;
-    margin: 4rem 0rem;
+    margin: 4rem 0rem 1.5rem;
     position: relative;
 
     @media (min-width: 550px) {
-      max-width: 50rem;
-      width: 100%;
-      padding: 0px 20px;
-      margin: 5rem 6rem;
-      position: relative;
+      margin: 5rem 4rem 2rem;
     }
 
     &--pills1 {
@@ -48,7 +44,7 @@
   }
 
   &__primary {
-    display: block;
+    // display: block;
 
     &--top {
       display: block;

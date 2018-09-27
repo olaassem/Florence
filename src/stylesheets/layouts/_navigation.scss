@@ -16,8 +16,6 @@
 
     @media (min-width: 550px) {
       max-width: 50rem;
-      // position: auto;
-      // bottom: auto;
 
       a {
         padding: 1rem 2rem;
@@ -50,17 +48,9 @@
 .red-nav {
   background-color: $color-red;
   @include darken-on-hover($color-red, 10%);
-
-  // &::after {
-  //   background-color: black;
-  // }
 }
 
 .blue-nav {
   background-color: $color-medium-blue;
   @include darken-on-hover($color-medium-blue, 10%);
-
-  // &::after {
-  //   background-color: white;
-  // }
 }
