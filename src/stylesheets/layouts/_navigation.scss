@@ -5,45 +5,43 @@
 
   &__wrapper {
     display: flex;
-    max-width: 50rem;
-    // border-radius:
 
+    @media (min-width: 550px) {
+      max-width: 50rem;
 
-    a {
-      padding: 2rem;
-
-      &:nth-child(1){
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-      }
-
-      &:nth-child(4){
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
+      a {
+        padding: 1rem 2rem;
       }
     }
   }
 
   &__link {
-
-
-    &--problem {}
+    &--problem {
+      @media (min-width: 550px) {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
 
     &--keyFactors {}
 
     &--question {}
 
-    &--solution {}
-
+    &--solution {
+      @media (min-width: 550px) {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+    }
   }
 }
 
-
 .red-nav {
   background-color: $color-red;
+  @include darken-on-hover($color-red, 10%);
 }
-
 
 .blue-nav {
   background-color: $color-medium-blue;
+  @include darken-on-hover($color-medium-blue, 10%);
 }

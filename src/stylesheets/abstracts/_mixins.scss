@@ -5,5 +5,13 @@
   color: $col;
 }
 
+@mixin darken-on-hover( $bg, $percent ) {
+  transition: all 0.5s ease;
 
-//create px --> rem function 
+  &:hover {
+    background-color: darken($bg , $percent);
+  }
+}
+
+
+//create px --> rem function
