@@ -2,11 +2,22 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 
   &__wrapper {
     max-width: 50rem;
-    margin: 5rem 6rem;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 4rem 0rem;
     position: relative;
+
+    @media (min-width: 550px) {
+      max-width: 50rem;
+      width: 100%;
+      padding: 0px 20px;
+      margin: 5rem 6rem;
+      position: relative;
+    }
 
     &--pills1 {
       position: absolute;
@@ -18,22 +29,21 @@
     &--pills2 {
       position: absolute;
       height: 110px;
-      top: -105px;
+      top: -95px;
       transform: rotate(40deg);
-
-      @media (max-width: 350px) {
-        height: 100px;
-        top: -95px;
-        right: 270px;
-      }
     }
 
     &--pills3 {
       position: absolute;
-      width: 200px;
+      width: 185px;
       right: -100px;
-      top: -65px;
+      top: -55px;
       transform: rotate(8deg);
+
+      @media (min-width: 450px) {
+        width: 200px;
+        right: -80px;
+      }
     }
   }
 
@@ -47,15 +57,7 @@
 
     &--btm {
       display: block;
-      width: 50rem;
-
-      @media (max-width: 650px) {
-        width: 40rem;
-      }
-
-      @media (max-width: 500px) {
-        width: 35rem;
-      }
+      max-width: 100%;
     }
   }
 }

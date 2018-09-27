@@ -21,13 +21,15 @@ $color-dark-purple: #252224; //text
 @font-face {
   font-family: 'Geomanist';
   font-weight: normal;
-  src: url(../src/fonts/geomanist-regular-webfont.woff2);
+  src: url(../src/fonts/geomanist-regular-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-regular-webfont.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Geomanist';
   font-weight: bold;
-  src: url(../src/fonts/geomanist-medium-webfont.woff2);
+  src: url(../src/fonts/geomanist-medium-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-medium-webfont.woff) format('woff');
 }
 
 //set font once and based on font-weight, it knows which one to pull.

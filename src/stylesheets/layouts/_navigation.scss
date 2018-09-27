@@ -5,12 +5,23 @@
 
   &__wrapper {
     display: flex;
-    max-width: 60rem;
-    // border-radius: 
+    max-width: 50rem;
+    // border-radius:
 
 
-    a { padding: 2rem;}
+    a {
+      padding: 2rem;
 
+      &:nth-child(1){
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+
+      &:nth-child(4){
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+    }
   }
 
   &__link {
