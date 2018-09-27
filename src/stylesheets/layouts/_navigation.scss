@@ -3,11 +3,21 @@
   display: flex;
   justify-content: center;
 
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  top: 0;
+
   &__wrapper {
     display: flex;
+    padding: .5rem 0rem;
 
     @media (min-width: 550px) {
       max-width: 50rem;
+      // position: auto;
+      // bottom: auto;
 
       a {
         padding: 1rem 2rem;
