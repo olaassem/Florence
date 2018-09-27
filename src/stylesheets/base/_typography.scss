@@ -4,32 +4,37 @@
   letter-spacing: .2em;
 }
 
-
 .nav__wrapper a {
   @include text( $primary-font, normal, .9rem, $color-mint );
   text-transform: uppercase;
   text-decoration: none;
 }
 
+.intro-text {
+  @include text( $secondary-font, normal, 1.8rem, $color-grey );
+}
+
+.context-text {
+  @include text( $primary-font, normal, 1.2rem, $color-grey );
+}
+
+.problem {
+  &__sup {
+    @include text( $primary-font, normal, .8rem, $color-orange-red );
+  }
+
+  &__quote {
+    @include text( $secondary-font, normal, .8rem, $color-brown );
+  }
+
+  &__author {
+    @include text( $primary-font, normal, .8rem, $color-grey );
+  }
+}
 
 
 /////////////////////////////////////////////////////////////////////
 
-
-// .intro-text {
-//   font-family: 'Merriweather', serif;
-//   font-weight: 400;
-//   font-size: 28px;
-// }
-//
-//
-// .context-text {
-//   //font-family: Geomanist;
-//   font-weight: 400;
-//   font-size: 18px;
-// }
-//
-//
 // // .large-hdr {
 // //
 // // }
