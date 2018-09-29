@@ -11,13 +11,11 @@
     padding: 2.5rem 1.5rem;
     position: relative;
     width: 100%;
-
     @media (min-width: 550px) {
       margin: 2rem auto;
       padding: 4rem 6.5rem;
       width: 95%;
     }
-
     @media (min-width: 800px) {
       margin: 3rem auto;
       padding: 4.6rem 8.2rem;
@@ -112,4 +110,4 @@
       @include size-and-position(absolute, 140px, 530px, -470px);
     }
   }
-} 
+}
