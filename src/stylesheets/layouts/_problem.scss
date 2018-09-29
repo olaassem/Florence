@@ -61,6 +61,14 @@
   }
 
   &__pills1 {
-    @include size-and-position(absolute, 150px, 485px, 770px);
+    @include size-and-position(absolute, 100px, 170px, -275px);
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 150px, 200px, -200px);
+    }
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 160px, 365px, -290px);
+    }
   }
 }

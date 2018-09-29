@@ -21,18 +21,21 @@ $color-orange-red: #ea4446;
 @font-face {
   font-family: 'Geomanist';
   font-weight: normal;
-  src: url(../src/fonts/geomanist-regular-webfont.woff2) format('woff2'),
-       url(../src/fonts/geomanist-regular-webfont.woff) format('woff');
+  src: local(Geomanist),
+       url(../src/fonts/geomanist-regular-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-regular-webfont.woff) format('woff'),
+       url(../src/fonts/geomanist-regular-webfont.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Geomanist';
   font-weight: bold;
-  src: url(../src/fonts/geomanist-medium-webfont.woff2) format('woff2'),
-       url(../src/fonts/geomanist-medium-webfont.woff) format('woff');
+  src: local(Geomanist),
+       url(../src/fonts/geomanist-medium-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-medium-webfont.woff) format('woff'),
+       url(../src/fonts/Geomanist-Medium.ttf) format('truetype');
 }
 
-//set font once and based on font-weight, it knows which one to pull.
 $primary-font: 'Geomanist', serif;
 $secondary-font: 'Merriweather', serif;
 
