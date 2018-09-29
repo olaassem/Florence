@@ -3,18 +3,23 @@
   display: flex;
   justify-content: center;
   margin: auto 0;
-  padding: 2px 0 0 12px;
+  padding: 0rem;
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
   top: 0;
 
+  @media (min-width: 550px) {
+    position: relative;
+    padding: 2px 0 0 12px;
+  }
+
   &__wrapper {
     display: flex;
-    max-width: 25rem;
     padding: 0;
     justify-content: center;
     text-align: center;
+    z-index: 5;
 
     a {
       padding: 1rem 1.5rem;

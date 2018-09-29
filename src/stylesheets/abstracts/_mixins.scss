@@ -1,3 +1,4 @@
+//TYPOGRAPHY
 @mixin text($family, $weight, $size, $col) {
   font-family: $family;
   font-weight: $weight;
@@ -5,6 +6,8 @@
   color: $col;
 }
 
+
+//EFFECTS
 @mixin darken-on-hover( $bg, $percent ) {
   transition: all 0.5s ease-out;
 
@@ -14,4 +17,18 @@
 }
 
 
-//create px --> rem function
+//POSITIONING & DIMENSIONS
+@mixin size-and-position( $position, $width, $btm, $left ) {
+  position: $position;
+  width: $width;
+  bottom: $btm;
+  left: $left;
+}
+
+@mixin problem-marginbtm {
+  margin-bottom: 20px;
+
+  @media (min-width: 550px) {
+    margin-bottom: 40px;
+  }
+}

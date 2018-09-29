@@ -3,9 +3,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  width: 100vw;
 
   &__wrapper {
-    max-width: 50rem;
+    max-width: 65rem;
     width: 100%;
     padding: 0px 20px;
     margin: 4rem 0rem 1.5rem;
@@ -17,23 +18,24 @@
 
     &--pills1 {
       position: absolute;
-      width: 95px;
+      width: 120px;
       left: -100px;
-      bottom: 20px;
+      bottom: 40px;
     }
 
     &--pills2 {
       position: absolute;
-      height: 110px;
-      top: -95px;
+      height: 115px;
+      top: -102px;
+      left: 40px;
       transform: rotate(40deg);
     }
 
     &--pills3 {
       position: absolute;
-      width: 185px;
+      width: 200px;
       right: -100px;
-      top: -55px;
+      top: -65px;
       transform: rotate(8deg);
 
       @media (min-width: 450px) {

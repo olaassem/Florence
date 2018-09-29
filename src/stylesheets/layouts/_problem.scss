@@ -2,33 +2,58 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
+  margin-top: 1.5rem;
 
   &__wrapper {
-    // display: block;
     position: relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
     height: 100%;
-    min-height: 30rem;
-    max-width: 63rem;
-    margin: 3rem;
-    padding: 2rem 4rem;
+    max-width: 77rem;
     background-color: $color-white;
+    margin: 0;
+    padding: 2.5rem 1.5rem;
 
-    @media (min-width: 550px) {}
+    @media (min-width: 550px) {
+      margin: 2rem;
+      padding: 4rem 6.5rem;
+    }
+
+    @media (min-width: 800px) {
+      margin: 3rem;
+      padding: 5rem 8.5rem;
+    }
   }
 
     &__intro {
-      margin-bottom: 25px;
+      @include problem-marginbtm;
     }
 
     &__context {
-      margin-bottom: 25px;
+      @include problem-marginbtm;
+      // padding: 0rem 1.5rem;
     }
 
-    &__sup {}
+    &__quote__wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      margin-left: auto;
+      order: 2;
+      max-width: 20rem;
+
+      @media (min-width: 550px) {
+        margin-left: auto;
+        order: 2;
+        width: 100%;
+        max-width: 45rem;
+      }
+    }
 
     &__quote {
       margin-bottom: 25px;
@@ -37,28 +62,19 @@
     &__author {}
 
     &__bottle1 {
-      position: absolute;
-      width: 200px;
-      bottom: -500px;
+      @include size-and-position( absolute, 220px, -85px, -100px );
+
     }
 
     &__bottle2 {
-      position: absolute;
-      width: 200px;
-            bottom: -500px;
+      @include size-and-position( absolute, 120px, -50px, 145px );
     }
 
     &__bottle3 {
-      position: absolute;
-      width: 200px;
-            bottom: -500px;
-
+      @include size-and-position( absolute, 180px, -135px, 50px );
     }
 
     &__pills1 {
-      position: absolute;
-      width: 200px;
-            bottom: -500px;
+      @include size-and-position( absolute, 150px, 485px, 770px );
     }
-
 }

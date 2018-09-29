@@ -1,34 +1,83 @@
+// UNIVERSAL
 .hdr-text {
-  @include text( $primary-font, bold, .9rem, $color-dark-green );
+  @include text( $primary-font, normal, 1.4rem, $color-dark-green );
   text-transform: uppercase;
   letter-spacing: .2em;
-}
 
-.nav__wrapper a {
-  @include text( $primary-font, normal, .9rem, $color-mint );
-  text-transform: uppercase;
-  text-decoration: none;
+  @media (min-width: 550px) {
+    font-size: 1.1rem;
+  }
 }
 
 .intro-text {
-  @include text( $secondary-font, normal, 1.8rem, $color-grey );
+  @include text( $secondary-font, normal, 1.7rem, $color-grey );
+  text-align: center;
+
+  @media (min-width: 550px) {
+    font-size: 2.1rem;
+    text-align: left;
+  }
 }
 
 .context-text {
   @include text( $primary-font, normal, 1.2rem, $color-grey );
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: .05em;
+
+  @media (min-width: 550px) {
+    font-size: 1.3rem;
+    text-align: left;
+    letter-spacing: none;
+  }
 }
 
+// NAVIGATION
+.nav__wrapper a {
+  @include text( $primary-font, normal, 1.4rem, $color-mint );
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @media (min-width: 550px) {
+    font-size: 1.1rem;
+  }
+}
+
+// PROBLEM SECTION
 .problem {
   &__sup {
-    @include text( $primary-font, normal, .8rem, $color-orange-red );
+    @include text( $primary-font, normal, .7rem, $color-orange-red );
+    text-decoration: underline;
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    @media (min-width: 550px) {
+      // font-size: 1.2rem;
+    }
   }
 
   &__quote {
-    @include text( $secondary-font, normal, .8rem, $color-brown );
+    @include text( $secondary-font, normal, 1.1rem, $color-brown );
+    text-align: left;
+    line-height: 2.2rem;
+
+    @media (min-width: 550px) {
+      font-size: 1.4rem;
+      text-align: center;
+    }
   }
 
   &__author {
-    @include text( $primary-font, normal, .8rem, $color-grey );
+    @include text( $primary-font, bold, .8rem, $color-grey );
+    text-align: left;
+    font-style: normal;
+
+    @media (min-width: 550px) {
+      font-size: 1rem;
+      text-align: center;
+    }
   }
 }
 
