@@ -14,7 +14,7 @@
     height: 100%;
     max-width: 77rem;
     background-color: $color-white;
-    margin: 0;
+    margin: 0rem;
     padding: 2.5rem 1.5rem;
 
     @media (min-width: 550px) {
@@ -54,7 +54,7 @@
   }
 
   &__quote {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
   }
 
   &__author {}
