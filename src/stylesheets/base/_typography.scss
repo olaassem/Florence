@@ -1,5 +1,4 @@
 // UNIVERSAL
-
 .hdr-text {
   @include text($primary-font, normal, 1.4rem, $color-dark-green);
   letter-spacing: 0.2em;
@@ -29,8 +28,8 @@
     text-align: left;
   }
 }
-// NAVIGATION
 
+// NAVIGATION
 .nav__wrapper a {
   @include text($primary-font, normal, 1.2rem, $color-mint);
   text-decoration: none;
