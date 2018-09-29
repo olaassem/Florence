@@ -35,8 +35,8 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-// PROBLEM SECTION
 
+// PROBLEM SECTION
 .problem {
   &__sup {
     @include text($primary-font, normal, 0.7rem, $color-orange-red);
