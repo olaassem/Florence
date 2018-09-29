@@ -10,7 +10,7 @@
 }
 
 .intro-text {
-  @include text( $secondary-font, normal, 1.7rem, $color-grey );
+  @include text( $secondary-font, normal, 1.8rem, $color-grey );
   text-align: center;
 
   @media (min-width: 550px) {
@@ -20,7 +20,7 @@
 }
 
 .context-text {
-  @include text( $primary-font, normal, 1.3rem, $color-grey );
+  @include text( $primary-font, normal, 1.4rem, $color-grey );
   line-height: 2rem;
   text-align: center;
   letter-spacing: .05em;
@@ -33,7 +33,7 @@
 
 // NAVIGATION
 .nav__wrapper a {
-  @include text( $primary-font, normal, 1.3rem, $color-mint );
+  @include text( $primary-font, normal, 1.1rem, $color-mint );
   text-transform: uppercase;
   text-decoration: none;
 
@@ -53,12 +53,12 @@
     }
 
     @media (min-width: 550px) {
-      // font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
   &__quote {
-    @include text( $secondary-font, normal, 1.2rem, $color-brown );
+    @include text( $secondary-font, normal, 1.4rem, $color-brown );
     text-align: left;
     line-height: 2.2rem;
 
@@ -69,12 +69,12 @@
   }
 
   &__author {
-    @include text( $primary-font, bold, .8rem, $color-grey );
+    @include text( $primary-font, bold, 1.4rem, $color-grey );
     text-align: left;
     font-style: normal;
 
     @media (min-width: 550px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
       text-align: center;
     }
   }
