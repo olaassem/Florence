@@ -1,15 +1,20 @@
 .keyFactors {
-  @include section-setup( $color-mint , 4rem );
+  background-color: $color-mint;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
   text-align: center;
 
   &__wrapper {
     position: relative;
-    @include flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 77rem;
     margin: 0;
     padding: 2.5rem 1.5rem;
-
     @media (min-width: 550px) {
       margin: 2rem;
       padding: 4rem 6.5rem;
@@ -66,7 +71,6 @@
           left: 44%;
           top: -21%;
         }
-
         @media (min-width: 550px) {
           max-width: 23rem;
           padding: 1rem 1rem 1rem 2.5rem;
