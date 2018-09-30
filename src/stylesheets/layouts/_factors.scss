@@ -1,0 +1,141 @@
+.keyFactors {
+  background-color: $color-mint;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  text-align: center;
+
+  &__wrapper {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 77rem;
+    margin: 0;
+    padding: 2.5rem 1.5rem;
+
+    @media (min-width: 550px) {
+      margin: 2rem;
+      padding: 4rem 6.5rem;
+    }
+
+    @media (min-width: 800px) {
+      margin: 3rem;
+      padding: 5rem 8.5rem;
+    }
+  }
+
+  &__hdr {
+    padding-bottom: 1rem;
+  }
+
+  &__intro {
+    text-align: center;
+  }
+
+  &__list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    &__bodyimg {
+      max-width: 200px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (min-width: 550px) {
+        max-width: 290px;
+        margin-top: 3.5rem;
+      }
+    }
+
+    &__hdr {
+      padding-bottom: 0.5rem;
+    }
+
+    &__content {}
+
+    &__item {
+      &--1 {
+        @include item;
+
+        @media (min-width: 550px) {
+          max-width: 23rem;
+          padding: 1rem 1rem 1rem 2.5rem;
+          transform: translate(62%, -348%);
+        }
+      }
+
+      &--2 {
+        @include item;
+
+        @media (min-width: 550px) {
+          max-width: 23rem;
+          padding: 1rem 2.5rem 1rem 1rem;
+          transform: translate(-50%, -500%);
+        }
+      }
+
+      &--3 {
+        @include item;
+
+        @media (min-width: 550px) {
+          max-width: 23rem;
+          padding: 1rem 1rem 1rem 2.5rem;
+          transform: translate(90%, -458%);
+        }
+      }
+
+      &--4 {
+        @include item;
+
+        @media (min-width: 550px) {
+          max-width: 23rem;
+          padding: 1rem 2.5rem 1rem 1rem;
+          transform: translate(-90%, -488%);
+        }
+      }
+    }
+  }
+
+  .icon {
+    position: absolute;
+    width: 50px;
+    background-color: $color-yellow;
+    border: 5px solid $color-white;
+    border-radius: 50%;
+    padding: 1rem;
+    top: -30px;
+    align-self: center;
+
+    &--left {
+      @media (min-width: 550px) {
+        left: -15%;
+        top: 32%;
+        width: 63px;
+      }
+    }
+
+    &--right {
+      @media (min-width: 550px) {
+        left: 90%;
+        top: 32%;
+        width: 63px;
+      }
+    }
+  }
+}
+
+svg:before {
+  content: " ";
+  display: block;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

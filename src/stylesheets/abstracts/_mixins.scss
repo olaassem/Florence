@@ -18,6 +18,8 @@
 
 
 //POSITIONING & DIMENSIONS
+
+//PROBLEM
 @mixin size-and-position( $position, $width, $X, $Y ) {
   position: $position;
   width: $width;
@@ -30,4 +32,18 @@
   @media (min-width: 550px) {
     margin-bottom: 40px;
   }
+}
+
+
+//FACTORS
+@mixin item {
+  position: relative;
+  background-color: $color-white;
+  border-radius: 5px;
+  margin: 2.5rem 0.5rem;
+  padding: 3rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: -12rem;
 }
