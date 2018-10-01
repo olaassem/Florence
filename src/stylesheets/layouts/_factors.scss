@@ -1,16 +1,10 @@
 .keyFactors {
-  background-color: $color-mint;
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
+  @include section-setup( $color-mint , 4rem );
   text-align: center;
 
   &__wrapper {
     position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    @include flex;
     width: 100%;
     max-width: 77rem;
     margin: 0;
