@@ -29,6 +29,18 @@
     text-align: left;
   }
 }
+
+sup {
+  @include text($primary-font, normal, 0.7rem, $color-orange-red);
+  text-decoration: underline;
+
+  &:hover {
+    font-weight: bold;
+  }
+  @media (min-width: 550px) {
+    font-size: 1rem;
+  }
+}
 // NAVIGATION
 
 .nav__wrapper a {
@@ -117,3 +129,45 @@
     }
   }
 }
+
+
+//QUESTION
+.question {
+  // color: $color-dark-blue;
+  // text-align: center;
+
+
+  &__intro {
+    color: $color-dark-blue;
+    text-align: center;
+  }
+
+  &__context {
+    color: $color-dark-blue;
+    text-align: center;
+
+  }
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+// // .large-hdr {
+// //
+// // }
+//
+// .solution__section {
+//
+//   &__content {
+//   font-family: 'Merriweather', serif;
+//   font-weight: 400;
+//   font-size: 18px;
+//   }
+//
+//   &__hdr {
+//     // font-family: Geomanist;
+//     font-weight: 400;
+//     font-size: 20px;
+//   }
+// }

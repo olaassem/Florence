@@ -1,0 +1,31 @@
+.question {
+  @include section-setup($color-mint , 4rem);
+  overflow: hidden;
+
+  &__wrapper {
+    padding: $wrapper-padding;
+  }
+
+
+  &__hdr,
+  &__intro,
+  &__context {
+    @include content-marginbtm;
+  }
+
+  &__intro {
+    margin-right: 7.5rem;
+  }
+
+  &__phone {
+    position: absolute;
+    right: 0px;
+    transform: rotate(8deg) translate(20%, -14%);
+    width: 160px;
+
+    @media (min-width: 550px) {
+    }
+    @media (min-width: 800px) {
+    }
+  }
+}
