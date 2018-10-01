@@ -1,16 +1,10 @@
 .keyFactors {
-  background-color: $color-mint;
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
+  @include section-setup( $color-mint , 4rem );
   text-align: center;
 
   &__wrapper {
     position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    @include flex;
     width: 100%;
     max-width: 77rem;
     margin: 0;
@@ -20,7 +14,6 @@
       margin: 2rem;
       padding: 4rem 6.5rem;
     }
-
     @media (min-width: 800px) {
       margin: 3rem;
       padding: 5rem 8.5rem;
@@ -43,13 +36,11 @@
     flex-direction: column;
 
     &__bodyimg {
-      max-width: 200px;
-      width: 100%;
+      width: 310px;
       margin-left: auto;
       margin-right: auto;
-
       @media (min-width: 550px) {
-        max-width: 290px;
+        width: 350px;
         margin-top: 3.5rem;
       }
     }
@@ -64,40 +55,62 @@
       &--1 {
         @include item;
 
+        &:before {
+          content: " ";
+          position: absolute;
+          display: block;
+          background-color: rgba(255, 255, 255, 0.63);
+          border-radius: 50px;
+          width: 60px;
+          height: 60px;
+          left: 44%;
+          top: -21%;
+        }
+
         @media (min-width: 550px) {
           max-width: 23rem;
           padding: 1rem 1rem 1rem 2.5rem;
-          transform: translate(62%, -348%);
+          transform: translate(70%, 100%);
+          overflow-x: visible;
+
+          &:before {
+            content: " ";
+            position: absolute;
+            display: block;
+            background-color: rgba(255, 255, 255, 0.63);
+            border-radius: 50px;
+            width: 75px;
+            height: 75px;
+            left: -17%;
+            top: 28.5%;
+          }
         }
       }
 
       &--2 {
         @include item;
-
         @media (min-width: 550px) {
           max-width: 23rem;
           padding: 1rem 2.5rem 1rem 1rem;
-          transform: translate(-50%, -500%);
+          transform: translate(-50%, 210%);
         }
       }
 
       &--3 {
         @include item;
-
         @media (min-width: 550px) {
           max-width: 23rem;
           padding: 1rem 1rem 1rem 2.5rem;
-          transform: translate(90%, -458%);
+          transform: translate(70%, 270%);
         }
       }
 
       &--4 {
         @include item;
-
         @media (min-width: 550px) {
           max-width: 23rem;
           padding: 1rem 2.5rem 1rem 1rem;
-          transform: translate(-90%, -488%);
+          transform: translate(-88%, 255%);
         }
       }
     }
@@ -129,13 +142,4 @@
       }
     }
   }
-}
-
-svg:before {
-  content: " ";
-  display: block;
-  background-color: red;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
 }

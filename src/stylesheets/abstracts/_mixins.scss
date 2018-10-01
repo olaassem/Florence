@@ -16,8 +16,35 @@
   }
 }
 
-
 //POSITIONING & DIMENSIONS
+
+//UNIVERSAL
+
+//FLEX
+@mixin flex( $dir:column, $justify-content:center, $align-items:center ) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+
+
+
+
+
+
+
+
+
+//SECTIONS
+@mixin section-setup ( $bg-col, $margin-top ){
+  background-color: $bg-col;
+  display: flex;
+  justify-content: center;
+  margin-top: $margin-top;
+}
+
 
 //PROBLEM
 @mixin size-and-position( $position, $width, $X, $Y ) {
@@ -37,7 +64,7 @@
 
 //FACTORS
 @mixin item {
-  position: relative;
+  position: absolute;
   background-color: $color-white;
   border-radius: 5px;
   margin: 2.5rem 0.5rem;
