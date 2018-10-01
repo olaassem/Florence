@@ -1,12 +1,11 @@
 .keyFactors {
   @include section-setup( $color-mint , 4rem );
-  text-align: center;
 
   &__wrapper {
     position: relative;
     @include flex;
-    width: 100%;
     max-width: 77rem;
+    width: 100%;
     margin: 0;
     padding: 2.5rem 1.5rem;
     @media (min-width: 550px) {
@@ -23,36 +22,25 @@
     padding-bottom: 1rem;
   }
 
-  &__intro {
-    text-align: center;
-  }
-
   &__list {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    @include flex;
 
     &__bodyimg {
-      width: 310px;
+      width: 200px;
       margin-left: auto;
       margin-right: auto;
+
       @media (min-width: 550px) {
         width: 350px;
         margin-top: 3.5rem;
       }
     }
 
-    &__hdr {
-      padding-bottom: 0.5rem;
-    }
-
-    &__content {}
-
     &__item {
+
       &--1 {
-        @include item;
+        @include item( 30rem);
 
         &:before {
           content: " ";
@@ -67,8 +55,8 @@
         }
         @media (min-width: 550px) {
           max-width: 23rem;
-          padding: 1rem 1rem 1rem 2.5rem;
-          transform: translate(70%, 100%);
+          padding: 1rem;
+          transform: translate(70%, -220%);
           overflow-x: visible;
 
           &:before {
@@ -86,29 +74,33 @@
       }
 
       &--2 {
-        @include item;
+        @include item( 53rem );
+
+
         @media (min-width: 550px) {
           max-width: 23rem;
-          padding: 1rem 2.5rem 1rem 1rem;
-          transform: translate(-50%, 210%);
+          padding: 1rem;
+          transform: translate(-50%, -350%);
         }
       }
 
       &--3 {
-        @include item;
+        @include item( 74rem );
+
         @media (min-width: 550px) {
           max-width: 23rem;
-          padding: 1rem 1rem 1rem 2.5rem;
-          transform: translate(70%, 270%);
+          padding: 1rem;
+          transform: translate(70%, -420%);
         }
       }
 
       &--4 {
-        @include item;
+        @include item( 96rem );
+
         @media (min-width: 550px) {
           max-width: 23rem;
-          padding: 1rem 2.5rem 1rem 1rem;
-          transform: translate(-88%, 255%);
+          padding: 1rem;
+          transform: translate(-88%, -455%);
         }
       }
     }

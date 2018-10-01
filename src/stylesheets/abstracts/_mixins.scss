@@ -53,14 +53,12 @@
 }
 
 //FACTORS
-@mixin item {
+@mixin item( $top ) {
   position: absolute;
   background-color: $color-white;
   border-radius: 5px;
-  margin: 2.5rem 0.5rem;
+  margin: 2rem 0.5rem;
   padding: 3rem 2rem 2rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  top: -12rem;
+  width: 100%;
+  top: $top;
 }
