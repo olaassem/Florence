@@ -18,6 +18,15 @@
 //POSITIONING & DIMENSIONS
 
 //UNIVERSAL
+@mixin content-marginbtm {
+  margin-bottom: 20px;
+
+  @media (min-width: 550px) {
+    margin-bottom: 40px;
+  }
+}
+
+
 
 
 //FLEX
@@ -29,11 +38,6 @@
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> items repositioning. will revisit section
 //SECTIONS
 @mixin section-setup ( $bg-col, $margin-top ){
   background-color: $bg-col;
