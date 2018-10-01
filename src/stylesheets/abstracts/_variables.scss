@@ -10,27 +10,34 @@ $color-light-green: #e2ebe9; //bg
 $color-light-blue: #1793ad; //bg & text
 $color-dark-green: #0e5254; //text
 $color-grey: #504949; //text
-$color-orange: #c06d3a; //text
+$color-brown: #c06d3a; //text
 $color-dark-mint: #c0d4cf; //text
 $color-dark-purple: #252224; //text
-
+$color-orange-red: #ea4446;
 
 /*--------- Fonts ---------*/
 
+
 @font-face {
   font-family: 'Geomanist';
-  src: url(../src/fonts/geomanist/Geomanist-Regular.otf);
+  font-weight: normal;
+  src: local(Geomanist),
+       url(../src/fonts/geomanist-regular-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-regular-webfont.woff) format('woff'),
+       url(../src/fonts/geomanist-regular-webfont.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Geomanist-Medium';
-  src: url(../src/fonts/geomanist/Geomanist-Medium.otf);
+  font-family: 'Geomanist';
+  font-weight: bold;
+  src: local(Geomanist),
+       url(../src/fonts/geomanist-medium-webfont.woff2) format('woff2'),
+       url(../src/fonts/geomanist-medium-webfont.woff) format('woff'),
+       url(../src/fonts/Geomanist-Medium.ttf) format('truetype');
 }
 
 $primary-font: 'Geomanist', serif;
-$primary-font-medium: 'Geomanist-Medium', serif;
 $secondary-font: 'Merriweather', serif;
-// $tertiary-font: 'Myriad Pro', serif;
 
 
 /*--------- Dimensions ---------*/

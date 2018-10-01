@@ -1,0 +1,67 @@
+.nav {
+  background-color: $color-mint;
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+  padding: 0rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 10;
+
+  @media (min-width: 550px) {
+    position: relative;
+    padding: .2rem 0rem 0rem 1.2rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    padding: 0rem;
+    justify-content: center;
+    text-align: center;
+
+
+    a {
+      padding: 1rem 1.5rem;
+      box-shadow: inset 0rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    }
+
+    @media (min-width: 550px) {
+      max-width: 50rem;
+      padding: .5rem 0rem;
+
+      a {
+        padding: 1rem 2rem;
+
+      }
+    }
+  }
+
+  &__link {
+    justify-content: center;
+
+    &--problem {
+      @media (min-width: 550px) {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
+
+    &--solution {
+      @media (min-width: 550px) {
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+      }
+    }
+  }
+}
+
+.red-nav {
+  background-color: $color-red;
+  @include darken-on-hover($color-red, 10%);
+}
+
+.blue-nav {
+  background-color: $color-medium-blue;
+  @include darken-on-hover($color-medium-blue, 10%);
+}

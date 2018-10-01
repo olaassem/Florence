@@ -2,44 +2,60 @@
   background-color: $color-mint;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  width: 100vw;
 
   &__wrapper {
-    margin: 50px;
-    // position: relative;
-  }
-  // &__primary {
-  //   display: flex;
-  //   justify-content: center;
-  //
-  //   &--top {
-  //     display: block;
-  //     margin-left: auto;
-  //     margin-right: auto;
-  //     text-align: center;
-  //   }
-  //
-  //   &--btm {
-  //     display: block;
-  //     width: 500px;
-  //   }
-  // }
-  &__text-box {
+    max-width: 65rem;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 4rem 0rem 1.5rem;
+    position: relative;
+
+    @media (min-width: 550px) {
+      margin: 5rem 4rem 2rem;
+    }
+
     &--pills1 {
       position: absolute;
-      width: 200px;
-      left: -50px;
+      width: 120px;
+      left: -100px;
+      bottom: 40px;
     }
 
     &--pills2 {
       position: absolute;
-      width: 100px;
-      top: -80px;
+      height: 115px;
+      top: -102px;
+      left: 40px;
+      transform: rotate(40deg);
     }
 
     &--pills3 {
       position: absolute;
       width: 200px;
-      right: -70px;
+      right: -100px;
+      top: -65px;
+      transform: rotate(8deg);
+
+      @media (min-width: 450px) {
+        width: 200px;
+        right: -80px;
+      }
+    }
+  }
+
+  &__primary {
+    display: block;
+
+    &--top {
+      display: block;
+      text-align: center;
+    }
+
+    &--btm {
+      display: block;
+      max-width: 100%;
     }
   }
 }

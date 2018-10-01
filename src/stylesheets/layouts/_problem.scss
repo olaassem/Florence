@@ -1,0 +1,100 @@
+.problem {
+  @include section-setup ( $color-mint, 1.5rem);
+
+  &__wrapper {
+    position: relative;
+    @include flex;
+    width: 100%;
+    height: 100%;
+    max-width: 77rem;
+    background-color: $color-white;
+    margin: 0rem;
+    padding: 2.5rem 1.5rem;
+
+    @media (min-width: 550px) {
+      margin: 2rem;
+      padding: 4rem 6.5rem;
+    }
+
+    @media (min-width: 800px) {
+      margin: 3rem;
+      padding: 5rem 8.5rem;
+    }
+  }
+
+  &__intro {
+    @include problem-marginbtm;
+  }
+
+  &__context {
+    @include problem-marginbtm;
+  }
+
+  &__row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__quote__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    order: 2;
+    flex-basis: 77%;
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  &__quote {
+    margin-bottom: 2.5rem;
+  }
+
+  &__author {}
+
+  &__bottles__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    width: 100%;
+    max-width: 10rem;
+  }
+
+  &__bottle1 {
+    @include size-and-position(absolute, 150%, -120%, -28%);
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 180%, -100%, -28%);
+    }
+  }
+
+  &__bottle2 {
+    @include size-and-position(absolute, 130%, -5%, -1%);
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 108%, 15%, -10%);
+    }
+  }
+
+  &__bottle3 {
+    @include size-and-position(absolute, 180%, -55%, 30%);
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 165%, -43%, 20%);
+    }
+  }
+
+  &__pills1 {
+    @include size-and-position(absolute, 100px, 170px, -275px);
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 150px, 200px, -200px);
+    }
+
+    @media (min-width: 550px) {
+      @include size-and-position(absolute, 160px, 365px, -290px);
+    }
+  }
+}

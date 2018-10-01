@@ -1,6 +1,68 @@
-@mixin text($family, $weight, $size, $col) {
+//TYPOGRAPHY
+@mixin text( $family, $weight, $size, $col ) {
   font-family: $family;
   font-weight: $weight;
   font-size: $size;
   color: $col;
+}
+
+
+//EFFECTS
+@mixin darken-on-hover( $bg, $percent ) {
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($bg , $percent);
+  }
+}
+
+//POSITIONING & DIMENSIONS
+
+//UNIVERSAL
+
+//FLEX
+@mixin flex( $dir:column, $justify-content:center, $align-items:center ) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+
+
+
+//SECTIONS
+@mixin section-setup ( $bg-col, $margin-top ){
+  background-color: $bg-col;
+  display: flex;
+  justify-content: center;
+  margin-top: $margin-top;
+}
+
+
+//PROBLEM
+@mixin size-and-position( $position, $width, $X, $Y ) {
+  position: $position;
+  width: $width;
+  transform: translate( $X, $Y );
+}
+
+@mixin problem-marginbtm {
+  margin-bottom: 20px;
+
+  @media (min-width: 550px) {
+    margin-bottom: 40px;
+  }
+}
+
+
+//FACTORS
+@mixin item( $top ) {
+  position: absolute;
+  background-color: $color-white;
+  border-radius: 5px;
+  margin: 2rem 0.5rem;
+  padding: 3rem 2rem 2rem;
+  width: 100%;
+  top: $top;
 }

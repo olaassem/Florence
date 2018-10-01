@@ -1,42 +1,127 @@
+// UNIVERSAL
+
 .hdr-text {
-  @include text( $primary-font, 400, 87.5%, $color-dark-green );
+  @include text($primary-font, normal, 1rem, $color-dark-green);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  @media (min-width: 550px) {
+    font-size: 1.1rem;
+  }
 }
 
+.intro-text {
+  @include text($secondary-font, normal, 1.8rem, $color-grey);
+  text-align: center;
+  @media (min-width: 550px) {
+    font-size: 2.1rem;
+    text-align: left;
+  }
+}
 
+.context-text {
+  @include text($primary-font, normal, 1.5rem, $color-grey);
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  @media (min-width: 550px) {
+    text-align: left;
+    letter-spacing: none;
+  }
+}
+// NAVIGATION
 
+.nav__wrapper a {
+  @include text($primary-font, normal, 1rem, $color-mint);
+  text-transform: uppercase;
+  text-decoration: none;
+  @media (min-width: 550px) {
+    font-size: 1.1rem;
+  }
+}
+// PROBLEM SECTION
 
+.problem {
+  &__sup {
+    @include text($primary-font, normal, 0.7rem, $color-orange-red);
+    text-decoration: underline;
 
+    &:hover {
+      font-weight: bold;
+    }
+    @media (min-width: 550px) {
+      font-size: 1rem;
+    }
+  }
 
+  &__quote {
+    @include text($secondary-font, normal, 1.4rem, $color-brown);
+    text-align: left;
+    line-height: 2.2rem;
+    @media (min-width: 550px) {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  }
 
+  &__author {
+    @include text($primary-font, bold, 1.4rem, $color-grey);
+    text-align: left;
+    font-style: normal;
+    @media (min-width: 550px) {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}
+// FACTORS SECTION
 
+.keyFactors {
+  &__hdr,
+  &__intro {
+    color: $color-dark-blue;
+    text-align: center;
+  }
 
+  &__list {
+    &__item {
+      &--1,
+      &--3 {
+        text-align: center;
+        @media (min-width: 550px) {
+          text-align: left;
+        }
+      }
+
+      &--2,
+      &--4 {
+        text-align: center;
+        @media (min-width: 550px) {
+          text-align: right;
+        }
+      }
+    }
+
+    &__hdr {
+      @include text($primary-font, bold, 1.4rem, $color-brown);
+      text-transform: uppercase;
+      line-height: 2rem;
+      letter-spacing: 0.1em;
+      @media (min-width: 550px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__content {
+      @include text($primary-font, normal, 1.4rem, $color-grey);
+      line-height: 2rem;
+      @media (min-width: 550px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
 /////////////////////////////////////////////////////////////////////
-
-//
-// .nav__link {
-//   // font-family: Geomanist;
-//   font-weight: 400;
-//   font-size: 14px;
-//   color: $color-mint;
-// }
-//
-//
-// .intro-text {
-//   font-family: 'Merriweather', serif;
-//   font-weight: 400;
-//   font-size: 28px;
-// }
-//
-//
-// .context-text {
-//   //font-family: Geomanist;
-//   font-weight: 400;
-//   font-size: 18px;
-// }
-//
-//
 // // .large-hdr {
 // //
 // // }
