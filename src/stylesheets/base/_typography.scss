@@ -29,14 +29,9 @@
   }
 }
 
-<<<<<<< HEAD
+
 .a-sup {
   @include text($primary-font, normal, 1rem, $color-orange-red);
-=======
-sup {
-  @include text($primary-font, normal, 0.7rem, $color-orange-red);
-  text-decoration: underline;
->>>>>>> initial question section layout
 
   &:hover {
     font-weight: bold;
