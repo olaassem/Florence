@@ -132,24 +132,28 @@
     <section class="solution__section--1">
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She gets to know you.</h3>
-        <p class="solution__section__context">Florence strikes up a conversation, learning details about your life, health, goals, and preferences in an engaging, human way.</p>
-        <p class="solution__section__context">This conversation unfolds over time, making this feel less like twenty questions and more like the start of a relationship.</p>
-        <img class="solution__section__img1-bg" src="assets/images/section1-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img1" src="assets/images/section1-illo.svg" alt="mug with steam">
+        <p class="solution__section__content">Florence strikes up a conversation, learning details about your life, health, goals, and preferences in an engaging, human way.</p>
+        <p class="solution__section__content">This conversation unfolds over time, making this feel less like twenty questions and more like the start of a relationship.</p>
+        <img class="solution__section__img1-bg solution__section__bg" src="assets/images/section1-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img1 solution__section__img" src="assets/images/section1-illo.svg" alt="mug with steam">
       </div>
       <div class="solution__section__right">
         <figure>
           <p class="screen-reader">An example text conversation between Florence and a patient</p>
           <ol class="bubble">
             <li class="bubble__florence">Hi! I'm Florence. What's your name?</li>
-            <li class="bubble__patient">Mike</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__patient">Mike</li>
+            </div>
             <li class="bubble__florence">Nice to meet you, Mike. I can help you set up your account with a few simple questions.</li>
             <li class="bubble__florence">You can answer these now or whenever you like. I'm always here!</li>
-            <li class="bubble__florence--tail">First question: how old are you?</li>
-            <li class="bubble__patient">65</li>
+            <li class="bubble__florence bubble__florence--tail">First question: how old are you?</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__patient">65</li>
+            </div>
           </ol>
         </figure>
-        <img class="solution__section__right__avatar--1" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--1" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
@@ -157,8 +161,8 @@
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She keeps track of your regimen.</h3>
         <p class="solution__section__content">Florence helps you remember what to take and when. Image recognition makes adding your medication as easy as taking a picture.</p>
-        <img class="solution__section__img2-bg" src="assets/images/section2-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img2" src="assets/images/section2-illo.svg" alt="pill bottle">
+        <img class="solution__section__img2-bg solution__section__bg" src="assets/images/section2-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img2 solution__section__img" src="assets/images/section2-illo.svg" alt="pill bottle">
       </div>
       <div class="solution__section__right">
         <figure>
@@ -166,7 +170,9 @@
             <ol class="bubble">
               <li class="bubble__florence">Let’s get started adding your medications.</li>
               <li class="bubble__florence">Message me a picture of the bottle label and I’ll add it. You can also type in the name if you want.</li>
-              <li class="bubble__patient"><img src="assets/images/med-bottle.png" alt="pill bottle" /></li>
+              <div class="bubble__wrapper">
+                <li class="bubble__patient"><img src="assets/images/med-bottle.png" alt="pill bottle" /></li>
+              </div>
               <li class="bubble__florence">Here's what I got:
                 <ol>
                   <li>Coumadin 5mg</li>
@@ -176,18 +182,20 @@
                 </ol>
               </li>
               <li class="bubble__florence">Is that right?</li>
-              <li class="bubble__patient">Yep</li>
-              <li class="bubble__florence-tail">Ok, added</li>
+              <div class="bubble__wrapper">
+                <li class="bubble__patient">Yep</li>
+              </div>
+              <li class="bubble__florence bubble__florence--tail">Ok, added</li>
             </ol>
         </figure>
-        <img class="solution__section__right__avatar--2" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--2" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
     <section class="solution__section--3">
       <div class="solution__section__left">
-        <img class="solution__section__img3-bg" src="assets/images/section3-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img3" src="assets/images/section3-illo.svg" alt="thermometer">
+        <img class="solution__section__img3-bg solution__section__bg" src="assets/images/section3-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img3 solution__section__img" src="assets/images/section3-illo.svg" alt="thermometer">
         <h3 class="solution__section__hdr">She checks up on you.</h3>
         <p class="solution__section__content">As you start taking new medications, Florence will follow up to see if you’re experiencing side effects.</p>
         <p class="solution__section__content">She can offer additional information to help you understand if your experience is typical—or if you should talk with your doctor..</p>
@@ -197,19 +205,21 @@
           <p class="screen-reader">An example text conversation between Florence and a patient</p>
           <ol class="bubble">
             <li class="bubble__florence">It’s been three days since you started taking Lisinopril. How’re you feeling?</li>
-            <li class="bubble__patient">a little weak and lightheaded</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__patient">a little weak and lightheaded</li>
+            </div>
             <li class="bubble__florence">Feeling lightheaded is a common side effect of Lisinopril. But you should let Dr. Ruth Parker know as soon as possible</li>
-            <li class="bubble__florence-tail">Here’s her number: <a class="bubble__number" href="">(919) 545-2020</a></li>
+            <li class="bubble__florence bubble__florence--tail">Here’s her number: <a class="bubble__number" href="">(919) 545-2020</a></li>
           </ol>
         </figure>
-        <img class="solution__section__right__avatar--3" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--3" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
     <section class="solution__section--4">
       <div class="solution__section__left">
-        <img class="solution__section__img4-bg" src="assets/images/section4-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img4" src="assets/images/section4-illo.svg" alt="weekly tablet organizer">
+        <img class="solution__section__img4-bg solution-bg solution__section__bg" src="assets/images/section4-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img4 solution-img solution__section__img" src="assets/images/section4-illo.svg" alt="weekly tablet organizer">
         <h3 class="solution__section__hdr">She helps you remember.</h3>
         <p class="solution__section__content">With complex regimens, days often blur together. Florence will show you what you’ve taken today — and what’s left to take. </p>
       </div>
@@ -217,8 +227,10 @@
         <figure>
           <p class="screen-reader">An example text conversation between Florence and a patient</p>
           <ol class="bubble">
-            <li class="bubble__patient">did I take my meds today?</li>
-            <li class="bubble__florence--tail">
+            <div class="bubble__wrapper">
+              <li class="bubble__patient">did I take my meds today?</li>
+            </div>
+            <li class="bubble__florence bubble__florence--tail">
               Here's what I have for you today:
               <ol>
                 <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Lisinopril</li>
@@ -230,14 +242,14 @@
             </li>
           </ol>
         </figure>
-        <img class="solution__section__right__avatar--4" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--4" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
     <section class="solution__section--5">
       <div class="solution__section__left">
-        <img class="solution__section__img5-bg" src="assets/images/dollar-bills-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img5" src="assets/images/dollar-bills.png" alt="dollars">
+        <img class="solution__section__img5-bg solution__section__bg" src="assets/images/dollar-bills-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img5 solution__section__img" src="assets/images/dollar-bills.png" alt="dollars">
         <h3 class="solution__section__hdr">She finds you deals.</h3>
         <p class="solution__section__content">Because Florence knows your regimen, she can find you ways to reduce the cost of care.</p>
       </div>
@@ -246,11 +258,13 @@
           <p class="screen-reader">An example text conversation between Florence and a patient</p>
           <ol class="bubble">
             <li class="bubble__florence">BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</li>
-            <li class="bubble__patient">Thanks</li>
-            <li class="bubble__florence--tail">Certainly</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__patient">Thanks</li>
+            </div>
+            <li class="bubble__florence bubble__florence--tail">Certainly</li>
           </ol>
         </figure>
-        <img class="solution__section__right__avatar--5" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--5" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
@@ -259,18 +273,18 @@
         <h3 class="solution__section__hdr">She cheers you on.</h3>
         <p class="solution__section__content">Florence can send you occasional notes of encouragement to keep you motivated.</p>
         <p class="solution__section__content">For patients with asymptomatic conditions, this offers a sense of progress.</p>
-        <img class="solution__section__img6-bg" src="assets/images/section6-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img6" src="assets/images/section6-illo.svg" alt="Florence holding a GO sign">
+        <img class="solution__section__img6-bg solution__section__bg" src="assets/images/section6-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img6 solution__section__img" src="assets/images/section6-illo.svg" alt="Florence holding a GO sign">
       </div>
       <div class="solution__section__right">
         <figure>
           <p class="screen-reader">An example text from Florence to a patient</p>
           <ol class="bubble">
             <li class="bubble__florence">Hey Mike! Nice job, your cholesterol is down 20%.</li>
-            <li class="bubble__florence--tail">Treat yourself to something nice! <img class="emoji" src="assets/images/happy.svg" alt="smile emoji"></li>
+            <li class="bubble__florence bubble__florence--tail">Treat yourself to something nice! <img class="emoji" src="assets/images/happy.svg" alt="smile emoji"></li>
           </ol>
         </figure>
-        <img class="solution__section__right__avatar--6" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+        <img class="avatar avatar--6" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 
@@ -278,17 +292,18 @@
       <div class="solution__section__left">
         <h3 class="solution__section__hdr">She keeps you honest.</h3>
         <p class="solution__section__content">If Florence notices you’re not staying on top of your plan, she can message family members or others in your support network.</p>
-        <img class="solution__section__img7-bg" src="assets/images/section7-illo-bg.jpg" alt="background paint splash">
-        <img class="solution__section__img7" src="assets/images/section7-illo.svg" alt="telephone handset">
+        <img class="solution__section__img7-bg solution__section__bg" src="assets/images/section7-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img7 solution__section__img" src="assets/images/section7-illo.svg" alt="telephone handset">
       </div>
       <div class="solution__section__right">
         <figure>
           <p class="screen-reader">An example text conversation from Florence to a patient's sister</p>
           <ol class="bubble">
-            <li class="bubble__florence--tail">Hi Kim, this is an automated message from FlorenceApp.io Your brother Mike hasn't taken his meds in three days. You might want to give him a call. <a class="bubble__number" href="">(919) 232-0232</a></li>
+            <li class="bubble__florence bubble__florence--tail">Hi Kim, this is an automated message from FlorenceApp.io Your brother Mike hasn't taken his meds in three days. You might want to give him a call. <a class="bubble__number" href="">(919) 232-0232</a></li>
           </ol>
+          <img class="avatar avatar--7" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+
         </figure>
-        <img class="solution__section__right__avatar--7" src="assets/images/florence-avatar.svg" alt="Florence avatar">
       </div>
     </section>
 

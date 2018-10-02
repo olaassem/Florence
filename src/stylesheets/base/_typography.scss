@@ -11,6 +11,7 @@
 .intro-text {
   @include text($secondary-font, normal, 1.8rem, $color-grey);
   text-align: center;
+
   @media (min-width: 550px) {
     font-size: 2.1rem;
     text-align: left;
@@ -172,12 +173,20 @@
 
   &__section {
     &__hdr {
-      @include text($primary-font, bold, 1.4rem, $color-light-blue);
-      text-transform: uppercase;
+
+      @media (min-width: 500px) {
+        @include text($primary-font, bold, 1.6rem, $color-light-blue);
+        text-transform: uppercase;
+        text-align: left;
+      }
     }
 
-    &__context {
-      @include text($secondary-font, normal, 1.4rem, $color-grey);
+    &__content {
+
+      @media (min-width: 500px) {
+        @include text($secondary-font, normal, 1.4rem, $color-grey);
+        line-height: 2.5rem;
+      }
     }
   }
 }
@@ -209,3 +218,4 @@
 //     font-size: 20px;
 //   }
 // }
+//
