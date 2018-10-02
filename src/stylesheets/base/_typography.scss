@@ -41,6 +41,9 @@
   }
 }
 
+.large-hdr {
+  @include text($secondary-font, normal, 4rem, $color-white);
+}
 // NAVIGATION
 
 .nav__wrapper a {
@@ -130,14 +133,13 @@
     }
   }
 }
+//QUESTIONN
 
 
 //QUESTIONn
 .question {
   // color: $color-dark-blue;
   // text-align: center;
-
-
   &__intro {
     color: $color-dark-blue;
     text-align: center;
@@ -146,14 +148,48 @@
   &__context {
     color: $color-dark-blue;
     text-align: center;
-
     @media (min-width: 550px) {
       text-align: left;
     }
   }
 }
+//CONCEPT
 
+.solution {
+  &__hdr {
+    &--top {
+      color: $color-white;
+    }
 
+    &--btm {
+      color: $color-white;
+    }
+  }
+
+  &__context {
+    color: $color-dark-mint;
+  }
+
+  &__section {
+    &__hdr {
+      @include text($primary-font, bold, 1.4rem, $color-light-blue);
+      text-transform: uppercase;
+    }
+
+    &__context {
+      @include text($secondary-font, normal, 1.4rem, $color-grey);
+    }
+  }
+}
+
+.bubble {
+  &__florence {
+    @include text($primary-font, normal, 1.4rem, $color-grey);
+  }
+  &__patient {
+    @include text($primary-font, normal, 1.4rem, $color-white);
+  }
+}
 /////////////////////////////////////////////////////////////////////
 // // .large-hdr {
 // //

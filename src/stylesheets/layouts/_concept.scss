@@ -1,0 +1,140 @@
+// //Temporary
+// .solution img {
+//   width: 20px;
+// }
+
+.solution {
+  background: linear-gradient($color-medium-blue 20%, $color-mint);
+  @include flex;
+
+  &__wrapper {
+    position: relative;
+    @include flex;
+    width: 100%;
+    height: 100%;
+    max-width: 77rem;
+    margin: 0;
+    padding: 2.5rem 1.5rem;
+    @media (min-width: 550px) {
+      margin: 2rem;
+      padding: 4rem 6.5rem;
+    }
+    @media (min-width: 800px) {
+      margin: 3rem;
+      padding: 5rem 8.5rem;
+    }
+  }
+
+  &__florence {
+    width: 200px;
+    margin-top: -30%;
+    margin-bottom: 30px;
+  }
+
+  &__hdr {
+    &--top {
+      display: block;
+    }
+
+    &--btm {}
+  }
+
+  &__section {
+    &--1,
+    &--2,
+    &--3,
+    &--4,
+    &--5,
+    &--6,
+    &--7 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      max-width: 77rem;
+      background-color: $color-white;
+      margin: 2rem 0;
+      min-height: 25rem;
+    }
+
+    &__left {}
+
+    &__hdr {}
+
+    &__content {}
+
+    &__img1-bg {}
+
+    &__img1 {}
+
+    &__img2-bg {}
+
+    &__img2 {}
+
+    &__img3-bg {}
+
+    &__img3 {}
+
+    &__img4-bg {}
+
+    &__img4 {}
+
+    &__img5-bg {}
+
+    &__img5 {}
+
+    &__img6-bg {}
+
+    &__img6 {}
+
+    &__img7-bg {}
+
+    &__img7 {}
+
+    &__right {
+      &__avatar {
+        &--1 {}
+
+        &--2 {}
+
+        &--3 {}
+
+        &--4 {}
+
+        &--5 {}
+
+        &--6 {}
+
+        &--7 {}
+      }
+    }
+
+    &--1 {}
+
+    &--2 {}
+
+    &--3 {}
+
+    &--4 {}
+
+    &--5 {}
+
+    &--6 {}
+
+    &--7 {}
+  }
+}
+
+.bubble {
+  &__florence {
+    background-color: $color-bubble-mint;
+    margin: 0.5rem;
+
+    &--tail {}
+  }
+
+  &__patient {
+    background-color: $color-light-blue;
+    margin: 0.5rem;
+  }
+}
