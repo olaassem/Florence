@@ -30,9 +30,8 @@
   }
 }
 
-sup {
-  @include text($primary-font, normal, 0.7rem, $color-orange-red);
-  text-decoration: underline;
+.a-sup {
+  @include text($primary-font, normal, 1rem, $color-orange-red);
 
   &:hover {
     font-weight: bold;
@@ -41,6 +40,7 @@ sup {
     font-size: 1rem;
   }
 }
+
 // NAVIGATION
 
 .nav__wrapper a {
@@ -131,7 +131,7 @@ sup {
 }
 
 
-//QUESTION
+//QUESTIONn
 .question {
   // color: $color-dark-blue;
   // text-align: center;
@@ -146,6 +146,9 @@ sup {
     color: $color-dark-blue;
     text-align: center;
 
+    @media (min-width: 550px) {
+      text-align: left;
+    }
   }
 }
 

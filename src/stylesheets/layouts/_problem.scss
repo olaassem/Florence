@@ -24,11 +24,11 @@
   }
 
   &__intro {
-    @include content-marginbtm;
+    margin-bottom: $content-margin-btm;
   }
 
   &__context {
-    @include content-marginbtm;
+    margin-bottom: $content-margin-btm;
   }
 
 
