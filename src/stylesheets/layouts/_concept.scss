@@ -59,6 +59,7 @@
       padding: 5rem 1.5rem;
       @media (min-width: 800px) {
         flex-direction: row;
+        margin: 5rem;
         max-width: 77rem;
         background-color: $color-white;
         min-height: 39.5rem;
@@ -124,7 +125,7 @@
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
         width: 300px;
-        top: 75.5%;
+        top: 75%;
         transform: rotate(360deg);
       }
     }
@@ -154,7 +155,7 @@
 
     &__img2 {
       align-self: center;
-      width: 130px;
+      width: 120px;
       top: -13%;
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
@@ -188,29 +189,39 @@
     }
 
     &__img4-bg {
+      align-self: center;
+      width: 330px;
+      top: 0;
       @media (min-width: 800px) {
-        width: 400px;
-        top: 0;
+        width: 500px;
       }
     }
 
     &__img4 {
+      align-self: center;
+      width: 350px;
+      top: -15%;
+      transform: rotate(-10deg);
       @media (min-width: 800px) {
         width: 480px;
         top: -7%;
-        transform: rotate(-10deg);
       }
     }
 
     &__img5-bg {
+      align-self: center;
+      width: 350px;
+      top: 0;
       @media (min-width: 800px) {
         width: 450px;
-        top: 0;
       }
     }
 
     &__img5 {
       align-self: center;
+      width: 155px;
+      top: -30%;
+      transform: rotate(11deg);
       @media (min-width: 800px) {
         width: 155px;
         top: -11%;
@@ -218,6 +229,7 @@
     }
 
     &__img6-bg {
+      width: 0;
       @media (min-width: 800px) {
         width: 300px;
         align-self: center;
@@ -226,43 +238,42 @@
     }
 
     &__img6 {
+      align-self: center;
+      width: 260px;
+      top: -26.5%;
+      clip: rect(0px,250px,120px,0px);
       @media (min-width: 800px) {
-        align-self: center;
+        clip: rect(0px, 1000px, 1000px, 0px);
         width: 250px;
-        bottom: -38%;
+        top: 68%;
       }
     }
 
     &__img7-bg {
+      align-self: center;
+      width: 280px;
+      top: 0;
+      transform: rotate(-180deg);
       @media (min-width: 800px) {
         align-self: center;
         width: 400px;
-        bottom: 0;
+        top: 58.2%;
+        transform: rotate(360deg);
       }
     }
 
     &__img7 {
+      align-self: center;
+      width: 120px;
+      top: -30%;
+      transform: rotate(-18deg);
       @media (min-width: 800px) {
         align-self: center;
         height: 220px;
-        bottom: -8%;
+        top: 63%;
         transform: rotate(10deg);
       }
     }
-
-    &--1 {}
-
-    &--2 {}
-
-    &--3 {}
-
-    &--4 {}
-
-    &--5 {}
-
-    &--6 {}
-
-    &--7 {}
   }
 }
 
