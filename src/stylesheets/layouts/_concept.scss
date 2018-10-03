@@ -10,12 +10,10 @@
     max-width: 77rem;
     margin: 0;
     padding: 2.5rem 1.5rem;
-
     @media (min-width: 550px) {
       margin: 2rem;
       padding: 4rem 6.5rem;
     }
-
     @media (min-width: 800px) {
       margin: 2rem 2rem 0;
       padding: 5rem 8.5rem 0;
@@ -186,7 +184,7 @@
       align-self: center;
       height: 220px;
       bottom: -8%;
-      transform: rotate( 10deg );
+      transform: rotate(10deg);
     }
 
     &--1 {}
@@ -217,22 +215,49 @@
     background-color: $color-bubble-mint;
     margin: 0.2rem 10% 0.2rem 0.2rem;
     padding: 0.8rem 1.2rem;
-    // align-content: center;
+
     &--tail {
       position: relative;
       border-radius: 1.5rem;
       background-color: $color-bubble-mint;
       margin: 0.2rem 10% 0.2rem 0.2rem;
       padding: 0.8rem 1.2rem;
+
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        bottom: -1px;
+        left: -7px;
+        height: 10px;
+        border-right: 30px solid $color-bubble-mint;
+        background: $color-bubble-mint;
+        border-bottom-right-radius: 150px 50px;
+        transform: translate(0, -2px) rotate(160deg) scaleY(-1);;
+      }
     }
   }
 
   &__patient {
+    position: relative;
     border-radius: 1.5rem;
     background-color: $color-light-blue;
     margin: 0.2rem;
     padding: 0.8rem 1.2rem;
     flex-basis: content;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      bottom: -1px;
+      right: -7px;
+      height: 10px;
+      border-right: 30px solid $color-light-blue;
+      background: $color-light-blue;
+      border-bottom-right-radius: 150px 50px;
+      transform: translate(0, -2px) rotate(40deg);
+    }
   }
 }
 
@@ -249,15 +274,10 @@
   }
 
   &--2 {}
-
   &--3 {}
-
   &--4 {}
-
   &--5 {}
-
   &--6 {}
-
   &--7 {}
 }
 
