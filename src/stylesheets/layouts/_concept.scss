@@ -1,5 +1,5 @@
 .solution {
-  background: linear-gradient($color-medium-blue 20%, $color-mint);
+  background: linear-gradient($color-medium-blue 5%, $color-mint 90%);
   @include flex;
 
   &__wrapper {
@@ -10,12 +10,14 @@
     max-width: 77rem;
     margin: 0;
     padding: 2.5rem 1.5rem;
+
     @media (min-width: 550px) {
       margin: 2rem;
       padding: 4rem 6.5rem;
     }
+
     @media (min-width: 800px) {
-      margin: 2rem;
+      margin: 2rem 2rem 0;
       padding: 5rem 8.5rem 0;
     }
   }
@@ -49,6 +51,7 @@
     &--5,
     &--6,
     &--7 {
+      position: relative;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -56,10 +59,9 @@
       height: 100%;
       max-width: 77rem;
       background-color: $color-white;
-      margin: 2rem 0;
+      margin: 5.5rem 0;
       min-height: 39.5rem;
       padding: 5rem 8.5rem;
-      position: relative;
       border-radius: 5px;
     }
 
@@ -123,18 +125,21 @@
 
     &__img2 {
       align-self: center;
-      height: 190px;
+      height: 180px;
       bottom: -7%;
     }
 
     &__img3-bg {
-      width: 400px;
+      width: 330px;
       top: 0;
+      right: 40%;
     }
 
     &__img3 {
       height: 200px;
-      top: 0;
+      top: -11%;
+      right: 53%;
+      transform: rotate(-33deg);
     }
 
     &__img4-bg {
@@ -143,17 +148,20 @@
     }
 
     &__img4 {
-      width: 400px;
-      top: 0;
+      width: 480px;
+      top: -7%;
+      transform: rotate(-10deg);
     }
 
     &__img5-bg {
-      width: 400px;
-      bottom: 0;
+      width: 450px;
+      top: 0;
     }
 
     &__img5 {
-      width: 300px;
+      align-self: center;
+      width: 155px;
+      top: -11%;
     }
 
     &__img6-bg {
@@ -169,13 +177,16 @@
     }
 
     &__img7-bg {
+      align-self: center;
       width: 400px;
       bottom: 0;
     }
 
     &__img7 {
-      height: 200px;
-      bottom: 0;
+      align-self: center;
+      height: 220px;
+      bottom: -8%;
+      transform: rotate( 10deg );
     }
 
     &--1 {}
@@ -252,4 +263,5 @@
 
 .emoji {
   width: 15px;
+  margin-right: 3%;
 }
