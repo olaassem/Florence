@@ -57,9 +57,10 @@
       max-width: 77rem;
       background-color: $color-white;
       margin: 2rem 0;
-      min-height: 25rem;
+      min-height: 39.5rem;
       padding: 5rem 8.5rem;
       position: relative;
+      border-radius: 5px;
     }
 
     &__left {
@@ -72,6 +73,7 @@
     &__right {
       flex-basis: 40%;
       margin-left: 4rem;
+      z-index: 2;
     }
 
     &__hdr {
@@ -186,27 +188,25 @@
 
   &__florence {
     display: inline-block;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     background-color: $color-bubble-mint;
-    margin: 0.5rem 10% 0.5rem 0.5rem;
-    padding: 0.8rem;
-    position: relative;
-    align-content: center;
-
+    margin: 0.2rem 10% 0.2rem 0.2rem;
+    padding: 0.8rem 1.2rem;
+    // align-content: center;
     &--tail {
       position: relative;
-      border-radius: 1rem;
+      border-radius: 1.5rem;
       background-color: $color-bubble-mint;
-      margin: 0.5rem;
-      padding: 0.8rem;
+      margin: 0.2rem 10% 0.2rem 0.2rem;
+      padding: 0.8rem 1.2rem;
     }
   }
 
   &__patient {
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     background-color: $color-light-blue;
-    margin: 0.5rem;
-    padding: 0.8rem;
+    margin: 0.2rem;
+    padding: 0.8rem 1.2rem;
     flex-basis: content;
   }
 }

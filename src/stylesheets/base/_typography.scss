@@ -193,10 +193,10 @@
 
 .bubble {
   &__florence {
-    @include text($primary-font, normal, 1.4rem, $color-grey);
+    @include text($primary-font, normal, 1.2rem, $color-grey);
   }
   &__patient {
-    @include text($primary-font, normal, 1.4rem, $color-white);
+    @include text($primary-font, normal, 1.2rem, $color-white);
   }
 }
 /////////////////////////////////////////////////////////////////////

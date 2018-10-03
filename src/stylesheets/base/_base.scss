@@ -1,4 +1,5 @@
 //Browser Reset
+
 *,
 *::after,
 *::before {
@@ -6,22 +7,20 @@
   padding: 0;
   box-sizing: inherit;
 }
-
 // a. 1 rem is exactly the root font size
 // b. Root font size is always set in the html selector
+
 html {
-//font-size: 10px;
-//Change the root size from px to % so that the user can change font size in browser (increase/decrease) if they want to.
-//The absolute default font size in the browser is always 16px, so -->10/16 = 62.5
+  //font-size: 10px;
+  //Change the root size from px to % so that the user can change font size in browser (increase/decrease) if they want to.
+  //The absolute default font size in the browser is always 16px, so -->10/16 = 62.5
   font-size: 62.5%;
 }
-
 
 body {
   box-sizing: border-box;
   background-color: $color-mint;
 }
-
 
 .screen-reader {
   border: 0;
@@ -34,6 +33,13 @@ body {
   width: 1px;
 }
 
+ul li {
+  list-style: disc inside none;
+  position: relative;
+  left: -.1rem;
+  padding-left: 1rem;
+}
+
 ol li {
-  list-style-type: none;
+  list-style: none;
 }
