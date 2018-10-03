@@ -262,15 +262,16 @@
 }
 
 .avatar {
-  width: 35px;
+  width: 38px;
   background-color: $color-yellow;
   border-radius: 50%;
-  position: relative;
-  margin-top: -100px;
-  left: -40px;
-  // transform: translate(-110%, -105%);
+  display: block;
+  margin-top: -38px;
+  margin-left: -44px;
+
   &--1 {
-    transform: translate(-110%, -200%);
+    margin-top: -75px;
+    margin-left: -44px;
   }
 
   &--2 {}
