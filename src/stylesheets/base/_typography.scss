@@ -183,19 +183,25 @@
 
   &__section {
     &__hdr {
+      @include text($primary-font, bold, 1.6rem, $color-light-blue);
+      text-transform: uppercase;
+      text-align: center;
+      z-index: 2;
 
       @media (min-width: 500px) {
-        @include text($primary-font, bold, 1.6rem, $color-light-blue);
-        text-transform: uppercase;
-        text-align: left;
+      text-align: left;
       }
     }
 
     &__content {
+      @include text($secondary-font, normal, 1.4rem, $color-grey);
+      line-height: 2.4rem;
+      text-align: center;
 
       @media (min-width: 500px) {
         @include text($secondary-font, normal, 1.4rem, $color-grey);
         line-height: 2.4rem;
+        text-align: left;
       }
     }
   }
