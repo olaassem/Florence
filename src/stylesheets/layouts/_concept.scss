@@ -1,15 +1,18 @@
 .solution {
   background: linear-gradient($color-medium-blue 5%, $color-mint 90%);
+
   @include flex;
 
   &__wrapper {
     position: relative;
-    @include flex;
+
     width: 100%;
-    height: 100%;
     max-width: 77rem;
+    height: 100%;
     margin: 0;
     padding: 2.5rem 1.5rem;
+
+    @include flex;
     @media (min-width: 550px) {
       margin: 2rem;
       padding: 4rem 6.5rem;
@@ -31,6 +34,7 @@
 
     &--top {
       display: block;
+
       padding-bottom: $hdr-padding-btm;
     }
 
@@ -50,21 +54,26 @@
     &--6,
     &--7 {
       position: relative;
+
       display: flex;
-      flex-direction: column;
       align-items: center;
+      flex-direction: column;
+
       width: 100%;
-      background-color: $color-white;
       margin: 7rem 0;
       padding: 5rem 1.5rem;
+
+      background-color: $color-white;
       @media (min-width: 800px) {
         flex-direction: row;
-        margin: 5rem;
+
         max-width: 77rem;
-        background-color: $color-white;
         min-height: 39.5rem;
+        margin: 5rem;
         padding: 5rem 8.5rem;
+
         border-radius: 5px;
+        background-color: $color-white;
       }
     }
 
@@ -84,18 +93,22 @@
 
     &__left {
       display: flex;
-      margin: 0;
       flex-direction: column;
+
+      margin: 0;
       @media (min-width: 800px) {
         flex-basis: 50%;
+
         margin-right: 2rem;
       }
     }
 
     &__right {
-      flex-basis: 40%;
-      margin-left: 4rem;
       z-index: 2;
+
+      flex-basis: 40%;
+
+      margin-left: 4rem;
     }
 
     &__hdr {
@@ -103,8 +116,9 @@
     }
 
     &__content {
-      margin-bottom: $content-margin-btm;
       z-index: 2;
+
+      margin-bottom: $content-margin-btm;
     }
 
     &__bg {
@@ -118,159 +132,212 @@
     }
 
     &__img1-bg {
-      align-self: center;
-      width: 220px;
       top: 0;
+
+      align-self: center;
+
+      width: 220px;
+
       transform: rotate(-180deg);
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
-        width: 300px;
         top: 75%;
+
+        width: 300px;
+
         transform: rotate(360deg);
       }
     }
 
     &__img1 {
-      align-self: center;
-      width: 145px;
       top: -15%;
+
+      align-self: center;
+
+      width: 145px;
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
-        width: 170px;
         top: 71%;
+
+        width: 170px;
       }
     }
 
     &__img2-bg {
-      align-self: center;
-      width: 220px;
       top: 0;
+
+      align-self: center;
+
+      width: 220px;
+
       transform: rotate(-180deg);
       @media (min-width: 800px) {
-        width: 280px;
         top: 71%;
+
+        width: 280px;
+
         transform: rotate(360deg);
       }
     }
 
     &__img2 {
-      align-self: center;
-      width: 120px;
       top: -13%;
+
+      align-self: center;
+
+      width: 120px;
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
-        height: 180px;
-        width: 300px;
         top: 74%;
+
+        width: 300px;
+        height: 180px;
       }
     }
 
     &__img3-bg {
-      align-self: center;
-      width: 330px;
       top: 0;
+
+      align-self: center;
+
+      width: 330px;
       @media (min-width: 800px) {
-        width: 330px;
         top: 0;
         right: 40%;
+
+        width: 330px;
       }
     }
 
     &__img3 {
-      align-self: center;
-      height: 180px;
       top: -15%;
+
+      align-self: center;
+
+      height: 180px;
+
       transform: rotate(-33deg);
       @media (min-width: 800px) {
-        height: 200px;
         top: -11%;
         right: 53%;
+
+        height: 200px;
       }
     }
 
     &__img4-bg {
-      align-self: center;
-      width: 330px;
       top: 0;
+
+      align-self: center;
+
+      width: 330px;
       @media (min-width: 800px) {
         width: 500px;
       }
     }
 
     &__img4 {
-      align-self: center;
-      width: 350px;
       top: -15%;
+
+      align-self: center;
+
+      width: 350px;
+
       transform: rotate(-10deg);
       @media (min-width: 800px) {
-        width: 480px;
         top: -7%;
+
+        width: 480px;
       }
     }
 
     &__img5-bg {
-      align-self: center;
-      width: 350px;
       top: 0;
+
+      align-self: center;
+
+      width: 350px;
       @media (min-width: 800px) {
         width: 450px;
       }
     }
 
     &__img5 {
-      align-self: center;
-      width: 155px;
       top: -30%;
+
+      align-self: center;
+
+      width: 155px;
+
       transform: rotate(11deg);
       @media (min-width: 800px) {
-        width: 155px;
         top: -11%;
+
+        width: 155px;
       }
     }
 
     &__img6-bg {
       width: 0;
       @media (min-width: 800px) {
-        width: 300px;
-        align-self: center;
         bottom: 0;
+
+        align-self: center;
+
+        width: 300px;
       }
     }
 
     &__img6 {
-      align-self: center;
-      width: 260px;
       top: -26.5%;
+
       clip: rect(0px,250px,120px,0px);
+      align-self: center;
+
+      width: 260px;
       @media (min-width: 800px) {
-        clip: rect(0px, 1000px, 1000px, 0px);
-        width: 250px;
         top: 68%;
+
+        clip: rect(0px, 1000px, 1000px, 0px);
+
+        width: 250px;
       }
     }
 
     &__img7-bg {
-      align-self: center;
-      width: 280px;
       top: 0;
+
+      align-self: center;
+
+      width: 280px;
+
       transform: rotate(-180deg);
       @media (min-width: 800px) {
-        align-self: center;
-        width: 400px;
         top: 58.2%;
+
+        align-self: center;
+
+        width: 400px;
+
         transform: rotate(360deg);
       }
     }
 
     &__img7 {
-      align-self: center;
-      width: 120px;
       top: -30%;
+
+      align-self: center;
+
+      width: 120px;
+
       transform: rotate(-18deg);
       @media (min-width: 800px) {
-        align-self: center;
-        height: 220px;
         top: 63%;
+
+        align-self: center;
+
+        height: 220px;
+
         transform: rotate(10deg);
       }
     }
@@ -285,89 +352,92 @@
 
   &__florence {
     display: inline-block;
-    border-radius: 1.5rem;
-    background-color: $color-bubble-mint;
+
     margin: 0.2rem 18% 0.2rem 0.2rem;
     padding: 0.8rem 1.2rem;
+
+    border-radius: 1.5rem;
+    background-color: $color-bubble-mint;
     @media (min-width: 800px) {
       margin: 0.2rem 10% 0.2rem 0.2rem;
     }
 
     &--tail {
       position: relative;
-      border-radius: 1.5rem;
-      background-color: $color-bubble-mint;
+
       margin: 0.2rem 10% 0.2rem 0.2rem;
       padding: 0.8rem 1.2rem;
+
+      border-radius: 1.5rem;
+      background-color: $color-bubble-mint;
       @media (min-width: 800px) {
         margin: 0.2rem 10% 0.2rem 0.2rem;
       }
 
       &:before {
-        content: "";
         position: absolute;
         z-index: -1;
         bottom: -1px;
         left: -7px;
+
         height: 10px;
-        border-right: 30px solid $color-bubble-mint;
-        background: $color-bubble-mint;
-        border-bottom-right-radius: 150px 50px;
+
+        content: "";
         transform: translate(0, -2px) rotate(160deg) scaleY(-1);
+
+        border-right: 30px solid $color-bubble-mint;
+        border-bottom-right-radius: 150px 50px;
+        background: $color-bubble-mint;
       }
     }
   }
 
   &__patient {
     position: relative;
-    border-radius: 1.5rem;
-    background-color: $color-light-blue;
+
+    flex-basis: content;
+
     margin: 0.2rem;
     padding: 0.8rem 1.5rem;
-    flex-basis: content;
+
+    border-radius: 1.5rem;
+    background-color: $color-light-blue;
     @media (min-width: 800px) {
       padding: 0.8rem 1.2rem;
     }
 
     &:before {
-      content: "";
       position: absolute;
       z-index: -1;
-      bottom: -1px;
       right: -7px;
+      bottom: -1px;
+
       height: 10px;
-      border-right: 30px solid $color-light-blue;
-      background: $color-light-blue;
-      border-bottom-right-radius: 150px 50px;
+
+      content: "";
       transform: translate(0, -2px) rotate(40deg);
+
+      border-right: 30px solid $color-light-blue;
+      border-bottom-right-radius: 150px 50px;
+      background: $color-light-blue;
     }
   }
 }
 
 .avatar {
-  width: 38px;
-  background-color: $color-yellow;
-  border-radius: 50%;
   display: block;
+
+  width: 38px;
   margin-top: -38px;
   margin-left: -44px;
+
+  border-radius: 50%;
+  background-color: $color-yellow;
 
   &--1 {
     margin-top: -75px;
     margin-left: -44px;
   }
-
-  &--2 {}
-
-  &--3 {}
-
-  &--4 {}
-
-  &--5 {}
-
-  &--6 {}
-
-  &--7 {}
 }
 
 .emoji {

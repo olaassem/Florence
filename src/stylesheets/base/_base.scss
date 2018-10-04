@@ -3,9 +3,9 @@
 *,
 *::after,
 *::before {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 // a. 1 rem is exactly the root font size
 // b. Root font size is always set in the html selector
@@ -19,23 +19,29 @@ html {
 
 body {
   box-sizing: border-box;
+
   background-color: $color-mint;
 }
 
 .screen-reader {
-  border: 0;
+  position: absolute;
+
+  overflow: hidden;
   clip: rect(0 0 0 0);
+
+  width: 1px;
   height: 1px;
   margin: -1px;
-  overflow: hidden;
   padding: 0;
-  position: absolute;
-  width: 1px;
+
+  border: 0;
 }
 
 ul li {
-  list-style: disc inside none;
   position: relative;
   left: -.1rem;
+
   padding-left: 1rem;
+
+  list-style: disc inside none;
 }
