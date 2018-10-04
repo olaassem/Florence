@@ -32,12 +32,26 @@
     @include problem-marginbtm;
   }
 
+
+  &__row3{
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__quote__wrapper {
-    margin-left: auto;
-    max-width: 20rem;
-    width: 100%;
-    @media (min-width: 650px) {
-      max-width: 45rem;
+    flex-basis: 70%;
+
+    @media (min-width: 450px) {
+      max-width: 35rem;
+
+    }
+
+    @media (min-width: 680px) {
+      flex-basis: 70%;
+    }
+
+    @media (min-width: 750px) {
+      flex-basis: 75%;
     }
   }
 
@@ -53,7 +67,6 @@
   &__bottles__wrapper {
     display: flex;
     flex-basis: 20%;
-    flex-direction: row;
     max-width: 10rem;
     position: relative;
     width: 100%;
@@ -63,7 +76,7 @@
     @include size-and-position(absolute, 150%, -120%, -28%);
 
     @media (min-width: 550px) {
-      @include size-and-position(absolute, 180%, -100%, -62%);
+      @include size-and-position(absolute, 175%, -100%, -62%);
     }
   }
 
@@ -79,7 +92,7 @@
     @include size-and-position(absolute, 180%, -55%, 30%);
 
     @media (min-width: 550px) {
-      @include size-and-position(absolute, 165%, -43%, -20%);
+      @include size-and-position(absolute, 160%, -43%, -25%);
     }
   }
 
@@ -87,11 +100,7 @@
     @include size-and-position(absolute, 100px, 170px, -275px);
 
     @media (min-width: 550px) {
-      @include size-and-position(absolute, 150px, 200px, -200px);
-    }
-
-    @media (min-width: 550px) {
-      @include size-and-position(absolute, 160px, 365px, -290px);
+      @include size-and-position(absolute, 140px, 530px, -470px);
     }
   }
 }
