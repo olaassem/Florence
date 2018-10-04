@@ -5,7 +5,6 @@
   margin: 0 auto;
   position: sticky;
   top: -1px;
-
   @media (min-width: 550px) {
     padding: 2px 0 0 12px;
     position: relative;
@@ -16,15 +15,20 @@
     max-width: 50rem;
     padding: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 5;
 
     a {
-=======
       padding: 1rem 1.5rem;
       box-shadow: inset 0rem 1rem 0rem rgba(0, 0, 0, 0.1);
->>>>>>> length units update
+=======
+      box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
+      padding: 1rem 1.5rem;
+      margin-left: -4px;
+>>>>>>> fixed navigator.scss file
     }
     @media (min-width: 550px) {
+      margin-left: auto;
+      margin-right: auto;
       padding: 0.5rem 0;
 
       a {
@@ -45,10 +49,6 @@
       @media (min-width: 410px) {
         border-bottom-right-radius: 50px;
         border-top-right-radius: 50px;
-=======
-        border-top-right-radius: 5rem;
-        border-bottom-right-radius: 5rem;
->>>>>>> length units update
       }
     }
   }
