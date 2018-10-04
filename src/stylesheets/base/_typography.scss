@@ -1,8 +1,8 @@
 // UNIVERSAL
 .hdr-text {
   @include text( $primary-font, normal, 1.4rem, $color-dark-green );
-  text-transform: uppercase;
   letter-spacing: .2em;
+  text-transform: uppercase;
 
   @media (min-width: 550px) {
     font-size: 1.1rem;
@@ -21,22 +21,22 @@
 
 .context-text {
   @include text( $primary-font, normal, 1.2rem, $color-grey );
+  letter-spacing: .05em;
   line-height: 2rem;
   text-align: center;
-  letter-spacing: .05em;
 
   @media (min-width: 550px) {
     font-size: 1.3rem;
-    text-align: left;
     letter-spacing: none;
+    text-align: left;
   }
 }
 
 // NAVIGATION
 .nav__wrapper a {
   @include text( $primary-font, normal, 1.4rem, $color-mint );
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 
   @media (min-width: 550px) {
     font-size: 1.1rem;
@@ -60,8 +60,8 @@
 
   &__quote {
     @include text( $secondary-font, normal, 1.1rem, $color-brown );
-    text-align: left;
     line-height: 2.2rem;
+    text-align: left;
 
     @media (min-width: 550px) {
       font-size: 1.4rem;
@@ -71,8 +71,8 @@
 
   &__author {
     @include text( $primary-font, bold, .8rem, $color-grey );
-    text-align: left;
     font-style: normal;
+    text-align: left;
 
     @media (min-width: 550px) {
       font-size: 1rem;

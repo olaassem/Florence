@@ -1,80 +1,65 @@
 .problem {
   background-color: $color-mint;
-  display: flex;
-  justify-content: center;
   margin-top: 1.5rem;
+  overflow: hidden;
 
   &__wrapper {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    max-width: 77rem;
     background-color: $color-white;
-    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 77rem;
     padding: 2.5rem 1.5rem;
-
+    position: relative;
+    width: 100%;
     @media (min-width: 550px) {
-      margin: 2rem;
+      margin: 2rem auto;
       padding: 4rem 6.5rem;
+      width: 95%;
     }
-
     @media (min-width: 800px) {
-      margin: 3rem;
+      margin: 3rem auto;
       padding: 5rem 8.5rem;
     }
   }
 
-    &__intro {
-      @include problem-marginbtm;
+  &__intro {
+    @include problem-marginbtm;
+  }
+
+  &__context {
+    @include problem-marginbtm;
+  }
+
+  &__quote__wrapper {
+    position: relative;
+    margin-left: auto;
+    max-width: 20rem;
+    width: 100%;
+    @media (min-width: 650px) {
+      max-width: 45rem;
     }
+  }
 
-    &__context {
-      @include problem-marginbtm;
-      // padding: 0rem 1.5rem;
-    }
+  &__quote {
+    margin-bottom: 25px;
+  }
 
-    &__quote__wrapper {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
+  &__author {}
 
-      margin-left: auto;
-      order: 2;
-      max-width: 20rem;
+  &__bottle1 {
+    @include size-and-position(absolute, 220px, -85px, -100px);
+  }
 
-      @media (min-width: 550px) {
-        margin-left: auto;
-        order: 2;
-        width: 100%;
-        max-width: 45rem;
-      }
-    }
+  &__bottle2 {
+    @include size-and-position(absolute, 120px, -50px, 145px);
+  }
 
-    &__quote {
-      margin-bottom: 25px;
-    }
+  &__bottle3 {
+    @include size-and-position(absolute, 180px, -135px, 50px);
+  }
 
-    &__author {}
-
-    &__bottle1 {
-      @include size-and-position( absolute, 220px, -85px, -100px );
-
-    }
-
-    &__bottle2 {
-      @include size-and-position( absolute, 120px, -50px, 145px );
-    }
-
-    &__bottle3 {
-      @include size-and-position( absolute, 180px, -135px, 50px );
-    }
-
-    &__pills1 {
-      @include size-and-position( absolute, 150px, 485px, 770px );
-    }
+  &__pills1 {
+    @include size-and-position(absolute, 150px, 485px, 770px);
+  }
 }

@@ -3,44 +3,41 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  width: 100vw;
 
   &__wrapper {
+    margin: 4rem auto 1.5rem;
     max-width: 65rem;
-    width: 100%;
-    padding: 0px 20px;
-    margin: 4rem 0rem 1.5rem;
+    padding: 0 20px;
     position: relative;
-
+    width: 100%;
     @media (min-width: 550px) {
       margin: 5rem 4rem 2rem;
     }
 
     &--pills1 {
+      bottom: 40px;
+      left: -100px;
       position: absolute;
       width: 120px;
-      left: -100px;
-      bottom: 40px;
     }
 
     &--pills2 {
-      position: absolute;
       height: 115px;
-      top: -102px;
       left: 40px;
+      position: absolute;
+      top: -102px;
       transform: rotate(40deg);
     }
 
     &--pills3 {
       position: absolute;
-      width: 200px;
       right: -100px;
       top: -65px;
       transform: rotate(8deg);
-
+      width: 200px;
       @media (min-width: 450px) {
-        width: 200px;
         right: -80px;
+        width: 200px;
       }
     }
   }
