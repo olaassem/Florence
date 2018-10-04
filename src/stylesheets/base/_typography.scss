@@ -1,18 +1,16 @@
 // UNIVERSAL
 .hdr-text {
-  @include text( $primary-font, normal, 1.4rem, $color-dark-green );
-  letter-spacing: .2em;
+  @include text($primary-font, normal, 1.4rem, $color-dark-green);
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-
   @media (min-width: 550px) {
     font-size: 1.1rem;
   }
 }
 
 .intro-text {
-  @include text( $secondary-font, normal, 1.7rem, $color-grey );
+  @include text($secondary-font, normal, 1.7rem, $color-grey);
   text-align: center;
-
   @media (min-width: 550px) {
     font-size: 2.1rem;
     text-align: left;
@@ -20,11 +18,10 @@
 }
 
 .context-text {
-  @include text( $primary-font, normal, 1.2rem, $color-grey );
-  letter-spacing: .05em;
+  @include text($primary-font, normal, 1.2rem, $color-grey);
+  letter-spacing: 0.05em;
   line-height: 2rem;
   text-align: center;
-
   @media (min-width: 550px) {
     font-size: 1.3rem;
     letter-spacing: none;
@@ -34,10 +31,9 @@
 
 // NAVIGATION
 .nav__wrapper a {
-  @include text( $primary-font, normal, 1.4rem, $color-mint );
+  @include text($primary-font, normal, 1.4rem, $color-mint);
   text-decoration: none;
   text-transform: uppercase;
-
   @media (min-width: 550px) {
     font-size: 1.1rem;
   }
@@ -46,23 +42,18 @@
 // PROBLEM SECTION
 .problem {
   &__sup {
-    @include text( $primary-font, normal, .7rem, $color-orange-red );
+    @include text($primary-font, normal, 0.7rem, $color-orange-red);
     text-decoration: underline;
 
     &:hover {
       font-weight: bold;
     }
-
-    @media (min-width: 550px) {
-      // font-size: 1.2rem;
-    }
   }
 
   &__quote {
-    @include text( $secondary-font, normal, 1.1rem, $color-brown );
+    @include text($secondary-font, normal, 1.1rem, $color-brown);
     line-height: 2.2rem;
     text-align: left;
-
     @media (min-width: 550px) {
       font-size: 1.4rem;
       text-align: center;
@@ -70,35 +61,12 @@
   }
 
   &__author {
-    @include text( $primary-font, bold, .8rem, $color-grey );
+    @include text($primary-font, bold, 0.8rem, $color-grey);
     font-style: normal;
     text-align: left;
-
     @media (min-width: 550px) {
       font-size: 1rem;
       text-align: center;
     }
   }
 }
-
-
-/////////////////////////////////////////////////////////////////////
-
-// // .large-hdr {
-// //
-// // }
-//
-// .solution__section {
-//
-//   &__content {
-//   font-family: 'Merriweather', serif;
-//   font-weight: 400;
-//   font-size: 18px;
-//   }
-//
-//   &__hdr {
-//     // font-family: Geomanist;
-//     font-weight: 400;
-//     font-size: 20px;
-//   }
-// }
