@@ -3,19 +3,23 @@
   background: linear-gradient($color-medium-blue 5%, $color-mint 90%);
 
   &__wrapper {
-    margin: 0 auto;
-    max-width: 77rem;
-    padding: 2.5rem 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+    padding: 2.5rem 1.5rem 15rem;
     position: relative;
     width: 100%;
 
     @media (min-width: 550px) {
-      margin: 2rem;
-      padding: 4rem 6.5rem;
+      margin: 2rem auto ;
+      padding: 4rem 6.5rem 15rem;
+      width: 95%;
     }
+
     @media (min-width: 800px) {
-      margin: 2rem 2rem 0;
-      padding: 5rem 8.5rem 0;
+      margin: 30px auto 10px;
+      padding: 46px 78px 10px;
     }
   }
 
@@ -56,6 +60,12 @@
       max-width: 77rem;
       min-height: 39.5rem;
       padding: 5rem 8.5rem;
+    }
+
+    &--1 {
+      @media (min-width: 800px) {
+        margin-top: 10px;
+      }
     }
 
     &--2 {

@@ -1,4 +1,4 @@
-// UNIVERSAL
+/*--------- Universal ---------*/
 .hdr-text {
   @include text($primary-font, normal, 1.4rem, $color-dark-green);
   letter-spacing: 0.2em;
@@ -39,7 +39,7 @@ sup a {
   font-size: 1rem;
 }
 
-// NAVIGATION
+/*--------- Navigation ---------*/
 .nav__wrapper a {
   @include text($primary-font, normal, 1.2rem, $color-mint);
   text-decoration: none;
@@ -47,7 +47,7 @@ sup a {
 }
 
 
-// PROBLEM SECTION
+/*--------- Problem Section ---------*/
 .problem {
 
   &__quote {
@@ -70,7 +70,7 @@ sup a {
   }
 }
 
-// FACTORS SECTION
+/*--------- Factors Section ---------*/
 .keyFactors {
   &__hdr,
   &__intro {
@@ -117,7 +117,7 @@ sup a {
   }
 }
 
-//QUESTIONNE
+/*--------- Question Section ---------*/
 .question {
   text-align: center;
 
@@ -136,7 +136,7 @@ sup a {
   }
 }
 
-//CONCEPT
+/*--------- Concept Section ---------*/
 .solution {
   &__hdr {
     text-align: center;
@@ -193,3 +193,8 @@ sup a {
     color: $color-light-blue;
   }
 }
+
+
+/*--------- Closing Section ---------*/
+
+/*--------- Footer ---------*/

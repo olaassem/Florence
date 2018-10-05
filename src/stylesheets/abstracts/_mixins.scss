@@ -1,4 +1,4 @@
-//TYPOGRAPHY
+/*--------- Typography ---------*/
 @mixin text( $family, $weight, $size, $col ) {
   font-family: $family;
   font-weight: $weight;
@@ -6,7 +6,7 @@
   color: $col;
 }
 
-//EFFECTS
+/*--------- Effects ---------*/
 @mixin darken-on-hover( $bg, $percent ) {
   transition: all 0.5s ease-out;
 
@@ -15,11 +15,8 @@
   }
 }
 
-//POSITIONING & DIMENSIONS
 
-//UNIVERSAL
-
-//FLEX
+/*--------- Flex ---------*/
 @mixin flex( $dir:column, $justify-content:center, $align-items:center ) {
   display: flex;
   flex-direction: $dir;
@@ -28,7 +25,7 @@
 }
 
 
-//SECTIONS
+/*--------- Sections ---------*/
 @mixin section-setup ( $bg-col, $margin-top ){
   background-color: $bg-col;
   display: flex;
@@ -37,7 +34,7 @@
 }
 
 
-//PROBLEM
+/*--------- Problem ---------*/
 @mixin size-and-position( $position, $width, $X, $Y ) {
   position: $position;
   width: $width;
@@ -52,7 +49,7 @@
   }
 }
 
-//FACTORS
+/*--------- Factors ---------*/
 @mixin item( $top ) {
   position: absolute;
   background-color: $color-white;
