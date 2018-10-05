@@ -15,12 +15,13 @@ html {
   //Change the root size from px to % so that the user can change font size in browser (increase/decrease) if they want to.
   //The absolute default font size in the browser is always 16px, so -->10/16 = 62.5
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   background-color: $color-mint;
   box-sizing: border-box;
-  overflow: hidden;
+
 }
 
 .screen-reader {
