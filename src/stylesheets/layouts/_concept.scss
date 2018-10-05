@@ -1,17 +1,14 @@
 .solution {
   background: linear-gradient($color-medium-blue 5%, $color-mint 90%);
-
   @include flex;
 
   &__wrapper {
     position: relative;
-
     width: 100%;
     max-width: 77rem;
     height: 100%;
     margin: 0;
     padding: 2.5rem 1.5rem;
-
     @include flex;
     @media (min-width: 550px) {
       margin: 2rem;
@@ -34,11 +31,8 @@
 
     &--top {
       display: block;
-
       padding-bottom: $hdr-padding-btm;
     }
-
-    &--btm {}
   }
 
   &__context {
@@ -46,38 +40,24 @@
   }
 
   &__section {
-    &--1,
-    &--2,
-    &--3,
-    &--4,
-    &--5,
-    &--6,
-    &--7 {
       position: relative;
-
       display: flex;
       align-items: center;
       flex-direction: column;
-
       width: 100%;
       margin: 7rem 0;
       padding: 5rem 1.5rem;
-
       background-color: $color-white;
+
       @media (min-width: 800px) {
         flex-direction: row;
-
         max-width: 77rem;
         min-height: 39.5rem;
         margin: 5rem;
         padding: 5rem 8.5rem;
-
         border-radius: 5px;
         background-color: $color-white;
       }
-    }
-
-    &--1 {}
 
     &--2 {
       @media (min-width: 800px) {
@@ -94,20 +74,16 @@
     &__left {
       display: flex;
       flex-direction: column;
-
       margin: 0;
       @media (min-width: 800px) {
         flex-basis: 50%;
-
         margin-right: 2rem;
       }
     }
 
     &__right {
       z-index: 2;
-
       flex-basis: 40%;
-
       margin-left: 4rem;
     }
 
@@ -117,7 +93,6 @@
 
     &__content {
       z-index: 2;
-
       margin-bottom: $content-margin-btm;
     }
 
@@ -133,63 +108,47 @@
 
     &__img1-bg {
       top: 0;
-
       align-self: center;
-
       width: 220px;
-
       transform: rotate(-180deg);
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
         top: 75%;
-
         width: 300px;
-
         transform: rotate(360deg);
       }
     }
 
     &__img1 {
       top: -15%;
-
       align-self: center;
-
       width: 145px;
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
         top: 71%;
-
         width: 170px;
       }
     }
 
     &__img2-bg {
       top: 0;
-
       align-self: center;
-
       width: 220px;
-
       transform: rotate(-180deg);
       @media (min-width: 800px) {
         top: 71%;
-
         width: 280px;
-
         transform: rotate(360deg);
       }
     }
 
     &__img2 {
       top: -13%;
-
       align-self: center;
-
       width: 120px;
       @media (min-width: 550px) {}
       @media (min-width: 800px) {
         top: 74%;
-
         width: 300px;
         height: 180px;
       }
@@ -197,39 +156,30 @@
 
     &__img3-bg {
       top: 0;
-
       align-self: center;
-
       width: 330px;
       @media (min-width: 800px) {
         top: 0;
         right: 40%;
-
         width: 330px;
       }
     }
 
     &__img3 {
       top: -15%;
-
       align-self: center;
-
       height: 180px;
-
       transform: rotate(-33deg);
       @media (min-width: 800px) {
         top: -11%;
         right: 53%;
-
         height: 200px;
       }
     }
 
     &__img4-bg {
       top: 0;
-
       align-self: center;
-
       width: 330px;
       @media (min-width: 800px) {
         width: 500px;
@@ -238,24 +188,18 @@
 
     &__img4 {
       top: -15%;
-
       align-self: center;
-
       width: 350px;
-
       transform: rotate(-10deg);
       @media (min-width: 800px) {
         top: -7%;
-
         width: 480px;
       }
     }
 
     &__img5-bg {
       top: 0;
-
       align-self: center;
-
       width: 350px;
       @media (min-width: 800px) {
         width: 450px;
@@ -264,15 +208,11 @@
 
     &__img5 {
       top: -30%;
-
       align-self: center;
-
       width: 155px;
-
       transform: rotate(11deg);
       @media (min-width: 800px) {
         top: -11%;
-
         width: 155px;
       }
     }
@@ -281,63 +221,45 @@
       width: 0;
       @media (min-width: 800px) {
         bottom: 0;
-
         align-self: center;
-
         width: 300px;
       }
     }
 
     &__img6 {
       top: -26.5%;
-
       clip: rect(0px,250px,120px,0px);
       align-self: center;
-
       width: 260px;
       @media (min-width: 800px) {
         top: 68%;
-
         clip: rect(0px, 1000px, 1000px, 0px);
-
         width: 250px;
       }
     }
 
     &__img7-bg {
       top: 0;
-
       align-self: center;
-
       width: 280px;
-
       transform: rotate(-180deg);
       @media (min-width: 800px) {
         top: 58.2%;
-
         align-self: center;
-
         width: 400px;
-
         transform: rotate(360deg);
       }
     }
 
     &__img7 {
       top: -30%;
-
       align-self: center;
-
       width: 120px;
-
       transform: rotate(-18deg);
       @media (min-width: 800px) {
         top: 63%;
-
         align-self: center;
-
         height: 220px;
-
         transform: rotate(10deg);
       }
     }
@@ -352,22 +274,26 @@
 
   &__florence {
     display: inline-block;
-
     margin: 0.2rem 18% 0.2rem 0.2rem;
     padding: 0.8rem 1.2rem;
-
     border-radius: 1.5rem;
     background-color: $color-bubble-mint;
+
     @media (min-width: 800px) {
       margin: 0.2rem 10% 0.2rem 0.2rem;
     }
 
+    ul li {
+      left: -10px;
+      list-style: disc inside none;
+      padding-left: 10px;
+      position: relative;
+    }
+
     &--tail {
       position: relative;
-
       margin: 0.2rem 10% 0.2rem 0.2rem;
       padding: 0.8rem 1.2rem;
-
       border-radius: 1.5rem;
       background-color: $color-bubble-mint;
       @media (min-width: 800px) {
@@ -379,12 +305,9 @@
         z-index: -1;
         bottom: -1px;
         left: -7px;
-
         height: 10px;
-
         content: "";
         transform: translate(0, -2px) rotate(160deg) scaleY(-1);
-
         border-right: 30px solid $color-bubble-mint;
         border-bottom-right-radius: 150px 50px;
         background: $color-bubble-mint;
@@ -394,12 +317,9 @@
 
   &__patient {
     position: relative;
-
     flex-basis: content;
-
     margin: 0.2rem;
     padding: 0.8rem 1.5rem;
-
     border-radius: 1.5rem;
     background-color: $color-light-blue;
     @media (min-width: 800px) {
@@ -411,12 +331,9 @@
       z-index: -1;
       right: -7px;
       bottom: -1px;
-
       height: 10px;
-
       content: "";
       transform: translate(0, -2px) rotate(40deg);
-
       border-right: 30px solid $color-light-blue;
       border-bottom-right-radius: 150px 50px;
       background: $color-light-blue;
@@ -426,11 +343,9 @@
 
 .avatar {
   display: block;
-
   width: 38px;
   margin-top: -38px;
   margin-left: -44px;
-
   border-radius: 50%;
   background-color: $color-yellow;
 
