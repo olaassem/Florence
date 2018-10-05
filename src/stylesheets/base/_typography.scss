@@ -1,5 +1,4 @@
 // UNIVERSAL
-
 .hdr-text {
   @include text($primary-font, normal, 1.4rem, $color-dark-green);
   letter-spacing: 0.2em;
@@ -30,38 +29,26 @@
   }
 }
 
-.a-sup {
-  @include text($primary-font, normal, 1rem, $color-orange-red);
-
-  &:hover {
-    font-weight: bold;
-  }
-  @media (min-width: 550px) {
-    font-size: 1rem;
-  }
-}
-
 .large-hdr {
   @include text($secondary-font, normal, 4rem, $color-white);
 }
-// NAVIGATION
 
+sup a {
+  font-family: $primary-font;
+  color: $color-orange-red;
+  font-size: 1rem;
+}
+
+// NAVIGATION
 .nav__wrapper a {
   @include text($primary-font, normal, 1.2rem, $color-mint);
   text-decoration: none;
   text-transform: uppercase;
 }
+
+
 // PROBLEM SECTION
-
 .problem {
-  &__sup {
-    @include text($primary-font, normal, 0.7rem, $color-orange-red);
-    text-decoration: underline;
-
-    &:hover {
-      font-weight: bold;
-    }
-  }
 
   &__quote {
     @include text($secondary-font, normal, 1.4rem, $color-brown);
