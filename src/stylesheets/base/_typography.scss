@@ -23,6 +23,7 @@
   letter-spacing: 0.05em;
   line-height: 2rem;
   text-align: center;
+
   @media (min-width: 550px) {
     text-align: left;
     letter-spacing: none;
@@ -70,7 +71,7 @@
     line-height: 2.2rem;
     text-align: left;
 
-    @media (min-width: 550px) {
+    @media (min-width: 500px) {
       font-size: 1.4rem;
       text-align: center;
     }
@@ -79,9 +80,8 @@
   &__author {
     @include text($primary-font, bold, 1.4rem, $color-grey);
     font-style: normal;
-    text-align: left;
 
-    @media (min-width: 550px) {
+    @media (min-width: 500px) {
       font-size: 1.1rem;
       text-align: center;
     }
