@@ -18,30 +18,25 @@ html {
 }
 
 body {
-  box-sizing: border-box;
-
   background-color: $color-mint;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .screen-reader {
-  position: absolute;
-
-  overflow: hidden;
+  border: 0;
   clip: rect(0 0 0 0);
-
-  width: 1px;
   height: 1px;
   margin: -1px;
+  overflow: hidden;
   padding: 0;
-
-  border: 0;
+  position: absolute;
+  width: 1px;
 }
 
 ul li {
-  position: relative;
   left: -.1rem;
-
-  padding-left: 1rem;
-
   list-style: disc inside none;
+  padding-left: 1rem;
+  position: relative;
 }
