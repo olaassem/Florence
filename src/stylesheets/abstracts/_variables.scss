@@ -21,20 +21,18 @@ $color-bubble-mint: #e2ebe9;
 
 @font-face {
   font-family: 'Geomanist';
+  font-style: normal;
   font-weight: normal;
-  src: local(Geomanist),
-       url(../src/fonts/geomanist-regular-webfont.woff2) format('woff2'),
-       url(../src/fonts/geomanist-regular-webfont.woff) format('woff'),
-       url(../src/fonts/geomanist-regular-webfont.ttf) format('truetype');
+  src: url(/assets/fonts/geomanist-regular-webfont.woff2) format('woff2'),
+       url(/assets/fonts/geomanist-regular-webfont.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Geomanist';
+  font-style: normal;
   font-weight: bold;
-  src: local(Geomanist),
-       url(../src/fonts/geomanist-medium-webfont.woff2) format('woff2'),
-       url(../src/fonts/geomanist-medium-webfont.woff) format('woff'),
-       url(../src/fonts/Geomanist-Medium.ttf) format('truetype');
+  src: url(/assets/fonts/geomanist-medium-webfont.woff2) format('woff2'),
+       url(/assets/fonts/geomanist-medium-webfont.woff) format('woff');
 }
 
 $primary-font: 'Geomanist', serif;
