@@ -38,18 +38,14 @@ sup a {
   color: $color-orange-red;
   font-size: 1rem;
 }
-
 /*--------- Navigation ---------*/
 .nav__wrapper a {
   @include text($primary-font, normal, 1.2rem, $color-mint);
   text-decoration: none;
   text-transform: uppercase;
 }
-
-
 /*--------- Problem Section ---------*/
 .problem {
-
   &__quote {
     @include text($secondary-font, normal, 1.4rem, $color-brown);
     line-height: 2.2rem;
@@ -69,7 +65,6 @@ sup a {
     }
   }
 }
-
 /*--------- Factors Section ---------*/
 .keyFactors {
   &__hdr,
@@ -116,7 +111,6 @@ sup a {
     }
   }
 }
-
 /*--------- Question Section ---------*/
 .question {
   text-align: center;
@@ -129,13 +123,11 @@ sup a {
   &__context {
     color: $color-dark-blue;
     text-align: center;
-
     @media (min-width: 550px) {
       text-align: left;
     }
   }
 }
-
 /*--------- Concept Section ---------*/
 .solution {
   &__hdr {
@@ -157,11 +149,14 @@ sup a {
 
   &__section {
     &__hdr {
-      @include text($primary-font, bold, 1.6rem, $color-light-blue);
-      text-transform: uppercase;
+      @include text($primary-font, bold, 1.8rem, $color-light-blue);
+      letter-spacing: 0.2rem;
       text-align: center;
+      text-transform: uppercase;
       z-index: 2;
-      @media (min-width: 500px) {
+
+      @media (min-width: 550px) {
+        font-size: 1.6rem;
         text-align: left;
       }
     }
@@ -170,7 +165,7 @@ sup a {
       @include text($secondary-font, normal, 1.4rem, $color-grey);
       line-height: 2.4rem;
       text-align: center;
-      @media (min-width: 500px) {
+      @media (min-width: 550px) {
         @include text($secondary-font, normal, 1.4rem, $color-grey);
         line-height: 2.4rem;
         text-align: left;
@@ -181,8 +176,12 @@ sup a {
 
 .bubble {
   &__florence {
-    @include text($primary-font, normal, 1.2rem, $color-grey);
+    @include text($primary-font, normal, 1.3rem, $color-grey);
     line-height: 1.5rem;
+
+    @media (min-width: 550px){
+      font-size: 1.2rem;
+    }
   }
 
   &__patient {
@@ -193,8 +192,5 @@ sup a {
     color: $color-light-blue;
   }
 }
-
-
 /*--------- Closing Section ---------*/
-
 /*--------- Footer ---------*/

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Viget Labs, LLC" />
+  <link rel="shortcut icon" type="image/png" href="">
+  <title>Florence</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/stylesheets/app.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+</head>
+
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.24.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+  <header role="banner" class="header">
+    <div class="header__wrapper">
+      <h1 class="header__primary">
+        <span class="header__primary--top hdr-text">A Viget Exploration</span>
+        <img class="header__primary--btm" src="assets/images/title.svg" alt="improving medical adherence">
+      </h1>
+      <img class="header__wrapper--pills1" src="assets/images/pills.svg" alt="">
+      <img class="header__wrapper--pills2" src="assets/images/yellow-pill.svg" alt="">
+      <img class="header__wrapper--pills3" src="assets/images/more-pills.svg" alt="">
+    </div>
+  </header>
+
+ <nav role="navigation" class="nav">
+    <div class="nav__wrapper">
+      <a class="nav__link--problem red-nav" href="#problem-section">The problem</a>
+      <a class="nav__link--keyFactors red-nav" href="#keyFactors-section">Key factors</a>
+      <a class="nav__link--question red-nav" href="#question-section">The question</a>
+      <a class="nav__link--solution blue-nav" href="#solution-section">The solution</a>
+    </div>
+  </nav>
+
+<section id="problem-section" class="problem">
+    <div class="problem__wrapper">
+      <img class="problem__pills1" src="assets/images/purple-pills.svg" alt="">
+      <h2 class="screen-reader">The problem</h2>
+      <p class="problem__intro intro-text">
+        Patients who don’t take medication as prescribed are at risk of worsening health, increased hospitalization, and a greater chance of mortality.
+      </p>
+      <p class="problem__context context-text">
+        Just in the U.S., non-adherence has been attributed to over $100 billion dollars in avoidable healthcare costs.<span><sup class="problem__sup"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934668/" target="_blank">1</a></sup></span>
+        &nbsp; In developed countries, among patients with chronic illness, approximately 50% do not take medications as prescribed.<span><sup class="problem__sup"><a href="http://www.who.int/" target="_blank">2</a></sup</span>
+      </p>
+      <div class="problem__quote__wrapper">
+        <div class="problem__bottles__wrapper">
+          <img class="problem__bottle1" src="assets/images/pill-bottle3.svg" alt="">
+          <img class="problem__bottle2" src="assets/images/pill-bottle2.svg"  alt="">
+          <img class="problem__bottle3" src="assets/images/section2-illo.svg" alt="">
+        </div>
+        <blockquote class="problem__quote" cite="http://apps.who.int/medicinedocs/en/d/Js4883e/5.html">
+          <p>"Increasing the effectiveness of adherence interventions might have a greater impact on the health of the population than any improvement in specific medical treatment."</p>
+        </blockquote>
+        <cite class="problem__author">
+          World Health Organization, 2005
+          <sup class="problem__sup"><a href="http://www.who.int/" target="_blank">3</a></sup>
+        </cite>
+      </div>
+    </div>
+  </section>
+
+<!-- <section id="keyFactors-section" class="keyFactors">
+    <div class="keyFactors__wrapper">
+      <h2 class="keyFactors__hdr hdr-text">Why people don't adhere</h2>
+      <p class="keyFactors__intro intro-text">A myriad of factors conspire to prevent people from sticking to their treatment programs. But a few are most telling.</p>
+      <!-- <div class="keyFactors__list">
+        <img class="keyFactors__list__bodyimg" src="assets/images/body.svg" alt="human body vector">
+        <div class="keyFactors__list__item--1">
+          <svg class="icon icon--left" viewBox="0 0 50 50"><use xlink:href='assets/images/icons.svg#gears'></use></svg>
+          <h3 class="keyFactors__list__hdr">Comprehension</h3>
+          <p class="keyFactors__list__content">“All of that medical jargon doesn’t make much sense to me but I don’t want to bother the doctor with my silly questions.”</p>
+        </div>
+        <div class="keyFactors__list__item--2">
+          <svg class="icon icon--right" viewBox="0 0 1 1"><use xlink:href="assets/images/icons.svg#heart"></use></svg>
+          <h3 class="keyFactors__list__hdr">Denial</h3>
+          <p class="keyFactors__list__content">“I feel just fine. I don’t know why that doctor thinks I’m sick. Why would I take medicine that I don’t need?”</p>
+        </div>
+        <div class="keyFactors__list__item--3">
+          <svg class="icon icon--left" viewBox="0 0 1 1"><use xlink:href='assets/images/icons.svg#dollar'></use></svg>
+          <h3 class="keyFactors__list__hdr">Cost</h3>
+          <p class="keyFactors__list__content">“I took my prescription to the pharmacy but they said it would cost several hundred dollars! I just couldn’t afford it.”</p>
+        </div>
+        <div class="keyFactors__list__item--4">
+          <svg class="icon icon--right" viewBox="0 0 50 50"><use xlink:href='assets/images/icons.svg#tally'></use></svg>
+          <h3 class="keyFactors__list__hdr">Complexity</h3>
+          <p class="keyFactors__list__content">“Taking 15 medications every day is tough. Especially since they all have different instructions. How am I supposed to keep track of everything?”</p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+<section id="question-section" class="question">
+    <div class="question__wrapper">
+      <div class="question__hdr__wrapper">
+        <h2 class="question__hdr hdr-text">The Question</h2>
+        <img class="question__phone" src="assets/images/phone.svg" alt="mobile phone">
+      </div>
+      <p class="question__intro intro-text">How can technology help patients deal with these factors, so they adhere more accurately and consistently?</p>
+      <p class="question__context context-text">Access was our primary concern. Smartphone adoption is growing but 35% of the U.S. population still doesn’t own one. <sup class="question__sup"><a href="http://www.who.int/" target="_blank">4</a></sup> Smartphones offer many additional features but impose a barrier
+        of entry that seemed too high. Reliance on personal computers is also problematic, especially among disadvantaged patients. </p>
+      <p class="question__context context-text">We narrowed our exploration to technology that was pervasive and familiar. Nearly 9 out of 10 American adults use a phone capable of texting. <sup class="question__sup"><a href="http://www.who.int/" target="_blank">5</a></sup> Furthermore, adherence studies using
+        text reminders show promising results.
+        <sup class="question__sup"><a href="http://www.who.int/" target="_blank">6</a></sup> Texting shows the potential to address difficult issues around the world and across verticals. In Libya, the development of the world’s first SMS voter registration system led
+        to 1.5 million voter registrations.
+        <sup class="question__sup"><a href="http://www.who.int/" target="_blank">7</a></sup>
+      </p>
+      <p class="question__context context-text">Could texts be used not only to send reminders but also to build an ongoing two-way dialogue with a trusted health partner? Would this conversation help improve medication adherence?</p>
+    </div>
+  </section>
+
+  <section id="solution-section" class="solution">
+    <div class="solution__wrapper">
+      <img class="solution__florence" src="assets/images/florence.svg" alt="Florence">
+      <h2 class="solution__hdr">
+        <span class="solution__hdr--top hdr-text">The concept</span>
+        <span class="solution__hdr--btm large-hdr">Meet Florence</span>
+      </h2>
+      <p class="solution__context context-text">Our explorations led to the concept of Florence — a personal companion that would help patients understand and manage their medication regimen. A chatbot at heart, patients would converse with her through text and picture messages.</p>
+      <p class="solution__context context-text">If developed, a simple, familiar interface would hide her powerful intelligence. Behind the scenes, machine learning and behavioral modeling would enable her to offer a tailored, human experience based on each patient’s needs.</p>
+    </div>
+
+    <section class="solution__section solution__section--1">
+      <div class="solution__section__left">
+        <h3 class="solution__section__hdr">She gets to know you.</h3>
+        <p class="solution__section__content">Florence strikes up a conversation, learning details about your life, health, goals, and preferences in an engaging, human way.</p>
+        <p class="solution__section__content">This conversation unfolds over time, making this feel less like twenty questions and more like the start of a relationship.</p>
+        <img class="solution__section__img1-bg solution__section__bg" src="assets/images/section1-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img1 solution__section__img" src="assets/images/section1-illo.svg" alt="mug with steam">
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation between Florence and a patient</p>
+          <ol class="bubble">
+            <li class="bubble__general bubble__florence">Hi! I'm Florence. What's your name?</li>
+            <li class="bubble__wrapper">
+              <div class="bubble__general bubble__patient">Mike</div>
+            </li>
+            <li class="bubble__general bubble__florence">Nice to meet you, Mike. I can help you set up your account with a few simple questions.</li>
+            <li class="bubble__general bubble__florence">You can answer these now or whenever you like. I'm always here!</li>
+            <li class="bubble__general bubble__florence bubble__florence--tail">First question: how old are you?</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__general bubble__patient">65</li>
+            </div>
+          </ol>
+        </figure>
+        <img class="avatar avatar--1" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--2">
+      <div class="solution__section__left">
+        <h3 class="solution__section__hdr">She keeps track of your regimen.</h3>
+        <p class="solution__section__content">Florence helps you remember what to take and when. Image recognition makes adding your medication as easy as taking a picture.</p>
+        <img class="solution__section__img2-bg solution__section__bg" src="assets/images/section2-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img2 solution__section__img" src="assets/images/section2-illo.svg" alt="pill bottle">
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation between Florence and a patient</p>
+            <ol class="bubble">
+              <li class="bubble__general bubble__florence">Let’s get started adding your medications.</li>
+              <li class="bubble__general bubble__florence">Message me a picture of the bottle label and I’ll add it. You can also type in the name if you want.</li>
+              <div class="bubble__wrapper">
+                <li class="bubble__general bubble__patient"><img src="assets/images/med-bottle.png" alt="pill bottle" /></li>
+              </div>
+              <li class="bubble__general bubble__florence">Here's what I got:
+                <ul>
+                  <li><span>Coumadin 5mg</span></li>
+                  <li><span>Take one tablet daily</span></li>
+                  <li><span>Prescribed by Dr. Ruth Parker</span></li>
+                  <li><span>Pharmacy: Rite Aid #25335</span></li>
+                </ul>
+              </li>
+              <li class="bubble__general bubble__florence">Is that right?</li>
+              <div class="bubble__wrapper">
+                <li class="bubble__general bubble__patient">Yep</li>
+              </div>
+              <li class="bubble__general bubble__florence bubble__florence--tail">Ok, added</li>
+            </ol>
+        </figure>
+        <img class="avatar avatar--2" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--3">
+      <div class="solution__section__left">
+        <img class="solution__section__img3-bg solution__section__bg" src="assets/images/section3-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img3 solution__section__img" src="assets/images/section3-illo.svg" alt="thermometer">
+        <h3 class="solution__section__hdr">She checks up on you.</h3>
+        <p class="solution__section__content">As you start taking new medications, Florence will follow up to see if you’re experiencing side effects.</p>
+        <p class="solution__section__content">She can offer additional information to help you understand if your experience is typical—or if you should talk with your doctor..</p>
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation between Florence and a patient</p>
+          <ol class="bubble">
+            <li class="bubble__general bubble__florence">It’s been three days since you started taking Lisinopril. How’re you feeling?</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__general bubble__patient">a little weak and lightheaded</li>
+            </div>
+            <li class="bubble__general bubble__florence">Feeling lightheaded is a common side effect of Lisinopril. But you should let Dr. Ruth Parker know as soon as possible</li>
+            <li class="bubble__general bubble__florence bubble__florence--tail">Here’s her number: <a class="bubble__number" href="tel:1-919-232-0232">(919) 545-2020</a></li>
+          </ol>
+        </figure>
+        <img class="avatar avatar--3" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--4">
+      <div class="solution__section__left">
+        <img class="solution__section__img4-bg solution-bg solution__section__bg" src="assets/images/section4-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img4 solution-img solution__section__img" src="assets/images/section4-illo.svg" alt="weekly tablet organizer">
+        <h3 class="solution__section__hdr">She helps you remember.</h3>
+        <p class="solution__section__content">With complex regimens, days often blur together. Florence will show you what you’ve taken today — and what’s left to take. </p>
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation between Florence and a patient</p>
+          <ol class="bubble">
+            <div class="bubble__wrapper">
+              <li class="bubble__general bubble__patient">did I take my meds today?</li>
+            </div>
+            <li class="bubble__general bubble__florence bubble__florence--tail">
+              Here's what I have for you today:
+              <ol class="no-numbers">
+                <li>Morning:</li>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Lisinopril</li>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Coumadin</li>
+                <li><img class="emoji" src="assets/images/check.svg" alt="green check mark emoji">Zoloft</li>
+                <li>Evening:</li>
+                <li><img class="emoji" src="assets/images/x-mark.svg" alt="red cross mark emoji">Lipitor</li>
+              </ol>
+            </li>
+          </ol>
+        </figure>
+        <img class="avatar avatar--4" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--5">
+      <div class="solution__section__left">
+        <img class="solution__section__img5-bg solution__section__bg" src="assets/images/dollar-bills-bg.png" alt="background paint splash">
+        <img class="solution__section__img5 solution__section__img" src="assets/images/dollar-bills.png" alt="dollars">
+        <h3 class="solution__section__hdr">She finds you deals.</h3>
+        <p class="solution__section__content">Because Florence knows your regimen, she can find you ways to reduce the cost of care.</p>
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation between Florence and a patient</p>
+          <ol class="bubble">
+            <li class="bubble__general bubble__florence">BTW, Walmart is now offering $4 generics. Choosing warfarin, the generic form of Coumadin, would save you $15. I'll remind you when when you're up for a refill.</li>
+            <div class="bubble__wrapper">
+              <li class="bubble__general bubble__patient">Thanks</li>
+            </div>
+            <li class="bubble__general bubble__florence bubble__florence--tail">Certainly</li>
+          </ol>
+        </figure>
+        <img class="avatar avatar--5" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--6">
+      <div class="solution__section__left">
+        <h3 class="solution__section__hdr">She cheers you on.</h3>
+        <p class="solution__section__content">Florence can send you occasional notes of encouragement to keep you motivated.</p>
+        <p class="solution__section__content">For patients with asymptomatic conditions, this offers a sense of progress.</p>
+        <img class="solution__section__img6-bg solution__section__bg" src="assets/images/section6-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img6 solution__section__img" src="assets/images/section6-illo.svg" alt="Florence holding a GO sign">
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text from Florence to a patient</p>
+          <ol class="bubble">
+            <li class="bubble__general bubble__florence">Hey Mike! Nice job, your cholesterol is down 20%.</li>
+            <li class="bubble__general bubble__florence bubble__florence--tail">Treat yourself to something nice! <img class="emoji" src="assets/images/smile.svg" alt="smile emoji"></li>
+          </ol>
+        </figure>
+        <img class="avatar avatar--6" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+      </div>
+    </section>
+
+    <section class="solution__section solution__section--7">
+      <div class="solution__section__left">
+        <h3 class="solution__section__hdr">She keeps you honest.</h3>
+        <p class="solution__section__content">If Florence notices you’re not staying on top of your plan, she can message family members or others in your support network.</p>
+        <img class="solution__section__img7-bg solution__section__bg" src="assets/images/section7-illo-bg.jpg" alt="background paint splash">
+        <img class="solution__section__img7 solution__section__img" src="assets/images/section7-illo.svg" alt="telephone handset">
+      </div>
+      <div class="solution__section__right">
+        <figure>
+          <p class="screen-reader">An example text conversation from Florence to a patient's sister</p>
+          <ol class="bubble">
+            <li class="bubble__general bubble__florence bubble__florence--tail">Hi Kim, this is an automated message from FlorenceApp.io Your brother Mike hasn't taken his meds in three days. You might want to give him a call. <a class="bubble__number" href="">(919) 232-0232</a></li>
+          </ol>
+          <img class="avatar avatar--7" src="assets/images/florence-avatar.svg" alt="Florence avatar">
+
+        </figure>
+      </div>
+    </section>
+
+  <!-- <section class="closing">
+      <div class="closing__wrapper">
+        <h2 class="large-hdr">In Closing</h2>
+        <p class="closing__context context-text">Our concept, Florence, attempts to address significant causes of non-adherence from a patient’s perspective, and through the use of technology.</p>
+        <p class="closing__context context-text">The problem of non-adherence, however is broader than those factors. This problem needs to be approached from multiple dimensions: socio-economic, education, healthcare access, and treatment models—to name a few. Technology is just one means of
+          attack, not the only one.</p>
+        <p class="closing__context context-text">If you’re interested in learning more about this problem, we encourage you to read the <a href="http://www.who.int/chp/knowledge/publications/adherence_full_report.pdf" target="_blank">World Health Organization’s report Evidence for Action</a>. It provides a
+          digestible overview and deep analysis into the problem.</p>
+        <img class="report-img" src="assets/images/book.png" alt="World Health Organization report cover">
+      </div>
+    </section>
+  </section>
+
+  <footer role="contentinfo" class="footer">
+    <h2>
+      <span class="footer__hdr--1">An exploration by </span>
+        <img class="footer__hdr--2" src="assets/images/viget-logo.svg" alt="Florence wearing a cape">
+        <span class="footer__hdr--3">viget</span>
+    </h2>
+    <p class="footer__context">At Viget, we’re continually thinking about how we can help shape and improve the experiences around us and make the world a better place — whether that’s through the technology solutions we deliver to our clients or through conceptual explorations
+      like Florence.</p>
+    <a class="footer__link" href="https://www.viget.com/contact/">Contact Us</a>
+    <img class="footer__avatar" src="assets/images/florence.svg" alt="Florence wearing a cape">
+  </footer> -->
+</body>
+
+</html>
