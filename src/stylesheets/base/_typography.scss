@@ -38,12 +38,14 @@ sup a {
   color: $color-orange-red;
   font-size: 1rem;
 }
+
 /*--------- Navigation ---------*/
 .nav__wrapper a {
   @include text($primary-font, normal, 1.2rem, $color-mint);
   text-decoration: none;
   text-transform: uppercase;
 }
+
 /*--------- Problem Section ---------*/
 .problem {
   &__quote {

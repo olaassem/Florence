@@ -10,7 +10,6 @@
     padding: 25px 15px 40px;
     position: relative;
     width: 100%;
-
     @media (min-width: 550px) {
       margin: 20px auto;
       padding: 40px 65px 0;
@@ -95,7 +94,6 @@
       padding: 5px 50px 10px;
       margin-right: -30px;
       max-width: 420px;
-
       @media (min-width: 550px) {
         flex-basis: 40%;
         margin-left: 40px;
@@ -118,20 +116,24 @@
     &__bg {
       position: absolute;
       z-index: 0;
+      top: 0;
+      align-self: center;
+      @media (min-width: 550px) {
+        top: auto;
+        bottom: 0;
+      }
     }
 
     &__img {
       position: absolute;
       z-index: 1;
+      align-self: center;
     }
 
     &__img1-bg {
-      align-self: center;
-      top: 0;
       transform: rotate(-180deg);
       width: 190px;
       @media (min-width: 550px) {
-        top: 74%;
         transform: rotate(360deg);
         width: 250px;
       }
@@ -148,88 +150,73 @@
     }
 
     &__img2-bg {
-      align-self: center;
-      top: 0;
       transform: rotate(-180deg);
-      width: 220px;
+      width: 180px;
       @media (min-width: 550px) {
-        top: 71%;
         transform: rotate(360deg);
-        width: 280px;
+        width: 260px;
       }
     }
 
     &__img2 {
-      align-self: center;
-      top: -13%;
-      width: 120px;
+      top: -80px;
+      width: 100px;
       @media (min-width: 550px) {
-        height: 180px;
-        top: 74%;
-        width: 300px;
+        top: auto;
+        bottom: -40px;
+        width: 120px;
       }
     }
 
     &__img3-bg {
-      align-self: center;
+      width: 290px;
       top: 0;
-      width: 330px;
       @media (min-width: 550px) {
-        right: 40%;
-        top: 0;
-        width: 330px;
+        right: 30%;
+        width: 300px;
       }
     }
 
     &__img3 {
-      align-self: center;
-      height: 180px;
+      height: 150px;
       top: -15%;
       transform: rotate(-33deg);
       @media (min-width: 550px) {
-        height: 200px;
-        right: 53%;
+        right: 50%;
         top: -11%;
       }
     }
 
     &__img4-bg {
-      align-self: center;
       top: 0;
       width: 330px;
       @media (min-width: 550px) {
-        width: 500px;
+        width: 400px;
       }
     }
 
     &__img4 {
-      align-self: center;
-      top: -15%;
+      top: -18%;
       transform: rotate(-10deg);
-      width: 350px;
+      width: 330px;
       @media (min-width: 550px) {
         top: -7%;
-        width: 480px;
+        width: 380px;
       }
     }
 
     &__img5-bg {
-      align-self: center;
       top: 0;
       width: 350px;
-      @media (min-width: 550px) {
-        width: 450px;
-      }
     }
 
     &__img5 {
-      align-self: center;
-      top: -30%;
+      top: -28%;
       transform: rotate(11deg);
-      width: 155px;
+      width: 130px;
       @media (min-width: 550px) {
-        top: -11%;
-        width: 155px;
+        top: -10%;
+        width: 135px;
       }
     }
 
@@ -237,46 +224,35 @@
       width: 0;
       @media (min-width: 550px) {
         align-self: center;
-        bottom: 0;
-        width: 300px;
+        width: 270px;
       }
     }
 
     &__img6 {
-      align-self: center;
-      clip: rect(0px,250px,120px,0px);
-      top: -26.5%;
-      width: 260px;
+      clip: rect(0px, 230px, 110px, 0px);
+      top: -110px;
+      width: 230px;
       @media (min-width: 550px) {
-        clip: rect(0px, 1000px, 1000px, 0px);
-        top: 68%;
-        width: 250px;
+        top: auto;
+        bottom: -171px;
       }
     }
 
     &__img7-bg {
-      align-self: center;
-      top: 0;
       transform: rotate(-180deg);
-      width: 280px;
+      width: 200px;
       @media (min-width: 550px) {
-        align-self: center;
-        top: 58.2%;
         transform: rotate(360deg);
-        width: 400px;
+        width: 300px;
       }
     }
 
     &__img7 {
-      align-self: center;
-      top: -30%;
-      transform: rotate(-18deg);
-      width: 120px;
+      top: -25%;
+      width: 80px;
       @media (min-width: 550px) {
-        align-self: center;
-        height: 220px;
         top: 63%;
-        transform: rotate(10deg);
+        transform: rotate(7deg);
       }
     }
   }
