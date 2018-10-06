@@ -91,16 +91,16 @@
     }
 
     &__right {
-      padding: 5px 50px 10px;
       margin-right: -30px;
       max-width: 420px;
+      padding: 5px 50px 10px;
       @media (min-width: 550px) {
+        align-self: center;
         flex-basis: 40%;
         margin-left: 40px;
         margin-right: auto;
-        z-index: 2;
-        align-self: center;
         padding: 0;
+        z-index: 2;
       }
     }
 
@@ -114,20 +114,20 @@
     }
 
     &__bg {
-      position: absolute;
-      z-index: 0;
-      top: 0;
       align-self: center;
+      position: absolute;
+      top: 0;
+      z-index: 0;
       @media (min-width: 550px) {
-        top: auto;
         bottom: 0;
+        top: auto;
       }
     }
 
     &__img {
+      align-self: center;
       position: absolute;
       z-index: 1;
-      align-self: center;
     }
 
     &__img1-bg {
@@ -140,7 +140,6 @@
     }
 
     &__img1 {
-      align-self: center;
       top: -90px;
       width: 125px;
       @media (min-width: 550px) {
@@ -162,15 +161,15 @@
       top: -80px;
       width: 100px;
       @media (min-width: 550px) {
-        top: auto;
         bottom: -40px;
+        top: auto;
         width: 120px;
       }
     }
 
     &__img3-bg {
-      width: 290px;
       top: 0;
+      width: 290px;
       @media (min-width: 550px) {
         right: 30%;
         width: 300px;
@@ -233,8 +232,8 @@
       top: -110px;
       width: 230px;
       @media (min-width: 550px) {
-        top: auto;
         bottom: -171px;
+        top: auto;
       }
     }
 
@@ -267,9 +266,9 @@
   &__general {
     background-color: $color-bubble-mint;
     border-radius: 1rem;
-    position: relative;
-    padding: 8px 12px;
     margin: 2px 18% 2px 2px;
+    padding: 8px 12px;
+    position: relative;
   }
 
   &__florence {
@@ -286,6 +285,8 @@
     }
 
     &--tail {
+      z-index: 1;
+
       &:before {
         background: $color-bubble-mint;
         border-bottom-right-radius: 150px 50px;
@@ -306,6 +307,7 @@
     flex-basis: content;
     margin: 2px;
     padding: 8px 15px;
+    z-index: 1;
 
     &:before {
       background: $color-light-blue;
@@ -319,6 +321,7 @@
       transform: translate(0, -2px) rotate(40deg);
       z-index: -1;
     }
+
     @media (min-width: 800px) {
       padding: 8px 12px;
     }
