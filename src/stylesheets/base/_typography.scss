@@ -67,6 +67,7 @@ sup a {
     }
   }
 }
+
 /*--------- Factors Section ---------*/
 .keyFactors {
   &__hdr,
@@ -113,6 +114,7 @@ sup a {
     }
   }
 }
+
 /*--------- Question Section ---------*/
 .question {
   text-align: center;
@@ -130,6 +132,7 @@ sup a {
     }
   }
 }
+
 /*--------- Concept Section ---------*/
 .solution {
   &__hdr {
@@ -194,5 +197,31 @@ sup a {
     color: $color-light-blue;
   }
 }
+
 /*--------- Closing Section ---------*/
+.closing {
+
+  &__hdr {
+    color: $color-dark-blue;
+    text-align: center;
+  }
+
+  &__context {
+    @include text($primary-font, normal, 1.4rem, $color-dark-blue);
+    letter-spacing: 0.05em;
+    line-height: 2.4rem;
+    text-align: center;
+
+    @media (min-width: 550px) {
+      text-align: left;
+      letter-spacing: none;
+      text-align: left;
+    }
+  }
+
+  &__link {
+    color: $color-orange-red;
+  }
+}
+
 /*--------- Footer ---------*/

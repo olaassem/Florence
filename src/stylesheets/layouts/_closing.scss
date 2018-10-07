@@ -1,0 +1,49 @@
+.closing {
+  &__wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+    padding: 2.5rem 2rem;
+    position: relative;
+    width: 100%;
+
+    @media (min-width: 550px) {
+      margin: 2rem auto;
+      padding: 4rem 6.5rem;
+      width: 95%;
+    }
+
+    @media (min-width: 800px) {
+      margin: 3rem auto;
+      padding: 4.6rem 7.8rem;
+    }
+  }
+
+  &__hdr {
+    padding-bottom: $hdr-padding-btm;
+  }
+
+  &__context {
+    margin-bottom: $content-margin-btm;
+
+    &__margin-right {
+      @media (min-width: 550px) {
+        position: absolute;
+        width: 40%;
+      }
+    }
+  }
+}
+
+.report-img {
+  width: 0;
+
+  @media (min-width: 550px) {
+    position: relative;
+    float: right;
+    width: 140px;
+    margin-right: 10%;
+    top: -15px;
+  }
+}
