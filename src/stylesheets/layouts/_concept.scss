@@ -84,6 +84,14 @@
       }
     }
 
+    &--7 {
+      margin-bottom: 40px;
+
+      @media (min-width: 550px) {
+      margin-bottom: 5px;
+      }
+    }
+
     &__left {
       display: flex;
       flex-direction: column;

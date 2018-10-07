@@ -36,6 +36,14 @@
   }
 }
 
+.layout-wrapper {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 .report-img {
   width: 0;
 

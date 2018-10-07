@@ -213,8 +213,8 @@ sup a {
     text-align: center;
 
     @media (min-width: 550px) {
-      text-align: left;
       letter-spacing: none;
+      text-align: left;
       text-align: left;
     }
   }
@@ -225,3 +225,27 @@ sup a {
 }
 
 /*--------- Footer ---------*/
+.footer {
+  text-align: center;
+
+  &__hdr {
+
+    &--1 {
+      @include text($primary-font, normal, 1.2rem, $color-white);
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__context {
+    @include text($secondary-font, normal, 1.4rem, $color-dark-mint);
+    line-height: 2.8rem;
+  }
+
+  &__link {
+    @include text($primary-font, normal, 1.8rem, $color-yellow);
+    letter-spacing: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
