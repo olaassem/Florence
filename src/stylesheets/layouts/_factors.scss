@@ -1,5 +1,5 @@
 .keyFactors {
-  @include section-setup( $color-mint , 4rem );
+  @include section-setup($color-mint , 4rem);
 
   &__wrapper {
     position: relative;
@@ -12,6 +12,7 @@
       margin: 2rem;
       padding: 4rem 6.5rem;
     }
+
     @media (min-width: 800px) {
       margin: 3rem;
       padding: 5rem 8.5rem;
@@ -20,7 +21,6 @@
 
   &__hdr {
     padding-bottom: $hdr-padding-btm;
-
   }
 
   &__list {
@@ -28,108 +28,107 @@
     @include flex;
 
     &__bodyimg {
-      width: 200px;
+      width: 180px;
       margin-left: auto;
       margin-right: auto;
-
-      @media (min-width: 550px) {
-        width: 350px;
-        margin-top: 3.5rem;
-      }
+      // @media (min-width: 550px) {
+      //   width: 350px;
+      //   margin-top: 3.5rem;
+      // }
     }
 
     &__item {
-
       &--1 {
-        @include item( 30rem);
-
-        &:before {
-          content: " ";
-          position: absolute;
-          display: block;
-          background-color: rgba(255, 255, 255, 0.63);
-          border-radius: 50px;
-          width: 60px;
-          height: 60px;
-          left: 44%;
-          top: -21%;
-        }
-        @media (min-width: 550px) {
-          max-width: 23rem;
-          padding: 1rem;
-          transform: translate(70%, -220%);
-          overflow-x: visible;
-
-          &:before {
-            content: " ";
-            position: absolute;
-            display: block;
-            background-color: rgba(255, 255, 255, 0.63);
-            border-radius: 50px;
-            width: 75px;
-            height: 75px;
-            left: -17%;
-            top: 28.5%;
-          }
-        }
+        @include item;
+        margin-top: -120px;
       }
+
+        //   &:before {
+        //     content: " ";
+        //     position: absolute;
+        //     display: block;
+        //     background-color: rgba(255, 255, 255, 0.63);
+        //     border-radius: 50px;
+        //     width: 60px;
+        //     height: 60px;
+        //     left: 44%;
+        //     top: -21%;
+        // }
+        // @media (min-width: 550px) {
+        //   max-width: 23rem;
+        //   padding: 1rem;
+        //   transform: translate(70%, -220%);
+        //   overflow-x: visible;
+        //
+        //   &:before {
+        //     content: " ";
+        //     position: absolute;
+        //     display: block;
+        //     background-color: rgba(255, 255, 255, 0.63);
+        //     border-radius: 50px;
+        //     width: 75px;
+        //     height: 75px;
+        //     left: -17%;
+        //     top: 28.5%;
+        //   }
+        // }
+
+
       &--2 {
-        @include item( 53rem );
-
-
-        @media (min-width: 550px) {
-          max-width: 23rem;
-          padding: 1rem;
-          transform: translate(-50%, -350%);
-        }
+        @include item;
       }
-
+      // @media (min-width: 550px) {
+      //   max-width: 23rem;
+      //   padding: 1rem;
+      //   transform: translate(-50%, -350%);
+      // }
       &--3 {
-        @include item( 74rem );
-
-        @media (min-width: 550px) {
-          max-width: 23rem;
-          padding: 1rem;
-          transform: translate(70%, -420%);
-        }
+        @include item;
       }
-
+      // @media (min-width: 550px) {
+      //   max-width: 23rem;
+      //   padding: 1rem;
+      //   transform: translate(70%, -420%);
+      // }
       &--4 {
-        @include item( 96rem );
-
-        @media (min-width: 550px) {
-          max-width: 23rem;
-          padding: 1rem;
-          transform: translate(-88%, -455%);
-        }
+        @include item;
       }
+      // @media (min-width: 550px) {
+      //   max-width: 23rem;
+      //   padding: 1rem;
+      //   transform: translate(-88%, -455%);
+      // }
     }
   }
 
   .icon {
-    position: absolute;
-    width: 50px;
     background-color: $color-yellow;
-    border: 5px solid $color-white;
     border-radius: 50%;
+    border: 5px solid $color-white;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
-    top: -30px;
-    align-self: center;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 50px;
 
     &--left {
-      @media (min-width: 550px) {
-        left: -15%;
-        top: 32%;
-        width: 63px;
-      }
+      // @media (min-width: 550px) {
+      //   left: -15%;
+      //   top: 32%;
+      //   width: 63px;
+      // }
     }
 
     &--right {
-      @media (min-width: 550px) {
-        left: 90%;
-        top: 32%;
-        width: 63px;
-      }
+      // @media (min-width: 550px) {
+      //   left: 90%;
+      //   top: 32%;
+      //   width: 63px;
+      // }
+      // }
     }
   }
 }

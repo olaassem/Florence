@@ -41,7 +41,7 @@
   &__context {
     padding: 0 15px;
 
-    @media (min-width: 550px) {
+    @media (min-width: 450px) {
       padding: 0 50px;
     }
   }
@@ -51,6 +51,7 @@
   }
 
   &__link {
+    @include darken-on-hover( $color-dark-blue, 10% );
     border-radius: 25px;
     border: solid $color-yellow 2px;
     display: block;
@@ -58,19 +59,23 @@
     padding: 10px 40px;
     width: 240px;
 
-    @media (min-width: 450px) {
+    @media (min-width: 500px) {
       margin-bottom: 40px;
     }
   }
 
   &__avatar {
+    bottom: -200px;
     display: block;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
-    transform: translate( 100px, -90px);
+    right: 0;
     width: 170px;
 
-    @media (min-width: 450px) {
-      transform: translate( -30px, -100px);
+    @media (min-width: 500px) {
+      transform: translate( -240px, -90px);
     }
   }
 }
