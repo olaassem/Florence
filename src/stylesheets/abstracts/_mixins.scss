@@ -6,6 +6,7 @@
   font-weight: $weight;
 }
 
+
 /*--------- Effects ---------*/
 @mixin darken-on-hover( $bg, $percent ) {
   transition: all 0.5s ease-out;

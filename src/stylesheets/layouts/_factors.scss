@@ -1,5 +1,4 @@
 .key-factors {
-  @include flex;
   background-color: $color-mint;
   margin-top: 1.5rem;
 
@@ -10,12 +9,12 @@
     position: relative;
 
     @media (min-width: 550px) {
-      margin: 2rem;
-      padding: 4rem 6.5rem;
+      margin: 20px auto;
+      padding: 40px 65px;
     }
 
     @media (min-width: 800px) {
-      margin: 3rem;
+      margin: 30px auto;
       padding: 5rem 8.5rem;
     }
   }
@@ -146,8 +145,7 @@
     border: 5px solid $color-white;
     box-shadow: 0 0 0 5px rgba(#ffffff, 0.6);
     left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding: 8px;
     position: absolute;
     right: 0;
