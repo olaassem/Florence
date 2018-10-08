@@ -5,41 +5,41 @@
   overflow: hidden;
 
   &__wrapper {
-    margin: 40px auto 15px;
-    max-width: 650px;
-    padding: 0 20px;
+    margin: 4rem auto 1.5rem;
+    max-width: 65rem;
+    padding: 0 2rem;
     position: relative;
     width: 100%;
 
-    @media (min-width: 550px) {
-      margin: 50px 40px 20px;
+    @media (min-width: 34.4em) {
+      margin: 5rem 4rem 2rem;
     }
 
     &--pills1 {
-      bottom: 40px;
-      left: -100px;
+      bottom: 4rem;
+      left: -10rem;
       position: absolute;
-      width: 120px;
+      width: 12rem;
     }
 
     &--pills2 {
-      height: 115px;
-      left: 40px;
+      height: 11.5rem;
+      left: 4rem;
       position: absolute;
-      top: -102px;
+      top: -10.2rem;
       transform: rotate(40deg);
     }
 
     &--pills3 {
       position: absolute;
-      right: -100px;
-      top: -65px;
+      right: -10rem;
+      top: -6.5rem;
       transform: rotate(8deg);
-      width: 200px;
+      width: 20rem;
 
-      @media (min-width: 450px) {
-        right: -80px;
-        width: 200px;
+      @media (min-width: 28.1em) {
+        right: -8rem;
+        width: 20rem;
       }
     }
   }

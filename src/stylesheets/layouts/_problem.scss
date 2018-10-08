@@ -1,26 +1,26 @@
 .problem {
   background-color: $color-mint;
-  margin-top: 15px;
+  margin-top: 1.5rem;
 
   &__wrapper {
     background-color: $color-white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    padding: 25px 20px;
+    max-width: 80rem;
+    padding: 2.5rem 2rem;
     position: relative;
     width: 100%;
 
-    @media (min-width: 550px) {
-      margin: 20px auto;
-      padding: 40px 65px;
+    @media (min-width: 34.4em) {
+      margin: 2rem auto;
+      padding: 4rem 6.5rem;
       width: 95%;
     }
 
-    @media (min-width: 800px) {
-      margin: 30px auto;
-      padding: 46px 78px;
+    @media (min-width: 50em) {
+      margin: 3rem auto;
+      padding: 4.6rem 7.8rem;
     }
   }
 
@@ -38,7 +38,7 @@
   }
 
   &__quote {
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
   }
 
   &__author {
@@ -46,21 +46,21 @@
   }
 
   &__bottles__wrapper {
-    left: -100px;
-    max-width: 100px;
+    left: -10rem;
+    max-width: 10rem;
     position: relative;
-    top: 70px;
+    top: 7rem;
 
-    @media (min-width: 500px) {
-      left: -170px;
-      top: 105px;
+    @media (min-width: 31.3em) {
+      left: -17rem;
+      top: 10.5rem;
     }
   }
 
   &__bottle1 {
     @include size-and-position(absolute, 175%, -100%, -62%);
 
-    @media (min-width: 500px) {
+    @media (min-width: 31.3em) {
       @include size-and-position(absolute, 175%, -100%, -62%);
     }
   }
@@ -68,7 +68,7 @@
   &__bottle2 {
     @include size-and-position(absolute, 75%, 15%, -55%);
 
-    @media (min-width: 500px) {
+    @media (min-width: 31.3em) {
       @include size-and-position(absolute, 108%, 15%, -55%);
     }
   }
@@ -76,7 +76,7 @@
   &__bottle3 {
     @include size-and-position(absolute, 100%, -43%, -25%);
 
-    @media (min-width: 500px) {
+    @media (min-width: 31.3em) {
       @include size-and-position(absolute, 150%, -43%, -25%);
     }
   }
@@ -86,7 +86,7 @@
     position: absolute;
     z-index: 6;
 
-    @media (min-width: 800px) {
+    @media (min-width: 50em) {
       @include size-and-position(absolute, 130px, 580px, -125px);
     }
   }

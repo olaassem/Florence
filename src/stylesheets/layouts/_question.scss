@@ -1,30 +1,30 @@
 .question {
   background-color: $color-mint;
-  margin-top: 15px;
+  margin-top: 1.5rem;
 
   &__wrapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    padding: 25px 20px 150px;
+    max-width: 80rem;
+    padding: 2.5rem 2rem 15rem;
     position: relative;
     width: 100%;
 
-    @media (min-width: 550px) {
-      margin: 20px auto ;
-      padding: 40px 65px 150px;
+    @media (min-width: 34.4em) {
+      margin: 2rem auto ;
+      padding: 4rem 6.5rem 15rem;
       width: 95%;
     }
 
-    @media (min-width: 800px) {
-      margin: 30px auto;
-      padding: 46px 78px 100px;
+    @media (min-width: 50em) {
+      margin: 3rem auto;
+      padding: 4.6rem 7.8rem 10rem;
     }
   }
 
   &__hdr {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 
     &__wrapper {
       position: relative;
@@ -39,19 +39,19 @@
   &__context {
     margin-bottom: $content-margin-btm;
 
-    @media (min-width: 720px) {
+    @media (min-width: 45em) {
       margin-right: 10%;
     }
 
-    @media (min-width: 800px) {
-      margin-bottom: 26px;
+    @media (min-width: 50em) {
+      margin-bottom: 2.6rem;
     }
   }
 
   &__intro {
-    margin-right: 75px;
+    margin-right: 7.5rem;
 
-    @media (min-width: 720px) {
+    @media (min-width: 45em) {
       margin-right: 0;
     }
   }
@@ -60,15 +60,15 @@
     position: absolute;
     right: 0;
     transform: rotate(6deg) translate(45px, -125px);
-    width: 135px;
+    width: 13.5rem;
 
-    @media (min-width: 550px) {
+    @media (min-width: 34.4em) {
       transform: rotate(6deg) translate(45px, -115px);
     }
 
-    @media (min-width: 720px) {
+    @media (min-width: 45em) {
       transform: rotate(6deg) translate(185px, 15px);
-      width: 230px;
+      width: 23rem;
     }
   }
 }

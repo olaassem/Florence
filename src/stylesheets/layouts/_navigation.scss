@@ -4,47 +4,47 @@
   justify-content: center;
   margin: 0 auto;
   position: sticky;
-  top: -1px;
+  top: -.1rem;
   z-index: 6;
 
-  @media (min-width: 550px) {
-    padding: 2px 0 0 12px;
+  @media (min-width: 34.4em) {
+    padding: .2rem 0 0 1.2rem;
     position: relative;
   }
 
   &__wrapper {
     display: flex;
-    max-width: 500px;
+    max-width: 50rem;
     padding: 0;
     text-align: center;
 
     a {
-      box-shadow: inset 0 10px 0 rgba(0, 0, 0, 0.1);
-      padding: 10px 15px;
+      box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
+      padding: 1rem 1.5rem;
     }
-    @media (min-width: 550px) {
+    @media (min-width: 34.4em) {
       margin-left: auto;
       margin-right: auto;
-      padding: 5px 0;
+      padding: .5rem 0;
 
       a {
-        padding: 10px 20px;
+        padding: 1rem 2rem;
       }
     }
   }
 
   &__link {
     &--problem {
-      @media (min-width: 410px) {
-        border-bottom-left-radius: 50px;
-        border-top-left-radius: 50px;
+      @media (min-width: 25.6em) {
+        border-bottom-left-radius: 5rem;
+        border-top-left-radius: 5rem;
       }
     }
 
     &--solution {
-      @media (min-width: 410px) {
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
+      @media (min-width: 25.6em) {
+        border-bottom-right-radius: 5rem;
+        border-top-right-radius: 5rem;
       }
     }
   }

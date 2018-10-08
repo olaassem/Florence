@@ -34,9 +34,9 @@
 }
 
 @mixin problem-marginbtm {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 
-  @media (min-width: 550px) {
-    margin-bottom: 40px;
+  @media (min-width: 34.4em) {
+    margin-bottom: 4rem;
   }
 }
