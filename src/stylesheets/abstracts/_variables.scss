@@ -1,20 +1,20 @@
 /*--------- Colors ---------*/
 
-$color-mint: #d2e7e2; //bg & text
-$color-dark-blue: #184d66; //bg & text
-$color-white: #ffffff; //bg & text
-$color-red: #e95e67; //bg
-$color-medium-blue: #194e67; //bg
-$color-yellow: #f2c84d; //bg & text
-$color-light-green: #e2ebe9; //bg
-$color-light-blue: #1793ad; //bg & text
-$color-dark-green: #0e5254; //text
-$color-grey: #504949; //text
 $color-brown: #c06d3a; //text
+$color-bubble-mint: #e2ebe9;
+$color-dark-blue: #184d66; //bg & text
+$color-dark-green: #0e5254; //text
 $color-dark-mint: #c0d4cf; //text
 $color-dark-purple: #252224; //text
+$color-grey: #504949; //text
+$color-light-blue: #1793ad; //bg & text
+$color-light-green: #e2ebe9; //bg
+$color-medium-blue: #194e67; //bg
+$color-mint: #d2e7e2; //bg & text
 $color-orange-red: #ea4446;
-$color-bubble-mint: #e2ebe9;
+$color-red: #e95e67; //bg
+$color-white: #ffffff; //bg & text
+$color-yellow: #f2c84d; //bg & text
 
 
 /*--------- Fonts ---------*/
@@ -41,6 +41,6 @@ $secondary-font: 'Merriweather', serif;
 
 /*--------- Dimensions ---------*/
 
-$wrapper-padding: 2.5rem 2rem;
-$hdr-padding-btm: 1.5rem;
 $content-margin-btm: 3rem;
+$hdr-padding-btm: 1.5rem;
+$wrapper-padding: 2.5rem 2rem;

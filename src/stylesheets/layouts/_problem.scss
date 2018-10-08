@@ -82,9 +82,9 @@
   }
 
   &__pills1 {
+    @include size-and-position(absolute, 120px, 550px, -110px);
     position: absolute;
     z-index: 6;
-    @include size-and-position(absolute, 120px, 550px, -110px);
 
     @media (min-width: 800px) {
       @include size-and-position(absolute, 130px, 580px, -125px);

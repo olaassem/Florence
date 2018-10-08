@@ -28,6 +28,7 @@
     margin-bottom: $content-margin-btm;
 
     &__margin-right {
+
       @media (min-width: 550px) {
         position: absolute;
         width: 40%;
@@ -38,9 +39,9 @@
 
 .layout-wrapper {
   &::after {
+    clear: both;
     content: "";
     display: table;
-    clear: both;
   }
 }
 
@@ -48,10 +49,10 @@
   width: 0;
 
   @media (min-width: 550px) {
-    position: relative;
     float: right;
-    width: 140px;
     margin-right: 10%;
+    position: relative;
     top: -15px;
+    width: 140px;
   }
 }

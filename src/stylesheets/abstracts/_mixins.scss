@@ -1,9 +1,9 @@
 /*--------- Typography ---------*/
 @mixin text( $family, $weight, $size, $col ) {
-  font-family: $family;
-  font-weight: $weight;
-  font-size: $size;
   color: $col;
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
 }
 
 /*--------- Effects ---------*/
@@ -18,27 +18,18 @@
 
 /*--------- Flex ---------*/
 @mixin flex( $dir:column, $justify-content:center, $align-items:center ) {
+  align-items: $align-items;
   display: flex;
   flex-direction: $dir;
   justify-content: $justify-content;
-  align-items: $align-items;
-}
-
-
-/*--------- Sections ---------*/
-@mixin section-setup ( $bg-col, $margin-top ){
-  background-color: $bg-col;
-  display: flex;
-  justify-content: center;
-  margin-top: $margin-top;
 }
 
 
 /*--------- Problem ---------*/
 @mixin size-and-position( $position, $width, $X, $Y ) {
   position: $position;
-  width: $width;
   transform: translate( $X, $Y );
+  width: $width;
 }
 
 @mixin problem-marginbtm {
@@ -47,16 +38,4 @@
   @media (min-width: 550px) {
     margin-bottom: 40px;
   }
-}
-
-/*--------- Factors ---------*/
-@mixin item {
-  background-color: $color-white;
-  border-radius: 5px;
-  margin: 2rem 0.5rem;
-  max-width: 350px;
-  padding: 4rem 2.5rem 2rem;
-  position: relative;
-  vertical-align: middle;
-  width: 100%;
 }
