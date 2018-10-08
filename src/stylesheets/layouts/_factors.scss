@@ -1,11 +1,11 @@
 .key-factors {
   background-color: $color-mint;
-  margin-top: 1.5rem;
+  margin-top: 15px;
 
   &__wrapper {
     margin: 0 auto;
     max-width: 77rem;
-    padding: 2.5rem 1.5rem;
+    padding: 25px 15px;
     position: relative;
 
     @media (min-width: 550px) {
@@ -15,7 +15,7 @@
 
     @media (min-width: 800px) {
       margin: 30px auto;
-      padding: 5rem 8.5rem;
+      padding: 50px 85px;
     }
   }
 
@@ -45,9 +45,9 @@
     &__item {
       background-color: $color-white;
       border-radius: 5px;
-      margin: 2rem 0.5rem;
+      margin: 20px 5px;
       max-width: 350px;
-      padding: 3rem 2.5rem 2rem;
+      padding: 30px 25px 20px;
       position: relative;
       vertical-align: middle;
       width: 100%;
@@ -55,7 +55,7 @@
       @media (min-width: 700px) {
         height: 120px;
         overflow-x: visible;
-        width: 24rem;
+        width: 240px;
 
         &:before {
           background-color: $color-white;
@@ -76,16 +76,12 @@
         @media (min-width: 700px) {
           border-bottom-left-radius: 20%;
           border-top-left-radius: 20%;
-          height: 120px;
           margin-top: -455px;
-          overflow-x: visible;
           padding: 10px 10px 10px 30px;
           transform: translate( 160px, -140px);
-          width: 24rem;
 
           &:before {
             left: -22px;
-
           }
         }
       }
