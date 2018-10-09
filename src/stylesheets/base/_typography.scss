@@ -13,7 +13,7 @@
   @include text($secondary-font, normal, 1.8rem, $color-grey);
   text-align: center;
 
-  @media (min-width: 34.375) {
+  @media (min-width: 34.375em) {
     font-size: 2.1rem;
     text-align: left;
   }
@@ -105,7 +105,7 @@ sup a {
     &__hdr {
       @include text($primary-font, bold, 1.4rem, $color-brown);
       letter-spacing: 0.1em;
-      line-height: 1.5;
+      line-height: 2;
       text-transform: uppercase;
 
       @media (min-width: 34.375em) {
@@ -115,7 +115,8 @@ sup a {
 
     &__content {
       @include text($primary-font, normal, 1.4rem, $color-grey);
-      line-height: 1.5;
+      align-self: center;
+      line-height: 1.6;
 
       @media (min-width: 34.375em) {
         font-size: 1.2rem;
@@ -159,7 +160,7 @@ sup a {
 
   &__context {
     color: $color-dark-mint;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
   &__section {
@@ -178,12 +179,11 @@ sup a {
 
     &__content {
       @include text($secondary-font, normal, 1.4rem, $color-grey);
-      line-height: 1.5;
+      line-height: 1.8;
       text-align: center;
 
       @media (min-width: 34.375em) {
         @include text($secondary-font, normal, 1.4rem, $color-grey);
-        line-height: 1.5;
         text-align: left;
       }
     }
@@ -191,9 +191,10 @@ sup a {
 }
 
 .bubble {
+  line-height: 1.2;
+
   &__florence {
     @include text($primary-font, normal, 1.3rem, $color-grey);
-    line-height: 1.5;
 
     @media (min-width: 34.375em){
       font-size: 1.2;
@@ -220,7 +221,7 @@ sup a {
   &__context {
     @include text($primary-font, normal, 1.4rem, $color-dark-blue);
     letter-spacing: 0.05em;
-    line-height: 1.5;
+    line-height: 1.8;
     text-align: center;
 
     @media (min-width: 34.375em) {
@@ -250,7 +251,7 @@ sup a {
 
   &__context {
     @include text($secondary-font, normal, 1.4rem, $color-dark-mint);
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
   &__link {

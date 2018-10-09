@@ -13,13 +13,13 @@
     width: 100%;
 
     @media (min-width: 34.375em) {
-      margin: 2rem auto;
+      margin: 3rem auto 2rem;
       padding: 4rem 6.5rem;
       width: 95%;
     }
 
     @media (min-width: 50em) {
-      margin: 3rem auto;
+      margin: 4rem auto 3rem;
       padding: 4.6rem 7.8rem;
     }
   }
@@ -43,15 +43,16 @@
 
   &__author {
     display: block;
+    margin-top: -1rem;
   }
 
   &__bottles__wrapper {
-    left: -10rem;
+    left: -11.2rem;
     max-width: 10rem;
     position: relative;
     top: 7rem;
 
-    @media (min-width: 31.25em) {
+    @media (min-width: 34.375em) {
       left: -17rem;
       top: 10.5rem;
     }
@@ -60,7 +61,7 @@
   &__bottle1 {
     @include size-and-position(absolute, 175%, -100%, -62%);
 
-    @media (min-width: 31.25em) {
+    @media (min-width: 34.375em) {
       @include size-and-position(absolute, 175%, -100%, -62%);
     }
   }
@@ -68,15 +69,15 @@
   &__bottle2 {
     @include size-and-position(absolute, 75%, 15%, -55%);
 
-    @media (min-width: 31.25em) {
-      @include size-and-position(absolute, 108%, 15%, -55%);
+    @media (min-width: 34.375em) {
+      @include size-and-position(absolute, 100%, 15%, -57%);
     }
   }
 
   &__bottle3 {
     @include size-and-position(absolute, 100%, -43%, -25%);
 
-    @media (min-width: 31.25em) {
+    @media (min-width: 34.375em) {
       @include size-and-position(absolute, 150%, -43%, -25%);
     }
   }

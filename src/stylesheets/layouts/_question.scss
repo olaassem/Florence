@@ -58,11 +58,11 @@
   &__phone {
     position: absolute;
     right: 0;
-    transform: rotate(6deg) translate(45px, -125px);
-    width: 13.5rem;
+    transform: rotate(6deg) translate(50px, -110px);
+    width: 13rem;
 
     @media (min-width: 34.375em) {
-      transform: rotate(6deg) translate(45px, -115px);
+      transform: rotate(6deg) translate(45px, -100px);
     }
 
     @media (min-width: 45em) {
