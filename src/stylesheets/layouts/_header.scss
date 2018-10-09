@@ -11,7 +11,7 @@
     position: relative;
     width: 100%;
 
-    @media (min-width: 34.4em) {
+    @media (min-width: 34.375em) {
       margin: 5rem 4rem 2rem;
     }
 
@@ -37,7 +37,7 @@
       transform: rotate(8deg);
       width: 20rem;
 
-      @media (min-width: 28.1em) {
+      @media (min-width: 28.125em) {
         right: -8rem;
         width: 20rem;
       }

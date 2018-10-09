@@ -11,8 +11,8 @@
     position: relative;
     width: 100%;
 
-    @media (min-width: 34.4em) {
-      margin: 2rem auto ;
+    @media (min-width: 34.375em) {
+      margin: 2rem auto;
       padding: 4rem 6.5rem 15rem;
       width: 95%;
     }
@@ -30,7 +30,6 @@
       position: relative;
     }
   }
-
 
   &__intro {
     margin-bottom: $content-margin-btm;
@@ -62,7 +61,7 @@
     transform: rotate(6deg) translate(45px, -125px);
     width: 13.5rem;
 
-    @media (min-width: 34.4em) {
+    @media (min-width: 34.375em) {
       transform: rotate(6deg) translate(45px, -115px);
     }
 

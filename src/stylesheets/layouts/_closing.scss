@@ -1,5 +1,4 @@
 .closing {
-
   &__wrapper {
     display: block;
     margin-left: auto;
@@ -8,7 +7,7 @@
     padding: 2.5rem 2rem;
     position: relative;
 
-    @media (min-width: 34.4em) {
+    @media (min-width: 34.375em) {
       margin: 2rem auto;
       padding: 4rem 6.5rem;
       width: 95%;
@@ -28,8 +27,7 @@
     margin-bottom: $content-margin-btm;
 
     &__margin-right {
-
-      @media (min-width: 34.4em) {
+      @media (min-width: 34.375em) {
         position: absolute;
         width: 40%;
       }
@@ -48,7 +46,7 @@
 .report-img {
   width: 0;
 
-  @media (min-width: 34.4em) {
+  @media (min-width: 34.375em) {
     float: right;
     margin-right: 10%;
     position: relative;

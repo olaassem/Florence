@@ -10,7 +10,7 @@
     padding: 2.5rem 2rem;
     position: relative;
 
-    @media (min-width: 34.4em) {
+    @media (min-width: 34.375em) {
       margin: 2rem auto .5rem;
       padding: 4rem 6.5rem .5rem;
       width: 95%;
@@ -30,7 +30,7 @@
       margin-right: auto;
       width: 17rem;
 
-      @media (min-width: 34.4em) {
+      @media (min-width: 34.375em) {
       display: inline-block;
       padding-left: 1rem;
       vertical-align: middle;
@@ -41,7 +41,7 @@
   &__context {
     padding: 0 1.5rem;
 
-    @media (min-width: 28.1em) {
+    @media (min-width: 28.125em) {
       padding: 0 5rem;
     }
   }
@@ -59,7 +59,7 @@
     padding: 1rem 4rem;
     width: 24rem;
 
-    @media (min-width: 31.3em) {
+    @media (min-width: 31.25em) {
       margin-bottom: 4rem;
     }
   }
@@ -74,7 +74,7 @@
     right: 0;
     width: 17rem;
 
-    @media (min-width: 31.3em) {
+    @media (min-width: 31.25em) {
       transform: translate( -24rem, -9rem);
     }
   }

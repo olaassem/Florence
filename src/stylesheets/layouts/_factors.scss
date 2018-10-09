@@ -8,7 +8,7 @@
     padding: 2.5rem 1.5rem;
     position: relative;
 
-    @media (min-width: 34.4em) {
+    @media (min-width: 34.375em) {
       margin: 2rem auto;
       padding: 4rem 6.5rem;
     }
@@ -44,8 +44,8 @@
 
     &__item {
       background-color: $color-white;
-      border-radius: .5rem;
-      margin: 2rem .5rem;
+      border-radius: 0.5rem;
+      margin: 2rem 0.5rem;
       max-width: 35rem;
       padding: 3rem 2.5rem 2rem;
       position: relative;
@@ -64,7 +64,7 @@
           display: block;
           height: 11.5rem;
           position: absolute;
-          top: .1rem;
+          top: 0.1rem;
           width: 11.5rem;
           z-index: -1;
         }
@@ -78,7 +78,7 @@
           border-top-left-radius: 20%;
           margin-top: -45.5rem;
           padding: 1rem 1rem 1rem 3rem;
-          transform: translate( 16rem, -14rem);
+          transform: translate(16rem, -14rem);
 
           &:before {
             left: -2.2rem;
@@ -93,7 +93,7 @@
           height: 12rem;
           overflow-x: visible;
           padding: 1rem 3rem 1rem 1rem;
-          transform: translate( -14rem, -19rem);
+          transform: translate(-14rem, -19rem);
           width: 24rem;
 
           &:before {
@@ -108,7 +108,7 @@
           border-top-left-radius: 20%;
           margin-top: -5rem;
           padding: 1rem 1rem 1rem 3rem;
-          transform: translate( 17rem, -17rem);
+          transform: translate(17rem, -17rem);
 
           &:before {
             left: -2.2rem;
@@ -123,7 +123,7 @@
           height: auto;
           margin-top: -23rem;
           padding: 1rem 3rem 1rem 1rem;
-          transform: translate( -23rem, -5rem);
+          transform: translate(-23rem, -5rem);
 
           &:before {
             height: 13.8rem;
@@ -138,11 +138,11 @@
   .icon {
     background-color: $color-yellow;
     border-radius: 50%;
-    border: .5rem solid $color-white;
-    box-shadow: 0 0 0 .5rem rgba(#ffffff, 0.6);
+    border: 0.5rem solid $color-white;
+    box-shadow: 0 0 0 0.5rem rgba(#ffffff, 0.6);
     left: 0;
     margin: 0 auto;
-    padding: .8rem;
+    padding: 0.8rem;
     position: absolute;
     right: 0;
     top: -2rem;
@@ -150,9 +150,9 @@
 
     &__body {
       border-radius: 50%;
-      border: .3rem solid $color-white;
-      box-shadow: 0 0 0 .5rem rgba(#ffffff, 0.6);
-      padding: .5rem;
+      border: 0.3rem solid $color-white;
+      box-shadow: 0 0 0 0.5rem rgba(#ffffff, 0.6);
+      padding: 0.5rem;
       position: absolute;
       width: 3rem;
 
