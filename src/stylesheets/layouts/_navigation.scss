@@ -6,10 +6,14 @@
   position: sticky;
   top: -0.1rem;
   z-index: 6;
+  background-color: $color-red;
+  box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
 
   @media (min-width: 34.375em) {
     padding: 0.2rem 0 0 1.2rem;
     position: relative;
+    background-color: transparent;
+    box-shadow: none;
   }
 
   &__wrapper {
@@ -22,6 +26,7 @@
       box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
       padding: 1rem 1.5rem;
     }
+
     @media (min-width: 34.375em) {
       margin-left: auto;
       margin-right: auto;
@@ -34,17 +39,17 @@
   }
 
   &__link {
+    border-radius: 0;
+
     &--problem {
-      @media (min-width: 25.625em) {
-        border-bottom-left-radius: 5rem;
-        border-top-left-radius: 5rem;
+      @media (min-width: 34.375em) {
+        border-radius: 5rem 0 0 5rem;
       }
     }
 
     &--solution {
-      @media (min-width: 25.625em) {
-        border-bottom-right-radius: 5rem;
-        border-top-right-radius: 5rem;
+      @media (min-width: 34.375em) {
+        border-radius: 0 5rem 5rem 0;
       }
     }
   }
