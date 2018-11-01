@@ -147,7 +147,7 @@
     right: 0;
     top: -2rem;
     width: 4.5rem;
-    height: 5.5rem;
+    height: 4.5rem;
 
 
     &__body {
@@ -157,6 +157,7 @@
       padding: 0.5rem;
       position: absolute;
       width: 3rem;
+      height: 3rem;
 
       @media (min-width: 43.75em) {
         display: none;
@@ -165,6 +166,7 @@
       &--1 {
         left: 4rem;
         top: 1rem;
+        width: 3rem;
       }
 
       &--2 {
@@ -188,6 +190,7 @@
         left: -25.5rem;
         top: 3.2rem;
         width: 5.5rem;
+        height: 5.5rem;
       }
     }
 
@@ -196,6 +199,7 @@
         left: 22.5rem;
         top: 3rem;
         width: 5.5rem;
+        height: 5.5rem;
 
         &--2 {
           top: 4.2rem;
