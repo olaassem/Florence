@@ -13,7 +13,6 @@
     background-color: transparent;
     box-shadow: none;
     padding: 0.2rem 0 0 1.2rem;
-    position: relative;
   }
 
   &__wrapper {
@@ -28,8 +27,6 @@
     }
 
     @media (min-width: 34.375em) {
-      margin-left: auto;
-      margin-right: auto;
       padding: 0.5rem 0;
 
       a {
