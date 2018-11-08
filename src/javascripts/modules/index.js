@@ -3,6 +3,10 @@
   specifying module file-names.
 */
 
+// Require the IO polyfill before requiring any other modules.
+require('intersection-observer');
+
+//Load Modules
 const moduleElements = document.querySelectorAll('[data-module]')
 
 for (var i = 0; i < moduleElements.length; i++) {

@@ -58,3 +58,21 @@
     }
   }
 }
+
+.header__wrapper.rotate {
+
+  .header__wrapper--pills1 {
+    transform: rotate(90deg);
+    transition: transform 2s ease 0.2s;
+  }
+
+  .header__wrapper--pills2 {
+    transform: rotate(45deg);
+    transition: transform 3s ease 0.3s;
+  }
+
+  .header__wrapper--pills3 {
+    transform: rotate(90deg);
+    transition: transform 4s ease 0.4s;
+  }
+}
